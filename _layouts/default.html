@@ -11,6 +11,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body { margin:0; padding:0; }
+      #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>  
+  
   </head>
   <body>
     <div class="wrapper">
@@ -41,6 +48,15 @@
         {{ content }}
         <h2>Mississauga Maps</h>
         <img src="Ash_trees.jpeg">
+        <script>
+          mapboxgl.accessToken = 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA';
+          const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/gperreault91/cjvxxvf9f6hlb1ctiwgvhoxr5',
+          center: [-79.622955, 43.599586],
+          zoom: 11.8
+          });
+        </script>
       </section>
 
       <footer>
