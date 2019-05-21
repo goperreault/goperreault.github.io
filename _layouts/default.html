@@ -12,14 +12,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    
-    <!--script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-      body { margin:0; padding:0; }
-      #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style-->    
-    
+       
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
@@ -43,23 +36,13 @@
         {{ content }}
         <h2>Mississauga Maps</h>
         <img src="Ash_trees.jpeg">
-      
-        <!--script>
-            mapboxgl.accessToken = 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA';
-            const map = new mapboxgl.Map({
-              container: 'map',
-              style: 'mapbox://styles/gperreault91/cjutt4uzu14v11fmxcyomv1dq',
-              center: [-79.622955, 43.599586],
-              zoom: 11.8
-            });
-          </script-->
       </section>
       <section>
         <h2>Online leaflet</h>
         <div id="mapid" style="width: 600px; height: 400px">
         
           <script>
-            var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+            var mymap = L.map('mapid').setView([43.588, -79.648], 13);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
             maxZoom: 18,
