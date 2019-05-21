@@ -1,3 +1,3 @@
-# goperreault.github.io
+# Guillaume O Perreault
 
 Portfolio for projects.
