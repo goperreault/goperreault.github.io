@@ -1,5 +1,4 @@
 theme: jekyll-theme-dinky
-name: "my website!"
-navbar:
-  title:"my website!"
+title: "my website!"
+
   
