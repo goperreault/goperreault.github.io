@@ -33,7 +33,7 @@
     
   </head>
   <body>
-    <div id="mapid" class="wrapper">
+    <div id="main" class="wrapper">
       
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
@@ -56,7 +56,7 @@
             });
           </script-->
       </section>
-      <section>
+      <div id="mapid" style="width: 600px; height: 400px">
         <h2>Online leaflet</h>
         <script>
           var mymap = L.map('mapid').setView([51.505, -0.09], 13);
@@ -67,7 +67,7 @@
           accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
           }).addTo(mymap);
         </script>
-      </section>
+      </div>
 
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
