@@ -1,14 +1,5 @@
 theme: jekyll-theme-dinky
 title: "Guillaume's website"
 
-
-docs_list_title: Navigation
-docs:
-
-- title: About me
-  url: about.html
-  
-- title: Main
-  url: layouts/default.html
  
   
