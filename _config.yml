@@ -6,5 +6,9 @@ docs_list_title: Navigation
 docs:
 
 - title: About me
-  url: about.md
+  url: about.html
+  
+- title: Main
+  url: layouts/index.html
+ 
   
