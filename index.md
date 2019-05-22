@@ -10,4 +10,4 @@ Showcasing small geography related projects.
 
 
 
-[Link to about me](./about.html).
+[About me](./about.html)
