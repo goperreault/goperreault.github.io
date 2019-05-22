@@ -7,62 +7,42 @@
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-       
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-    crossorigin=""></script>
-   
-    <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-    
   </head>
   <body>
-    <div id="main" class="wrapper">
-      
+    <div class="wrapper">
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
+        <ul>
+          {% if site.show_downloads %}
+            <li class="download"><a class="buttons" href="{{ site.github.zip_url }}">Download ZIP</a></li>
+            <li class="download"><a class="buttons" href="{{ site.github.tar_url }}">Download TAR</a></li>
+          {% endif %}
+          <li><a class="buttons github" href="{{ site.github.repository_url }}">View On GitHub</a></li>
+        </ul>
+
+        {% if site.github.is_project_page %}
+          <p class="header">This project is maintained by <a class="header name" href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+          <ul>
+            <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
+          </ul>
+        {% endif %}
       </header>
 
       <section>
         {{ content }}
-        <h2>Mississauga Maps</h>
-        <img src="Ash_trees.jpeg">
       </section>
-      <section>
-        <h2>Online leaflet</h>
-        <div id="mapid" style="width: 600px; height: 400px">
-        
-          <script>
-            var mymap = L.map('mapid').setView([43.588, -79.648], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-            maxZoom: 18,
-            id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
-            }).addTo(mymap);
-            
-            $.getJSON("Tree_3857_ash.geojson", function(data){
-              
-            }).addTo(mymap);
-            
-          </script>
-        </div>
-       </section>
-       
 
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-        <!--p>Hello. Do you want to view <a href="about.md">about me</a> ?</p-->
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
