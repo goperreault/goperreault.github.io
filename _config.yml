@@ -9,6 +9,6 @@ docs:
   url: about.html
   
 - title: Main
-  url: layouts/index.html
+  url: layouts/default.html
  
   
