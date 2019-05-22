@@ -2,6 +2,9 @@ theme: jekyll-theme-dinky
 title: "Guillaume's website"
 
 
-navbar-links:
-  About me: "about me"
+docs_list_title: Navigation
+docs:
+
+- title: About me
+  url: about.md
   
