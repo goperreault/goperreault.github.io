@@ -13,17 +13,11 @@ Small project that draws the intended ligne around the city of Paris.
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap)
-            var geojsonMarkerOptions = {
-                  radius: 2,
-                  fillColor: "#ff7800",
-                  color: "#000",
-                  weight: 1,
-                  opacity: 1,
-                  fillOpacity: 0.8
-            }; 
+            /*
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data,{
                   }).addTo(mymap);
             });
+            */
      </script>
 </div>
