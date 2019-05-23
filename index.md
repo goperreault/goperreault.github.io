@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to my site!
-Showcasing small geography related projects.
+## Welcome to my website!
+Showcasing geography related projects.
 
 ## Ash trees in Mississauga
 ![Branching](./Ash_trees.jpeg)
