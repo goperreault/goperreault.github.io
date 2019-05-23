@@ -24,18 +24,66 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                     layer.bindPopup(feature.properties.popupContent);
                 }
             } 
-            var geojsonMarkerOptions = {
+            var geojsonMarkerAsh = {
                   radius: 2,
-                  fillColor: "#ff7800",
+                  fillColor: "#259ff0",
                   color: "#000",
                   weight: 1,
                   opacity: 1,
                   fillOpacity: 0.8
             }; 
+            var geojsonMarkerBirch = {
+                  radius: 2,
+                  fillColor: "#729b6f",
+                  color: "#000",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+            };
+            var geojsonMarkerOak = {
+                  radius: 2,
+                  fillColor: "#a47158",
+                  color: "#000",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+            };
+            var geojsonMarkerWillow = {
+                  radius: 2,
+                  fillColor: "#85b66f",
+                  color: "#000",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+            };
             $.getJSON("Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, geojsonMarkerOptions);
+                        return L.circleMarker(latlng, geojsonMarkerAsh);
+                        // onEachFeature:onEachFeature
+                        }    
+                  }).addTo(mymap);
+            });
+            $.getJSON("Tree_3857_birch.geojson",function(data){
+                  L.geoJson(data, {
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, geojsonMarkerBirch);
+                        // onEachFeature:onEachFeature
+                        }    
+                  }).addTo(mymap);
+            });
+            $.getJSON("Tree_3857_oak.geojson",function(data){
+                  L.geoJson(data, {
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, geojsonMarkerOak);
+                        // onEachFeature:onEachFeature
+                        }    
+                  }).addTo(mymap);
+            });
+            $.getJSON("Tree_3857_willow.geojson",function(data){
+                  L.geoJson(data, {
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, geojsonMarkerWillow);
                         // onEachFeature:onEachFeature
                         }    
                   }).addTo(mymap);
