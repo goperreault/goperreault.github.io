@@ -18,21 +18,20 @@ Showcasing geography related projects.
             id: 'mapbox.streets',
             accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap);
-         
             var geojsonMarkerOptions = {
-            radius: 8,
-            fillColor: "#ff7800",
-            color: "#000",
-            weight: 1,
-            opacity: 1,
-            fillOpacity: 0.8
+                  radius: 8,
+                  fillColor: "#ff7800",
+                  color: "#000",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
             }; 
-            
             $.getJSON("Tree_3857_ash.geojson",function(data){
-            L.geoJson(data, {
-                  pointToLayer: function (feature, latlng) {
-                  return L.circleMarker(latlng, geojsonMarkerOptions);
-            }).addTo(mymap);
+                  L.geoJson(data, {
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, geojsonMarkerOptions);
+                        }
+                  }).addTo(mymap);
             });
             
             
