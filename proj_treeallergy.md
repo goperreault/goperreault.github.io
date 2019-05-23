@@ -85,7 +85,8 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   return d === 'Ash'  ? "#259ff0" :
                   d === 'Birch'  ? "#729b6f" :
                   d === 'Oak' ? "#a47158" :
-                  d === 'Willow' ? "#85b66f" ;
+                  d === 'Willow' ? "#85b66f":
+                        "#ffffff";
             }
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
