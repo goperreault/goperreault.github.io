@@ -8,7 +8,7 @@ Showcasing geography related projects.
 ## Location of trees in Mississauga
 [View project](./proj_treeallergy.html)
 
-## The Grand Paris Express around Paris, Ligne 15
+## The Grand Paris Express around Paris, Line 15
 [View project](./proj_gpeligne15.html)
 
 # About me
