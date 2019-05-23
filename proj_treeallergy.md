@@ -3,7 +3,7 @@ title: Tree Allergy
 layout: default
 ---
 ## Location of trees in Mississauga
-Small project that maps four species of trees (ash, birch, oak and willow) in the city of Mississauga. 
+Small project that maps four species of trees (ash, birch, oak and willow) in the city of Mississauga. It uses to city's Open data tree inventory catalog. The goal is to identify where each species is located in the city.
 
 # Static map
 ![Ash trees map](./Ash_trees.jpeg)
