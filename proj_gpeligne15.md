@@ -2,7 +2,7 @@
 title: Grand Paris Express 
 layout: default
 ---
-## The Grand Paris Express around Paris, Line 15
+# The Grand Paris Express around Paris, Line 15
 Small project that draws the intended ligne around the city of Paris. 
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
