@@ -19,7 +19,7 @@ Showcasing geography related projects.
             accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap);
             $.getJSON("Tree_3857_ash.geojson",function(data){
-            L.geoJson(data).addTo(map);
+            L.geoJson(data).addTo(mymap);
             });
             
             
