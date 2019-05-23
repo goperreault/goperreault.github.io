@@ -19,7 +19,7 @@ Showcasing geography related projects.
             accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap);
             var geojsonMarkerOptions = {
-                  radius: 8,
+                  radius: 2,
                   fillColor: "#ff7800",
                   color: "#000",
                   weight: 1,
