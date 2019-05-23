@@ -36,7 +36,7 @@ Showcasing geography related projects.
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOptions);
                         }
-                  onEachFeature: onEachFeature
+                        onEachFeature: onEachFeature
                   }).addTo(mymap);
             });
             
