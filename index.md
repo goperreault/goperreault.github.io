@@ -8,7 +8,7 @@ Showcasing small geography related projects.
 ## Ash trees in Mississauga
 ![Branching](./Ash_trees.jpeg)
 
-```js
+
 <script>
             var mymap = L.map('mapid').setView([43.588, -79.648], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -23,5 +23,5 @@ Showcasing small geography related projects.
             }).addTo(mymap);
             
           </script>
-```
+
 [About me](./about.html)
