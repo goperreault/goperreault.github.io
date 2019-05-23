@@ -81,6 +81,27 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                         }    
                   }).addTo(mymap);
             });
+            function getColor(d) {
+                  return d === 'Ash'  ? "#259ff0" :
+                  d === 'Birch'  ? "#729b6f" :
+                  d === 'Oak' ? "#a47158" :
+                  d === 'Willow' ? "#85b66f" :;
+            }
+            var legend = L.control({position: 'bottomleft'});
+            legend.onAdd = function (map) {
+                  var div = L.DomUtil.create('div', 'info legend');
+                  labels = ['<strong>Tree Type</strong>'],
+                  categories = ['Ash','Birch','Oak','Willow'];
+                  for (var i = 0; i < categories.length; i++) {
+                        div.innerHTML += 
+                        labels.push(
+                            '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
+                        (categories[i] ? categories[i] : '+'));
+                    }
+                    div.innerHTML = labels.join('<br>');
+                return div;
+                };
+             legend.addTo(map);
      </script>
 </div>
 [Homepage](./index.html)
