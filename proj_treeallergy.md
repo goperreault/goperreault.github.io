@@ -19,13 +19,8 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap);
-            function onEachFeature(feature, layer) {
-                    if (feature.properties && feature.properties.popupContent) {
-                    layer.bindPopup(feature.properties.popupContent);
-                }
-            } 
             var geojsonMarkerAsh = {
-                  radius: 2,
+                  radius: 3,
                   fillColor: "#259ff0",
                   color: "#000",
                   weight: 1,
@@ -33,7 +28,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   fillOpacity: 0.8
             }; 
             var geojsonMarkerBirch = {
-                  radius: 2,
+                  radius: 3,
                   fillColor: "#729b6f",
                   color: "#000",
                   weight: 1,
@@ -41,7 +36,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   fillOpacity: 0.8
             };
             var geojsonMarkerOak = {
-                  radius: 2,
+                  radius: 3,
                   fillColor: "#a47158",
                   color: "#000",
                   weight: 1,
@@ -49,7 +44,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   fillOpacity: 0.8
             };
             var geojsonMarkerWillow = {
-                  radius: 2,
+                  radius: 3,
                   fillColor: "#85b66f",
                   color: "#000",
                   weight: 1,
@@ -60,7 +55,6 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerAsh);
-                        // onEachFeature:onEachFeature
                         }    
                   }).addTo(mymap);
             });
@@ -68,7 +62,6 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerBirch);
-                        // onEachFeature:onEachFeature
                         }    
                   }).addTo(mymap);
             });
@@ -76,7 +69,6 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOak);
-                        // onEachFeature:onEachFeature
                         }    
                   }).addTo(mymap);
             });
@@ -84,7 +76,6 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerWillow);
-                        // onEachFeature:onEachFeature
                         }    
                   }).addTo(mymap);
             });
