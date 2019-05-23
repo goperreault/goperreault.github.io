@@ -21,12 +21,8 @@ Small project that draws the intended ligne around the city of Paris.
                   opacity: 1,
                   fillOpacity: 0.8
             }; 
-            $.getJSON("Tree_3857_ash.geojson",function(data){
-                  L.geoJson(data, {
-                        pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, geojsonMarkerOptions);
-                        // onEachFeature:onEachFeature
-                        }    
+            $.getJSON("ligne15_ligne.geojson",function(data){
+                  L.geoJson(data,{
                   }).addTo(mymap);
             });
      </script>
