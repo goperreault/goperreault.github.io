@@ -40,7 +40,9 @@ Showcasing geography related projects.
             });
      </script>
 </div>
+
 ## The Grand Paris Express Line 15 around Paris
+[View project](./proj_gpdligne15.html)
 
-
-[About me](./about.html)
+# About me
+[View about](./about.html)
