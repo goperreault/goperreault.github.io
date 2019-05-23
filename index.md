@@ -8,7 +8,7 @@ Showcasing geography related projects.
 ## Ash trees in Mississauga
 ![Branching](./Ash_trees.jpeg)
 
-## Leaflet map
+## Ash trees interactive map
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
             var mymap = L.map('mapid').setView([43.588, -79.648], 11);
