@@ -43,5 +43,6 @@ Showcasing geography related projects.
             });
      </script>
 </div>
-  
+&nbsp; 
+&nbsp; 
 [About me](./about.html)
