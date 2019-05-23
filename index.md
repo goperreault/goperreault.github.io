@@ -9,7 +9,7 @@ Showcasing geography related projects.
 [View project](./proj_treeallergy.html)
 
 ## The Grand Paris Express Line 15 around Paris
-[View project](./proj_gpdligne15.html)
+[View project](./proj_gpeligne15.html)
 
 # About me
 [View about](./about.html)
