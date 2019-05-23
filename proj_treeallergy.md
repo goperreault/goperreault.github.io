@@ -96,7 +96,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   for (var i = 0; i < categories.length; i++) {
                         div.innerHTML += 
                         labels.push(
-                            '<i style="background:' + getColor(categories[i]) + '"></i> ' +
+                            '<i  getColor(categories[i]) + '"></i> ' +
                         (categories[i] ? categories[i] : '+'));
                     }
                     div.innerHTML = labels.join('<br>');
