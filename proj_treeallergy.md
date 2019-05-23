@@ -102,7 +102,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                     div.innerHTML = labels.join('<br>');
                 return div;
                 };
-             legend.addTo(map);
+             legend.addTo(mymap);
      </script>
 </div>
 [Homepage](./index.html)
