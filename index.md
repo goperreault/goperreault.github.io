@@ -35,12 +35,9 @@ Showcasing geography related projects.
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOptions);
-                        }
-                        onEachFeature: onEachFeature
+                        }    
                   }).addTo(mymap);
             });
-            
-            
      </script>
 </div>
 
