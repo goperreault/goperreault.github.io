@@ -5,9 +5,6 @@ layout: default
 ## Welcome to my website!
 Showcasing geography related projects.
 
-## Ash trees in Mississauga
-![Branching](./Ash_trees.jpeg)
-
 ## Location of trees in Mississauga project
 [View project](./proj_treeallergy.html)
 
@@ -43,6 +40,7 @@ Showcasing geography related projects.
             });
      </script>
 </div>
-&nbsp; 
-&nbsp; 
+## The Grand Paris Express Line 15 around Paris
+
+
 [About me](./about.html)
