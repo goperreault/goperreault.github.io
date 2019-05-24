@@ -94,8 +94,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   labels = ['<strong>Tree Type</strong>'],
                   categories = ['Ash','Birch','Oak','Willow'];
                   for (var i = 0; i < categories.length; i++) {
-                        div.innerHTML += 
-                        labels.push(
+                        div.innerHTML += labels.push(
                         '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
                         (categories[i] ? categories[i] : '+'));
                   }
