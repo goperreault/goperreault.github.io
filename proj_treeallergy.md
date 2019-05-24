@@ -60,6 +60,20 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   d === 'Willow' ? "#85b66f":
                         "#ffffff";
             }
+            var legend = L.control({position: 'bottomleft'});
+            legend.onAdd = function (map) {
+                  var div = L.DomUtil.create('div', 'info legend');
+                  labels = ['<strong>Tree Type</strong>'],
+                  categories = ['Ash','Birch','Oak','Willow'];
+                  for (var i = 0; i < categories.length; i++) {
+                        div.innerHTML += labels.push(
+                        '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
+                        (categories[i] ? categories[i] : '+'));
+                  }
+                  div.innerHTML = labels.join('<br>');
+                  return div;
+             };
+             legend.addTo(mymap);
             $.getJSON("Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
@@ -87,21 +101,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                         return L.circleMarker(latlng, geojsonMarkerWillow);
                         }    
                   }).addTo(mymap);
-            });
-            var legend = L.control({position: 'bottomleft'});
-            legend.onAdd = function (map) {
-                  var div = L.DomUtil.create('div', 'info legend');
-                  labels = ['<strong>Tree Type</strong>'],
-                  categories = ['Ash','Birch','Oak','Willow'];
-                  for (var i = 0; i < categories.length; i++) {
-                        div.innerHTML += labels.push(
-                        '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
-                        (categories[i] ? categories[i] : '+'));
-                  }
-                  div.innerHTML = labels.join('<br>');
-                  return div;
-             };
-             legend.addTo(mymap);
+            });     
      </script>
 </div>
 [Homepage](./index.html)
