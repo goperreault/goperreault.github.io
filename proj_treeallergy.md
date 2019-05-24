@@ -1,9 +1,9 @@
 ---
-title: Tree Allergy 
+title: Tree Allergy
 layout: default
 ---
 # Location of trees in Mississauga
-Small project that maps four species of trees (ash, birch, oak and willow) in the city of Mississauga. It uses to city's Open data tree inventory catalog. The goal is to identify where each species is located in the city.
+Small project that maps four tree species (ash, birch, oak and willow) in the city of Mississauga. It uses to city's Open data tree inventory catalog. The goal is to identify where each species is located in the city. 
 
 ## Static maps
 ### Large image
@@ -11,7 +11,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
 ### Small image
 <img src="Ash_trees.jpeg" alt="Ash Trees" width="200"/>
 
-## Interactive map 
+## Interactive map
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
             var mymap = L.map('mapid').setView([43.588, -79.648], 11);
@@ -28,7 +28,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   weight: 1,
                   opacity: 1,
                   fillOpacity: 0.8
-            }; 
+            };
             var geojsonMarkerBirch = {
                   radius: 3,
                   fillColor: "#729b6f",
@@ -87,7 +87,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                         return L.circleMarker(latlng, geojsonMarkerWillow);
                         }    
                   }).addTo(mymap);
-            }); 
+            });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
                   var div = L.DomUtil.create('div', 'info legend');
