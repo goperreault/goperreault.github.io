@@ -53,6 +53,13 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                   opacity: 1,
                   fillOpacity: 0.8
             };
+            function getColor(d) {
+                  return d === 'Ash'  ? "#259ff0" :
+                  d === 'Birch'  ? "#729b6f" :
+                  d === 'Oak' ? "#a47158" :
+                  d === 'Willow' ? "#85b66f":
+                        "#ffffff";
+            }
             $.getJSON("Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
@@ -81,13 +88,6 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                         }    
                   }).addTo(mymap);
             });
-            function getColor(d) {
-                  return d === 'Ash'  ? "#259ff0" :
-                  d === 'Birch'  ? "#729b6f" :
-                  d === 'Oak' ? "#a47158" :
-                  d === 'Willow' ? "#85b66f":
-                        "#ffffff";
-            }
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
                   var div = L.DomUtil.create('div', 'info legend');
