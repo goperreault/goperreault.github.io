@@ -13,12 +13,9 @@ Small project that draws the intended ligne around the city of Paris.
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap)
-            /*
             $.getJSON("ligne15_ligne.geojson",function(data){
-                  L.geoJson(data,{
-                  }).addTo(mymap);
-            });
-            */
+                  L.geoJson(data).addTo(mymap);
+            });  
      </script>
 </div>
 [Homepage](./index.html)
