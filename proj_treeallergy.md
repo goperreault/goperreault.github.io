@@ -61,7 +61,7 @@ Small project that maps four species of trees (ash, birch, oak and willow) in th
                         "#ffffff";
             }
             var legend = L.control({position: 'bottomleft'});
-            legend.onAdd = function (map) {
+            legend.onAdd = function (mymap) {
                   var div = L.DomUtil.create('div', 'info legend');
                   labels = ['<strong>Tree Type</strong>'],
                   categories = ['Ash','Birch','Oak','Willow'];
