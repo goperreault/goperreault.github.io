@@ -1,12 +1,12 @@
 ---
-title: Grand Paris Express 
+title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-Small project that draws the intended ligne around the city of Paris. 
+Small project that draws the intended ligne around the city of Paris.
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
-            var mymap = L.map('mapid').setView([48.855, 2.347], 11);
+            var mymap = L.map('mapid').setView([48.832948, 2.371769], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
@@ -15,7 +15,7 @@ Small project that draws the intended ligne around the city of Paris.
             }).addTo(mymap)
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data).addTo(mymap);
-            });  
+            });
      </script>
 </div>
 [Homepage](./index.html)
