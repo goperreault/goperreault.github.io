@@ -6,7 +6,7 @@ layout: default
 Small project that draws the intended ligne around the city of Paris.
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
-            var mymap = L.map('mapid').setView([48.847105, 2.238707], 11);
+            var mymap = L.map('mapid').setView([48.854908, 2.345451], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
