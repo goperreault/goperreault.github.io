@@ -16,6 +16,15 @@ Small project that draws the intended ligne around the city of Paris.
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data).addTo(mymap);
             });
+            var legend = L.control({position: 'bottomRight'});
+            legend.onAdd = function (map) {
+                  var div = L.DomUtil.create('div', 'info legend');
+                  labels = ['<strong>Metro</strong>'],
+                  categories = ['Line 5'];
+                  div.innerHTML = labels.join('<br>');
+                  return div
+            }
+            legend.addTo(mymap);
      </script>
 </div>
 [Homepage](./index.html)
