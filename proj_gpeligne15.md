@@ -13,11 +13,23 @@ Small project that draws the intended ligne around the city of Paris.
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(map)
+            var geojsonMetroStops = {
+                  radius: 3,
+                  fillColor: "#259ff0",
+                  color: "#000",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+            };
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data).addTo(map);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
-                  L.geoJson(data).addTo(map);
+                  L.geoJson(data, {
+                      pointToLayer: function (feature, latlng){
+                          return L.circleMarker(latlng, geojsonMetroStops);
+                      }
+                  }).addTo(map);
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
