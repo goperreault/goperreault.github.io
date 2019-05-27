@@ -3,7 +3,7 @@ title: Tree Allergy
 layout: default
 ---
 # Location of trees in Mississauga
-Small project that maps four tree species (ash, birch, oak and willow) in the city of Mississauga. It uses to city's Open data tree inventory catalog. The goal is to identify where each species is located in the city. 
+Small project that maps four tree species (ash, birch, oak and willow) in the city of Mississauga. It uses to city's Open data tree inventory catalog. The goal is to identify where each species is located in the city.
 
 ## Static maps
 ### Large image
@@ -64,33 +64,33 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerAsh);
-                        }    
+                        }
                   }).addTo(mymap);
             });
             $.getJSON("Tree_3857_birch.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerBirch);
-                        }    
+                        }
                   }).addTo(mymap);
             });
             $.getJSON("Tree_3857_oak.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOak);
-                        }    
+                        }
                   }).addTo(mymap);
             });
             $.getJSON("Tree_3857_willow.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerWillow);
-                        }    
+                        }
                   }).addTo(mymap);
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
-                  var div = L.DomUtil.create('div', 'info legend');
+                  var div = L.DomUtil.create('div', 'info legend'),
                   labels = ['<strong>Tree Type</strong>'],
                   categories = ['Ash','Birch','Oak','Willow'];
                   for (var i = 0; i < categories.length; i++) {
