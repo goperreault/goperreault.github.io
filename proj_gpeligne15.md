@@ -16,6 +16,9 @@ Small project that draws the intended ligne around the city of Paris.
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data).addTo(map);
             });
+            $.getJSON("ligne15_stops.geojson",function(data){
+                  L.geoJson(data).addTo(map);
+            });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
                   var div = L.DomUtil.create('div', 'info legend'),
