@@ -21,8 +21,19 @@ Small project that draws the intended ligne around the city of Paris.
                   opacity: 1,
                   fillOpacity: 0.8
             };
+            function linestyle(feature) {
+                return {
+                  fillColor: 'green',
+                  weight: 2,
+                  opacity: 1,
+                  color: 'green',
+                  fillOpacity: 0.7
+                };
+            }
             $.getJSON("ligne15_ligne.geojson",function(data){
-                  L.geoJson(data).addTo(map);
+                  L.geoJson(data, {
+                      style: linestyle
+                  }).addTo(map);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
