@@ -16,7 +16,7 @@ Small project that draws the intended ligne around the city of Paris.
             var geojsonMetroStops = {
                   radius: 3,
                   fillColor: "#a90f32",
-                  color: "#000",
+                  color: "#a90f32",
                   weight: 1,
                   opacity: 1,
                   fillOpacity: 0.8
@@ -26,7 +26,7 @@ Small project that draws the intended ligne around the city of Paris.
                   fillColor: "#a90f32",
                   weight: 2,
                   opacity: 1,
-                  color: "#000",
+                  color: "#a90f32",
                   fillOpacity: 0.7
                 };
             }
