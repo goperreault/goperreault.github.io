@@ -6,10 +6,10 @@
     padding: 6px 10px 6px 6px;
     color: #000033;
     background: #fff;
-    border-left:3px solid #666666;
-    border-right:3px solid #666666;
-    border-top:3px solid #666666;
-    border-bottom:3px solid #666666
+    border-left:5px solid #666666;
+    border-right:5px solid #666666;
+    border-top:5px solid #666666;
+    border-bottom:5px solid #666666
 }
 
 .legend i .circle {
