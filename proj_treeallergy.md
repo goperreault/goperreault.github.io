@@ -90,7 +90,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
                   var div = L.DomUtil.create('div', 'info legend'),
-                  labels = ["Trees"],
+                  labels = ['<strong>Trees</strong>'],
                   categories = ['Ash','Birch','Oak','Willow'];
                   for (var i = 0; i < categories.length; i++) {
                     div.innerHTML += labels.push(
@@ -98,7 +98,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                       (categories[i] ? categories[i] + '<br>' : '+')
                     );
                   }
-                  div.innerHTML = labels.join('<br>');
+                  div.innerHTML = labels.join(/*'<br>'*/);
                   return div;
              };
              legend.addTo(mymap);
