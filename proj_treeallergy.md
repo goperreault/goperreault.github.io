@@ -89,7 +89,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
-                  var div = L.DomUtil.create('div', 'info legend'),
+                  var div = L.DomUtil.create('div', 'info legend');/*,
                   labels = ['<strong>Trees</strong>'],
                   categories = ['Ash','Birch','Oak','Willow'];
                   for (var i = 0; i < categories.length; i++) {
@@ -98,7 +98,12 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                       (categories[i] ? categories[i] + '<br>' : '+')
                     );
                   }
-                  div.innerHTML = labels.join('<br>');
+                  div.innerHTML = labels.join('<br>');*/
+                  div.innerHTML += "<h4>Trees</h4>";
+                  div.innerHTML += '<i style="background: #259ff0"></i><span>Ash</span><br>';
+                  div.innerHTML += '<i style="background: #729b6f"></i><span>Birch</span><br>';
+                  div.innerHTML += '<i style="background: #a47158"></i><span>Oak</span><br>';
+                  div.innerHTML += '<i style="background: #f45f42"></i><span>Willow</span><br>';
                   return div;
              };
              legend.addTo(mymap);
