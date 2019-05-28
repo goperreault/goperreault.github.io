@@ -44,11 +44,14 @@ Small project that draws the intended ligne around the city of Paris.
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
-                  var div = L.DomUtil.create('div', 'info legend'),
+                  var div = L.DomUtil.create('div', 'info legend');/*,
                   labels = ['<strong>Metro</strong>'],
                   categories = ['Line 5'];
                   labels.push(categories);
-                  div.innerHTML = labels.join('<br>');
+                  div.innerHTML = labels.join('<br>'); */
+                  div.innerHTML += "<h4>Metro</h4>";
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
+                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
                   return div
             }
 
