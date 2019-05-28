@@ -44,7 +44,7 @@ Small project that draws the intended ligne around the city of Paris.
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
-                  var div = L.DomUtil.create('div', 'legend'),
+                  var div = L.DomUtil.create('div', 'info legend'),
                   labels = ['<strong>Metro</strong>'],
                   categories = ['Line 5'];
                   labels.push(categories);
