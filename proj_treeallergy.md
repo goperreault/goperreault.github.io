@@ -47,7 +47,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
             };
             var geojsonMarkerWillow = {
                   radius: 3,
-                  fillColor: "#85b66f",
+                  fillColor: "#f45f42",
                   color: "#000",
                   weight: 1,
                   opacity: 1,
@@ -57,7 +57,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   return d === 'Ash'  ? "#259ff0" :
                   d === 'Birch'  ? "#729b6f" :
                   d === 'Oak' ? "#a47158" :
-                 "#85b66f";
+                 "#f45f42";
             }
             $.getJSON("Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
