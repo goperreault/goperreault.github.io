@@ -22,7 +22,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymap);
             var geojsonMarkerAsh = {
-                  radius: 1,
+                  radius: 3,
                   fillColor: "#259ff0",
                   color: "#000",
                   weight: 1,
@@ -30,7 +30,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   fillOpacity: 0.8
             };
             var geojsonMarkerBirch = {
-                  radius: 1,
+                  radius: 3,
                   fillColor: "#729b6f",
                   color: "#000",
                   weight: 1,
@@ -38,7 +38,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   fillOpacity: 0.8
             };
             var geojsonMarkerOak = {
-                  radius: 1,
+                  radius: 3,
                   fillColor: "#a47158",
                   color: "#000",
                   weight: 1,
@@ -46,7 +46,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   fillOpacity: 0.8
             };
             var geojsonMarkerWillow = {
-                  radius: 1,
+                  radius: 3,
                   fillColor: "#f45f42",
                   color: "#000",
                   weight: 1,
