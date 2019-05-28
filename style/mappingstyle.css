@@ -1,4 +1,8 @@
-.leaflet .legend i {
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
     padding: 6px 10px 6px 6px;
     color: #000033;
     background: #fff;
@@ -8,7 +12,7 @@
     border-bottom:5px solid #666666
 }
 
-.legend .circle {
+.legend i .circle {
   border-radius: 50%;
   width: 10px;
   height: 10px;
