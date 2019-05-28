@@ -11,7 +11,7 @@
     line-height: 20px;
     color: #555;
 }
-.legend /*i*/ {
+/*.legend i {
     padding: 6px 6px 6px 6px;
     color: #000033;
     background: #fff;
@@ -19,7 +19,7 @@
     border-right:5px solid #666666;
     border-top:5px solid #666666;
     border-bottom:5px solid #666666;
-}
+}*/
 
 .legend i.circle {
   border-radius: 50%;
