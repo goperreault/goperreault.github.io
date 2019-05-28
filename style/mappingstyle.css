@@ -3,13 +3,17 @@
     color: #555;
 }
 .legend i {
-    padding: 6px 6px 6px 6px;
+    /*padding: 6px 6px 6px 6px;
     color: #000033;
     background: #fff;
     border-left:5px solid #666666;
     border-right:5px solid #666666;
     border-top:5px solid #666666;
-    border-bottom:5px solid #666666;
+    border-bottom:5px solid #666666;*/
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
 }
 
 .legend .circle {
