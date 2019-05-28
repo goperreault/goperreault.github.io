@@ -93,10 +93,9 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   labels = ['<strong>Tree Type</strong>'],
                   categories = ['Ash','Birch','Oak','Willow'];
                   for (var i = 0; i < categories.length; i++) {
-                        div.innerHTML += labels.push(
-                        '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
-                        (categories[i] ? categories[i] : '+')
-                        );
+                    div.innerHTML +=
+                      '<i style="background:' + getColor(categories[i]) + '"></i> ' +
+                      (categories[i] ? categories[i] + '<br>' : '+');
                   }
                   div.innerHTML = labels.join('<br>');
                   return div;
