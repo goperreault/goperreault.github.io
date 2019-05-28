@@ -42,6 +42,7 @@ Small project that draws the intended ligne around the city of Paris.
                       }
                       onEachFeature: function (feature, layer) {
                           layer.bindPopup(feature.properties.name);
+                      }
                   }).addTo(map);
             });
             var legend = L.control({position: 'bottomleft'});
