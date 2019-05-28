@@ -47,7 +47,7 @@ Small project that draws the intended ligne around the city of Paris.
                   var div = L.DomUtil.create('div', 'info legend'),
                   labels = ['<strong>Metro</strong>'],
                   categories = ['Line 5'];
-                  labels.push(linestyle(categories));
+                  labels.push(categories);
                   div.innerHTML = labels.join('<br>');
                   return div
             }
