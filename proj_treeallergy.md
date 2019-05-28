@@ -98,7 +98,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                       (categories[i] ? categories[i] + '<br>' : '+')
                     );
                   }*/
-                  //div.innerHTML = labels.join('<br>');
+                  div.innerHTML = labels.join('<br>');
                   return div;
              };
              legend.addTo(mymap);
