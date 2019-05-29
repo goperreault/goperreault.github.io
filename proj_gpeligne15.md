@@ -40,7 +40,7 @@ Small project that draws the intended ligne around the city of Paris.
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
                       }
-                  }).addTo(map);
+                  }).addTo(map).bindPopup("I am a stop");
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
