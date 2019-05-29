@@ -8,9 +8,10 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
 ## Static maps
 ### Large image
 ![Ash trees map](./Ash_trees.jpeg)
+<!--
 ### Small image
 <img src="Ash_trees.jpeg" alt="Ash Trees" width="200"/>
-
+-->
 ## Interactive map
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
@@ -60,7 +61,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                  "#f45f42";
             }
             function forEachFeature(feature, layer) {
-                var popupContent =  "Station:</br>" + feature.properties.BOTDESC;
+                var popupContent =  feature.properties.BOTDESC;
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
