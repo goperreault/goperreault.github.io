@@ -43,7 +43,8 @@ Small project that draws the intended ligne around the city of Paris.
                   L.geoJson(data, {
                       onEachFeature: forEachFeature,
                       pointToLayer: function (feature, latlng){
-                          return L.circleMarker(latlng, geojsonMetroStops);
+                          label = String(feature.properties.nom)
+                          return L.circleMarker(latlng, geojsonMetroStops).bindToolTip(label{permanent: true}).openToolTip();
                       }
                   }).addTo(map);
             });
