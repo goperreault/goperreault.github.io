@@ -44,7 +44,7 @@ Small project that draws the intended ligne around the city of Paris.
                       onEachFeature: forEachFeature,
                       pointToLayer: function (feature, latlng){
                           label = String(feature.properties.nom)
-                          return L.circleMarker(latlng, geojsonMetroStops).bindToolTip(label{permanent: true}).openToolTip();
+                          return L.circleMarker(latlng, geojsonMetroStops).bindTooltip(label{permanent: true}).openTooltip();
                       }
                   }).addTo(map);
             });
