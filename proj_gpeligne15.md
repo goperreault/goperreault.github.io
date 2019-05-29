@@ -39,14 +39,14 @@ Small project that draws the intended ligne around the city of Paris.
                       style: linestyle
                   }).addTo(map);
             });
+            var labelS = String(feature.properties.nom);
             $.getJSON("ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
                       onEachFeature: forEachFeature,
                       pointToLayer: function (feature, latlng){
-                          label = String(feature.properties.nom)
-                          return L.circleMarker(latlng, geojsonMetroStops).bindTooltip(label{permanent: true}).openTooltip();
+                          return L.circleMarker(latlng, geojsonMetroStops);
                       }
-                  }).addTo(map);
+                  }).addTo(map).bindTooltip(labelS{permanent: true}).openTooltip();
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
