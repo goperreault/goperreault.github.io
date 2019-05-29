@@ -59,32 +59,41 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
                   d === 'Oak' ? "#a47158" :
                  "#f45f42";
             }
+            function forEachFeature(feature, layer) {
+                var popupContent =  "Station:</br>" + feature.properties.BOTDESC;
+                layer.bindPopup(popupContent);
+                //layer.bindTooltip(popupContent);
+            }
             $.getJSON("Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerAsh);
-                        }
+                        },
+                        onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
             $.getJSON("Tree_3857_birch.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerBirch);
-                        }
+                        },
+                        onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
             $.getJSON("Tree_3857_oak.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOak);
-                        }
+                        },
+                        onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
             $.getJSON("Tree_3857_willow.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerWillow);
-                        }
+                        },
+                        onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
             var legend = L.control({position: 'bottomleft'});
