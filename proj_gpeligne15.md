@@ -30,6 +30,10 @@ Small project that draws the intended ligne around the city of Paris.
                   fillOpacity: 0.7
                 };
             }
+            function forEachFeature(feature, layer) {
+                var popupContent =  feature.properties.name;
+                layer.bindPopup(popupContent);
+            }
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
@@ -37,10 +41,11 @@ Small project that draws the intended ligne around the city of Paris.
             });
             $.getJSON("ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
+                      onEachFeature: forEachFeature,
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
                       }
-                  }).addTo(map).bindPopup("I am a stop");
+                  }).addTo(map);
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
