@@ -33,20 +33,20 @@ Small project that draws the intended ligne around the city of Paris.
             function forEachFeature(feature, layer) {
                 var popupContent =  "Station:</br>" + feature.properties.nom;
                 layer.bindPopup(popupContent);
+                layer.bindTooltip(popupContent);
             }
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
                   }).addTo(map);
             });
-            var labelS = String(feature.properties.nom);
             $.getJSON("ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
-                      onEachFeature: forEachFeature,
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
-                      }
-                  }).addTo(map).bindTooltip(labelS{permanent: true}).openTooltip();
+                      },
+                      onEachFeature: forEachFeature
+                  }).addTo(map);
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (map) {
