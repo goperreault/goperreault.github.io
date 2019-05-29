@@ -7,7 +7,7 @@ Small project that maps four tree species (ash, birch, oak and willow) in the ci
 
 ## Static maps
 ### Large image
-![Ash trees map](./Ash_trees.jpeg)
+![Ash trees map](./Trees.jpeg)
 
 ## Interactive map
 <div id="mapid" style="width: 600px; height: 400px">
