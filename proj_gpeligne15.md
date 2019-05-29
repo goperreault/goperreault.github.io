@@ -31,7 +31,7 @@ Small project that draws the intended ligne around the city of Paris.
                 };
             }
             function forEachFeature(feature, layer) {
-                var popupContent =  feature.properties.nom;
+                var popupContent =  "Station: " + feature.properties.nom;
                 layer.bindPopup(popupContent);
             }
             $.getJSON("ligne15_ligne.geojson",function(data){
