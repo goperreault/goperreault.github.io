@@ -34,9 +34,9 @@ Small project that draws the intended line around the city of Paris.
                 return {
                   fillColor: "#282a2d",
                   weight: 2,
-                  opacity: 0.7,
+                  opacity: 0.9,
                   color: "#282a2d",
-                  fillOpacity: 0.7
+                  fillOpacity: 0.9
                 };
             }
             function rerlinestyle(feature) {
@@ -87,7 +87,7 @@ Small project that draws the intended line around the city of Paris.
                   div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #282a2d"></i><span>Existing Metro Lines</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #6d7177"></i><span>Existing RER Lines</span><br>';
+                  div.innerHTML += '<i class="polylinerer" style="background: #6d7177"></i><span>Existing RER Lines</span><br>';
                   return div
             }
 
