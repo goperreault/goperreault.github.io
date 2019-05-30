@@ -83,7 +83,7 @@ Small project that draws the intended line around the city of Paris.
                   categories = ['Line 5'];
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
-                  div.innerHTML += "<h4>Metro</h4>";
+                  /*div.innerHTML += "<h4>Metro</h4>";*/
                   div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #282a2d"></i><span>Existing Metro Lines</span><br>';
