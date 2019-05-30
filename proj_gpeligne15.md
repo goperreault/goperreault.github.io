@@ -34,7 +34,7 @@ Small project that draws the intended line around the city of Paris.
                 return {
                   fillColor: "#282a2d",
                   weight: 2,
-                  opacity: 0.5,
+                  opacity: 0.7,
                   color: "#282a2d",
                   fillOpacity: 0.7
                 };
