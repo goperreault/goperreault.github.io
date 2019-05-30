@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Welcome to my website!
+## Welcome!
 Showcasing geography related projects.
 
 ## Location of trees in Mississauga
@@ -13,5 +13,3 @@ Showcasing geography related projects.
 
 # About me
 [View about](./about.html)
-
-
