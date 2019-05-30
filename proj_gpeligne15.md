@@ -50,7 +50,7 @@ Small project that draws the intended line around the city of Paris.
             }
             function forEachFeature(feature, layer) {
                 var popupContent =  "Station:</br>" + feature.properties.nom;
-                layer.bindPopup(popupContent);
+                //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
             $.getJSON("ligne15_ligne.geojson",function(data){
