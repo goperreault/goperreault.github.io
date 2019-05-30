@@ -3,7 +3,7 @@ title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-Small project that draws the intended line around the city of Paris. It compares the line to the metro lines and RER lines, as this new lines would prove to connect these existing systems. 
+Small project that draws the intended line around the city of Paris. It compares the line to the metro lines and RER lines, as this new lines will connect the existing system. 
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
             var map = L.map('mapid').setView([48.854908, 2.387671], 11);
