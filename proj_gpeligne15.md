@@ -34,7 +34,7 @@ Small project that draws the intended line around the city of Paris.
                 return {
                   fillColor: "#282a2d",
                   weight: 2,
-                  opacity: 1,
+                  opacity: 0.5,
                   color: "#282a2d",
                   fillOpacity: 0.7
                 };
@@ -43,7 +43,7 @@ Small project that draws the intended line around the city of Paris.
                 return {
                   fillColor: "#6d7177",
                   weight: 2,
-                  opacity: 1,
+                  opacity: 0.5,
                   color: "#6d7177",
                   fillOpacity: 0.7
                 };
