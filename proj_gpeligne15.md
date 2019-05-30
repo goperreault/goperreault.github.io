@@ -42,7 +42,7 @@ Small project that draws the intended line around the city of Paris.
             function rerlinestyle(feature) {
                 return {
                   fillColor: "#6d7177",
-                  weight: 2,
+                  weight: 3,
                   opacity: 0.5,
                   color: "#6d7177",
                   fillOpacity: 0.7
