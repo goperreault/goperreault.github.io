@@ -30,6 +30,24 @@ Small project that draws the intended line around the city of Paris.
                   fillOpacity: 0.7
                 };
             }
+            function metrolinestyle(feature) {
+                return {
+                  fillColor: "#282a2d",
+                  weight: 2,
+                  opacity: 1,
+                  color: "#282a2d",
+                  fillOpacity: 0.7
+                };
+            }
+            function rerlinestyle(feature) {
+                return {
+                  fillColor: "#6d7177",
+                  weight: 2,
+                  opacity: 1,
+                  color: "#6d7177",
+                  fillOpacity: 0.7
+                };
+            }
             function forEachFeature(feature, layer) {
                 var popupContent =  "Station:</br>" + feature.properties.nom;
                 layer.bindPopup(popupContent);
@@ -38,6 +56,16 @@ Small project that draws the intended line around the city of Paris.
             $.getJSON("ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
+                  }).addTo(map);
+            });
+            $.getJSON("MetroAllLines.geojson",function(data){
+                  L.geoJson(data, {
+                      style: metrolinestyle
+                  }).addTo(map);
+            });
+            $.getJSON("RERAllLines.geojson",function(data){
+                  L.geoJson(data, {
+                      style: rerlinestyle
                   }).addTo(map);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
@@ -58,6 +86,8 @@ Small project that draws the intended line around the city of Paris.
                   div.innerHTML += "<h4>Metro</h4>";
                   div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #282a2d"></i><span>Existing Metro Lines</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #6d7177"></i><span>Existing RER Lines</span><br>';
                   return div
             }
 
