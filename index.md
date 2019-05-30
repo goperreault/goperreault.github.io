@@ -5,7 +5,7 @@ layout: default
 ## Welcome!
 Showcasing geography related projects.
 
-## Location of trees in Mississauga
+## Trees and pollen allergies in Mississauga
 [View project](./proj_treeallergy.html)
 
 ## The Grand Paris Express around Paris, Line 15
