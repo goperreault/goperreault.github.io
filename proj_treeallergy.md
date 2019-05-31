@@ -10,7 +10,7 @@ Small project to help with my seasonal pollen allergies. It maps four tree speci
 ![Ash trees map](./Trees.jpeg)
 
 ## Interactive map
-<div id="mapid" style="width: 600px; height: 400px">
+<div id="mapid" style="width: 700px; height: 500px">
       <script>
             var mymap = L.map('mapid').setView([43.588, -79.648], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
