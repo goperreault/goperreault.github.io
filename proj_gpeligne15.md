@@ -3,7 +3,7 @@ title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-Small project that draws the intended line around the city of Paris. It compares the line to the metro lines and RER lines, as this new lines will connect the existing system. 
+Small project that draws the intended line around the city of Paris. It compares the line to the metro lines and RER lines, as this new lines will connect the existing system.
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
             var map = L.map('mapid').setView([48.854908, 2.387671], 11);
@@ -32,19 +32,28 @@ Small project that draws the intended line around the city of Paris. It compares
             }
             function metrolinestyle(feature) {
                 return {
-                  fillColor: "#282a2d",
+                  fillColor: "#3294db",
                   weight: 2,
                   opacity: 0.9,
-                  color: "#282a2d",
+                  color: "#3294db",
                   fillOpacity: 0.9
                 };
             }
             function rerlinestyle(feature) {
                 return {
-                  fillColor: "#6d7177",
+                  fillColor: "#4eba77",
                   weight: 3,
                   opacity: 0.5,
-                  color: "#6d7177",
+                  color: "#4eba77",
+                  fillOpacity: 0.7
+                };
+            }
+            function ceinturelinestyle(feature) {
+                return {
+                  fillColor: "#222323",
+                  weight: 3,
+                  opacity: 0.5,
+                  color: "#222323",
                   fillOpacity: 0.7
                 };
             }
@@ -68,6 +77,11 @@ Small project that draws the intended line around the city of Paris. It compares
                       style: rerlinestyle
                   }).addTo(map);
             });
+            $.getJSON("petiteceintureline.geojson",function(data){
+                  L.geoJson(data, {
+                      style: ceinturelinestyle
+                  }).addTo(map);
+            });
             $.getJSON("ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
                       pointToLayer: function (feature, latlng){
@@ -86,8 +100,10 @@ Small project that draws the intended line around the city of Paris. It compares
                   /*div.innerHTML += "<h4>Metro</h4>";*/
                   div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #282a2d"></i><span>Existing Metro Lines</span><br>';
-                  div.innerHTML += '<i class="polylinerer" style="background: #6d7177"></i><span>Existing RER Lines</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Existing Metro Lines</span><br>';
+                  div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Existing RER Lines</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #222323"></i><span>La Petite Ceinture</span><br>';
+
                   return div
             }
 
