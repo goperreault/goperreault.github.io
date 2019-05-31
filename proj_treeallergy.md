@@ -12,7 +12,7 @@ Small project to help with my seasonal pollen allergies. It maps four tree speci
 ## Interactive map
 <div id="mapid" style="width: 700px; height: 600px">
       <script>
-            var mymap = L.map('mapid').setView([43.588, -79.648], 11);
+            var mymap = L.map('mapid').setView([43.688, -79.648], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'City-owned Tree Inventory - MississaugaData, 03/04/2019 <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
