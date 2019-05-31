@@ -3,12 +3,12 @@ title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-Small project that draws the intended line around the city of Paris. It compares the line to the metro lines and RER lines, as this new lines will connect the existing system.
+Small project that draws the intended line around the city of Paris. It compares the future line 15 to the existing metro and RER lines. It also adds La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the 1930s.
 <div id="mapid" style="width: 600px; height: 400px">
       <script>
             var map = L.map('mapid').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'Eclairage public - Mairie de Paris, 23/02/2018, sous license ODbL <br> Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
@@ -103,7 +103,6 @@ Small project that draws the intended line around the city of Paris. It compares
                   div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Existing Metro Lines</span><br>';
                   div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Existing RER Lines</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #222323"></i><span>La Petite Ceinture</span><br>';
-
                   return div
             }
 
