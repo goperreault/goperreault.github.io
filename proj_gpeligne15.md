@@ -8,7 +8,7 @@ Small project that draws the intended line around the city of Paris. It compares
       <script>
             var map = L.map('mapid').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL <br> Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'La Petite Ceinture - <a href="https://www.apur.org/en">Apur</a> 2017<br>Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
