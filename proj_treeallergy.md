@@ -10,7 +10,10 @@ According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca
 
 ## Static maps
 The follow maps show the distribution of each trees species in the city.
-![Ash trees map](./Trees.jpeg)
+![Ash trees map](./Ash_trees.jpeg)
+![Birch trees map](./Birch_trees.jpeg)
+![Oak trees map](./Oak_trees.jpeg)
+![Willow trees map](./Willow_trees.jpeg)
 
 ## Interactive map
 The follow map is an interactive map that shows all four tree species in Mississauga.
