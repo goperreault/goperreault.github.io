@@ -3,8 +3,8 @@ title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-Project that draws the intended line around the city of Paris. It compares the future line 15 to the existing metro and RER lines. It also adds La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture). Line 15 would therefore connect the existing lines as a peripheral in a similar fashion to La Petite Ceinture.
-## Line 15 and existing metro lines
+Project that draws the intended line around the city of Paris. It compares the future line 15 to the existing Métro, RER and Transilien lines. It also adds La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture).
+## Line 15 and existing Métro lines
 The following map shows Line 15 in comparison to the existing Métro lines.
 <div id="mapidmetro" style="width: 700px; height: 500px">
       <script>
@@ -74,16 +74,15 @@ The following map shows Line 15 in comparison to the existing Métro lines.
                   /*div.innerHTML += "<h4>Metro</h4>";*/
                   div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Existing Metro Lines</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Existing Métro Lines</span><br>';
                   return div
             }
-
             legend.addTo(mapmetro);
      </script>
 </div>
 
 ## Line 15 and existing RER lines
-The following map shows Line 15 in comparison to the existing RER network.
+The following map shows Line 15 in comparison to the existing RER lines.
 <div id="mapidrer" style="width: 700px; height: 500px">
       <script>
             var maprer = L.map('mapidrer').setView([48.854908, 2.387671], 11);
@@ -160,7 +159,7 @@ The following map shows Line 15 in comparison to the existing RER network.
      </script>
 </div>
 ## Line 15 and existing Transilien lines
-The following map shows Line 15 in comparison to the existing Transilien train lines.
+The following map shows Line 15 in comparison to the existing Transilien lines.
 <div id="mapidtransilien" style="width: 700px; height: 500px">
       <script>
             var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
