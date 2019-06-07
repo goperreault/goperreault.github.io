@@ -6,9 +6,9 @@ layout: default
 Project that draws the intended line around the city of Paris. It compares the future line 15 to the existing metro and RER lines. It also adds La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture). Line 15 would therefore connect the existing lines as a peripheral in a similar fashion to La Petite Ceinture.
 ## Line 15 and existing metro lines
 The following map shows Line 15 in comparison to the existing Métro lines.
-<div id="mapid" style="width: 700px; height: 500px">
+<div id="mapidmetro" style="width: 700px; height: 500px">
       <script>
-            var mapmetro = L.map('mapid').setView([48.854908, 2.387671], 11);
+            var mapmetro = L.map('mapidmetro').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
@@ -84,9 +84,9 @@ The following map shows Line 15 in comparison to the existing Métro lines.
 
 ## Line 15 and existing RER lines
 The following map shows Line 15 in comparison to the existing RER network.
-<div id="mapid" style="width: 700px; height: 500px">
+<div id="mapidrer" style="width: 700px; height: 500px">
       <script>
-            var maprer = L.map('mapid').setView([48.854908, 2.387671], 11);
+            var maprer = L.map('mapidrer').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
@@ -161,9 +161,9 @@ The following map shows Line 15 in comparison to the existing RER network.
 </div>
 ## Line 15 and existing Transilien lines
 The following map shows Line 15 in comparison to the existing Transilien train lines.
-<div id="mapid" style="width: 700px; height: 500px">
+<div id="mapidtransilien" style="width: 700px; height: 500px">
       <script>
-            var maptransilien = L.map('mapid').setView([48.854908, 2.387671], 11);
+            var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
@@ -238,9 +238,9 @@ The following map shows Line 15 in comparison to the existing Transilien train l
 </div>
 ## Line 15 and defunct circular line, La Petite Ceinture
 The following map shows Line 15 in comparison to the defunct La Petite Ceinture.
-<div id="mapid" style="width: 700px; height: 500px">
+<div id="mapidceinture" style="width: 700px; height: 500px">
       <script>
-            var mapceinture = L.map('mapid').setView([48.854908, 2.387671], 11);
+            var mapceinture = L.map('mapidceinture').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
