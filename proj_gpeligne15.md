@@ -3,7 +3,7 @@ title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-Project that draws the intended line around the city of Paris. It compares the future line 15 to the existing Métro, RER and Transilien lines. It also adds La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture).
+A project that draws the intended Line 15 around the city of Paris. It compares the future line 15 to the existing Métro, RER and Transilien lines. It also compares it to La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture).
 ## Line 15 and existing Métro lines
 The following map shows Line 15 in comparison to the existing Métro lines.
 <div id="mapidmetro" style="width: 700px; height: 500px">
