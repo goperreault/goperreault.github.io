@@ -46,14 +46,14 @@ The following map shows Line 15 in comparison to the existing Métro lines.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("ligne15_ligne.geojson",function(data){
-                  L.geoJson(data, {
-                      style: linestyle
-                  }).addTo(mapmetro);
-            });
             $.getJSON("MetroAllLines.geojson",function(data){
                   L.geoJson(data, {
                       style: metrolinestyle
+                  }).addTo(mapmetro);
+            });
+            $.getJSON("ligne15_ligne.geojson",function(data){
+                  L.geoJson(data, {
+                      style: linestyle
                   }).addTo(mapmetro);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
@@ -123,14 +123,14 @@ The following map shows Line 15 in comparison to the existing RER lines.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("ligne15_ligne.geojson",function(data){
-                  L.geoJson(data, {
-                      style: linestyle
-                  }).addTo(maprer);
-            });
             $.getJSON("RERAllLines.geojson",function(data){
                   L.geoJson(data, {
                       style: rerlinestyle
+                  }).addTo(maprer);
+            });
+            $.getJSON("ligne15_ligne.geojson",function(data){
+                  L.geoJson(data, {
+                      style: linestyle
                   }).addTo(maprer);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
@@ -200,14 +200,14 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("ligne15_ligne.geojson",function(data){
-                  L.geoJson(data, {
-                      style: linestyle
-                  }).addTo(maptransilien);
-            });
             $.getJSON("TransilienAllLines.geojson",function(data){
                   L.geoJson(data, {
                       style: transilienlinestyle
+                  }).addTo(maptransilien);
+            });
+            $.getJSON("ligne15_ligne.geojson",function(data){
+                  L.geoJson(data, {
+                      style: linestyle
                   }).addTo(maptransilien);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
@@ -277,14 +277,14 @@ The following map shows Line 15 in comparison to the defunct La Petite Ceinture.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("ligne15_ligne.geojson",function(data){
-                  L.geoJson(data, {
-                      style: linestyle
-                  }).addTo(mapceinture);
-            });
             $.getJSON("petiteceintureline.geojson",function(data){
                   L.geoJson(data, {
                       style: ceinturelinestyle
+                  }).addTo(mapceinture);
+            });
+            $.getJSON("ligne15_ligne.geojson",function(data){
+                  L.geoJson(data, {
+                      style: linestyle
                   }).addTo(mapceinture);
             });
             $.getJSON("ligne15_stops.geojson",function(data){
