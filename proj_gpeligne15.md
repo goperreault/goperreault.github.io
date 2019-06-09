@@ -87,7 +87,7 @@ The following map shows Line 15 in comparison to the existing RER lines.
       <script>
             var maprer = L.map('mapidrer').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Tracés du réseau de transport ferré dIle-de-France - Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Tracés du réseau de transport ferré dIle-de-France -<br>Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
@@ -164,7 +164,7 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
       <script>
             var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Tracés du réseau de transport ferré dIle-de-France - Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'Tracés du réseau de transport ferré dIle-de-France -<br>Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
