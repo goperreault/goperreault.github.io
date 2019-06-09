@@ -72,8 +72,8 @@ The following map shows Line 15 in comparison to the existing Métro lines.
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Existing Métro Lines</span><br>';
                   return div
             }
@@ -87,7 +87,7 @@ The following map shows Line 15 in comparison to the existing RER lines.
       <script>
             var maprer = L.map('mapidrer').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Tracés du réseau de transport ferré dIle-de-France - Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
@@ -149,8 +149,8 @@ The following map shows Line 15 in comparison to the existing RER lines.
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Existing RER Lines</span><br>';
                   return div
             }
@@ -164,7 +164,7 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
       <script>
             var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'Tracés du réseau de transport ferré dIle-de-France - Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
@@ -226,8 +226,8 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Existing Transilien Lines</span><br>';
                   return div
             }
@@ -241,7 +241,7 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
       <script>
             var mapceinture = L.map('mapidceinture').setView([48.854908, 2.387671], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  attribution: 'La Petite Ceinture - <a href="https://www.apur.org/en">Apur</a> 2017<br>Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
                   id: 'mapbox.light',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
@@ -303,8 +303,8 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #222323"></i><span>La Petite Ceinture</span><br>';
                   return div
             }
