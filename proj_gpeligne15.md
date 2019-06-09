@@ -113,7 +113,7 @@ The following map shows Line 15 in comparison to the existing RER lines.
                 return {
                   fillColor: "#4eba77",
                   weight: 3,
-                  opacity: 0.5,
+                  opacity: 0.9,
                   color: "#4eba77",
                   fillOpacity: 0.7
                 };
@@ -191,8 +191,8 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
                   fillColor: "#4eba77",
                   weight: 3,
                   opacity: 0.5,
-                  color: "#4eba77",
-                  fillOpacity: 0.7
+                  color: "#4b2587",
+                  fillOpacity: 0.9
                 };
             }
             function forEachFeature(feature, layer) {
@@ -228,7 +228,7 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
                   /*div.innerHTML += "<h4>Metro</h4>";*/
                   div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
-                  div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Existing Transilien Lines</span><br>';
+                  div.innerHTML += '<i class="polylinerer" style="background: #4b2587"></i><span>Existing Transilien Lines</span><br>';
                   return div
             }
 
@@ -269,7 +269,7 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                   weight: 3,
                   opacity: 0.5,
                   color: "#222323",
-                  fillOpacity: 0.7
+                  fillOpacity: 0.9
                 };
             }
             function forEachFeature(feature, layer) {
