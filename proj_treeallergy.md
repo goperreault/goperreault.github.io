@@ -69,7 +69,7 @@ The follow map is an interactive map that shows all four tree species in Mississ
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/Tree_3857_ash_utm.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerAsh);
