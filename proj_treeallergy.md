@@ -69,7 +69,7 @@ The follow map is an interactive map that shows all four tree species in Mississ
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("Tree_3857_ash.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_ash.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerAsh);
@@ -77,7 +77,7 @@ The follow map is an interactive map that shows all four tree species in Mississ
                         onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
-            $.getJSON("Tree_3857_birch.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_birch.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerBirch);
@@ -85,7 +85,7 @@ The follow map is an interactive map that shows all four tree species in Mississ
                         onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
-            $.getJSON("Tree_3857_oak.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_oak.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOak);
@@ -93,7 +93,7 @@ The follow map is an interactive map that shows all four tree species in Mississ
                         onEachFeature: forEachFeature
                   }).addTo(mymap);
             });
-            $.getJSON("Tree_3857_willow.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_willow.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerWillow);

@@ -46,17 +46,17 @@ The following map shows Line 15 in comparison to the existing Métro lines.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("MetroAllLines.geojson",function(data){
+            $.getJSON("geo_layers/MetroAllLines.geojson",function(data){
                   L.geoJson(data, {
                       style: metrolinestyle
                   }).addTo(mapmetro);
             });
-            $.getJSON("ligne15_ligne.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
                   }).addTo(mapmetro);
             });
-            $.getJSON("ligne15_stops.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
@@ -123,17 +123,17 @@ The following map shows Line 15 in comparison to the existing RER lines.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("RERAllLines.geojson",function(data){
+            $.getJSON("geo_layers/RERAllLines.geojson",function(data){
                   L.geoJson(data, {
                       style: rerlinestyle
                   }).addTo(maprer);
             });
-            $.getJSON("ligne15_ligne.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
                   }).addTo(maprer);
             });
-            $.getJSON("ligne15_stops.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
@@ -200,17 +200,17 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("TransilienAllLines.geojson",function(data){
+            $.getJSON("geo_layers/TransilienAllLines.geojson",function(data){
                   L.geoJson(data, {
                       style: transilienlinestyle
                   }).addTo(maptransilien);
             });
-            $.getJSON("ligne15_ligne.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
                   }).addTo(maptransilien);
             });
-            $.getJSON("ligne15_stops.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
@@ -277,17 +277,17 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
-            $.getJSON("petiteceintureline.geojson",function(data){
+            $.getJSON("geo_layers/petiteceintureline.geojson",function(data){
                   L.geoJson(data, {
                       style: ceinturelinestyle
                   }).addTo(mapceinture);
             });
-            $.getJSON("ligne15_ligne.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
                   }).addTo(mapceinture);
             });
-            $.getJSON("ligne15_stops.geojson",function(data){
+            $.getJSON("geo_layers/ligne15_stops.geojson",function(data){
                   L.geoJson(data, {
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
