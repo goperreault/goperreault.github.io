@@ -8,11 +8,11 @@ A project that shows the coverage of the Mirabel Airport.
 
 <div id="mapidmirabel" style="width: 700px; height: 500px">
       <script>
-            var mapmirabel = L.map('mapidmirabel').setView([45.657400, -74.075657], 11);
+            var mapmirabel = L.map('mapidmirabel').setView([45.657400, -74.075657], 12);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
-                  id: 'mapbox.light',
+                  id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapmirabel)
             var geojsonMirabel = {
