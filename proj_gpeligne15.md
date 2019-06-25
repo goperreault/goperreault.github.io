@@ -272,19 +272,26 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                   fillOpacity: 0.9
                 };
             }
-            function forEachFeature(feature, layer) {
+            function nomForEachFeature(feature, layer) {
                 var popupContent =  "Station:</br>" + feature.properties.nom;
+                //layer.bindPopup(popupContent);
+                layer.bindTooltip(popupContent);
+            }
+            function nameForEachFeature(feature, layer) {
+                var popupContent =  "Station:</br>" + feature.properties.name;
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
             $.getJSON("geo_layers/petiteceintureline.geojson",function(data){
                   L.geoJson(data, {
                       style: ceinturelinestyle
+                      onEachFeature: nomForEachFeature
                   }).addTo(mapceinture);
             });
             $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
+                      onEachFeature: nameForEachFeature
                   }).addTo(mapceinture);
             });
             $.getJSON("geo_layers/ligne15_stops.geojson",function(data){
@@ -292,7 +299,7 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                       pointToLayer: function (feature, latlng){
                           return L.circleMarker(latlng, geojsonMetroStops);
                       },
-                      onEachFeature: forEachFeature
+                      onEachFeature: nomForEachFeature
                   }).addTo(mapceinture);
             });
             var legend = L.control({position: 'bottomleft'});
