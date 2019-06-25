@@ -273,7 +273,7 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                 };
             }
             function forEachFeature(feature, layer) {
-                var popupContent =  "Line:</br>" + feature.properties.nom;
+                var popupContent =  feature.properties.nom;
                 //layer.bindPopup(popupContent);
                 layer.bindTooltip(popupContent);
             }
