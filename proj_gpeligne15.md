@@ -285,13 +285,13 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
             $.getJSON("geo_layers/petiteceintureline.geojson",function(data){
                   L.geoJson(data, {
                       style: ceinturelinestyle
-                      onEachFeature: nomForEachFeature
+                      
                   }).addTo(mapceinture);
             });
             $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
                   L.geoJson(data, {
                       style: linestyle
-                      onEachFeature: nameForEachFeature
+
                   }).addTo(mapceinture);
             });
             $.getJSON("geo_layers/ligne15_stops.geojson",function(data){
