@@ -44,7 +44,7 @@ A project that shows the coverage of the Mirabel Airport.
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Mirabel Aiport Land</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Aiport Land</span><br>';
                   return div
             }
             legend.addTo(mapmirabel);
