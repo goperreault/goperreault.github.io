@@ -14,5 +14,5 @@ Showcasing geography related projects.
 ## Mirabel Aiport Land coverage
 [View project](./proj_aeroportmirabel.html)
 
-# About me
+## About me
 [View about](./about.html)
