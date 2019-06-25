@@ -6,6 +6,8 @@ layout: default
 # Mirabel Airport Land Coverage
 A project that shows the coverage of the Mirabel Airport.
 
+## Land
+Map that shows the required land that was expropriated for the construction of the airport.
 <div id="mapidmirabel" style="width: 700px; height: 500px">
       <script>
             var mapmirabel = L.map('mapidmirabel').setView([45.657400, -74.075657], 10);
@@ -50,3 +52,6 @@ A project that shows the coverage of the Mirabel Airport.
             legend.addTo(mapmirabel);
      </script>
 </div>
+
+## Current Landuse
+Map that shows how the land is used based on 2016 data. 
