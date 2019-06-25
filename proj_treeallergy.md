@@ -118,4 +118,4 @@ The follow map is an interactive map that shows all four tree species in Mississ
              legend.addTo(mymap);
      </script>
 </div>
-[Homepage](./index.html)
+[//]: <> [Homepage](./index.html)
