@@ -54,4 +54,4 @@ Map that shows the required land that was expropriated for the construction of t
 </div>
 
 ## Current Landuse
-Map that shows how the land is used based on 2016 data. 
+Map that shows how the land is used based on 2016 data. According to the [city's website](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), Mirabel is home to 55 020 residents, where 87% of the land being for agricultural uses. 
