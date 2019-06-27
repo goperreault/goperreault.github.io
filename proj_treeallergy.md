@@ -149,7 +149,7 @@ The follow map shows all ash tree species that are located within 100 meters of 
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/Tree_3857_ash.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_ash_park.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerAsh);
@@ -205,7 +205,7 @@ The follow map shows all birch tree species that are located within 100 meters o
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/Tree_3857_birch.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_birch_park.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerBirch);
@@ -261,7 +261,7 @@ The follow map shows all oak tree species that are located within 100 meters of 
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/Tree_3857_oak.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_oak_park.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerOak);
@@ -317,7 +317,7 @@ The follow map shows all willow tree species that are located within 100 meters 
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/Tree_3857_willow.geojson",function(data){
+            $.getJSON("geo_layers/Tree_3857_willow_park.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, geojsonMarkerWillow);
