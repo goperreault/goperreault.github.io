@@ -235,7 +235,7 @@ The follow map shows all birch tree species that are located within 100 meters o
 The follow map shows all oak tree species that are located within 100 meters of a city park.
 <div id="mapidoak" style="width: 700px; height: 600px">
       <script>
-            var mymapoak = L.map('mapid').setView([43.599, -79.648], 11);
+            var mymapoak = L.map('mapidoak').setView([43.599, -79.648], 11);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'City-owned Tree Inventory - MississaugaData, 03/04/2019 <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
