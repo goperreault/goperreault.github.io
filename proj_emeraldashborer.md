@@ -10,8 +10,8 @@ Map showing the highest areas of ash tree removals. Two areas, located near the 
 ![EAB Density Map](./EABRemovalDensity_1.jpg)
 
 ## Highest Density Site: Creditview Woods Park
-Map showing the site with the highest density of removed trees. In total, 874 ash trees were removed due to poor health of the trees. As seen on the map, most of the trees were located within the forested area. 
+Map showing the site with the highest density of removed trees. In total, 874 ash trees were removed due to poor health of the trees. As seen on the map, most of the trees were located within the forested area.
 ![EAB Site Removal](./MissSite1_1.jpg)
 
 ## Current Tree Status
-During the summer of 2019 I will be visiting Creditview Woods Park to observe the current status of the trees. I had visited the site in 2017 where I noticed pockets of removals in the forested areas.
+During the summer of 2019 I will be visiting Creditview Woods Park to observe the current status of the trees. I had visited the site in 2017 where I noticed the effects of the removal in the forested areas.
