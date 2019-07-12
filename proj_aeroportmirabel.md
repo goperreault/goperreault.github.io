@@ -86,7 +86,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                   }).addTo(mapmirabelclass);
             });
             var legend = L.control({position: 'bottomleft'});
-            legend.onAdd = function (mapmirabel) {
+            legend.onAdd = function (mapmirabelclass) {
                   var div = L.DomUtil.create('div', 'info legend');/*,
                   labels = ['<strong>Metro</strong>'],
                   categories = ['Line 5'];
