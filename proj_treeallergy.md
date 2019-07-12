@@ -3,7 +3,7 @@ title: Tree Allergy
 layout: default
 ---
 # Trees and pollen allergies in Mississauga
-A project to help with my seasonal pollen allergies. It maps the four tree species from which I get the worse allergic reaction during springtime. It uses to city of Mississauga's Open data tree inventory catalog to extract all of the ash, birch, oak and willow species. The goal of the project is to identify where each species is located within the city and compare to start/end of allergy seasons.
+A project to help with my seasonal pollen allergies. It maps the four tree species from which I get the worse allergic reaction during springtime. It uses the City of Mississauga's Open data tree inventory catalog to extract all of the ash, birch, oak and willow species. The goal of the project is to identify where each species is located within the city and close to park areas.
 
 ## Pollen season
 According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca/toronto-ontario/), all four tree pollens start in April and lasts until late May to early June, the exception being willow that ends earlier in May. Additional research shows that rising temperatures affect pollen season, as shown in [Lewis H Ziska et al's study of the northern hemisphere](https://www.sciencedirect.com/science/article/pii/S2542519619300154?via%3Dihub&for-guid=a3a12ea2-bd65-e711-b65f-90b11c343abd&utm_source=usatoday-Climate%20Point&utm_medium=email&utm_campaign=narrative&utm_term=article_body#!).
@@ -16,7 +16,7 @@ According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca
 [//]: <> ![Willow trees map](./Willow_trees.jpeg)
 
 ## All Trees
-The follow map shows all four tree species in Mississauga.
+The following map shows all four tree species in Mississauga.
 <div id="mapid" style="width: 700px; height: 600px">
       <script>
             var mymap = L.map('mapid').setView([43.599, -79.648], 11);
@@ -120,7 +120,7 @@ The follow map shows all four tree species in Mississauga.
 </div>
 
 ## Ash map
-The follow map shows all ash tree species that are located within 100 meters of a city park.
+The following map shows all ash tree species that are located within 100 meters of a city park.
 <div id="mapidash" style="width: 700px; height: 600px">
       <script>
             var mymapash = L.map('mapidash').setView([43.599, -79.648], 11);
@@ -176,7 +176,7 @@ The follow map shows all ash tree species that are located within 100 meters of 
 </div>
 
 ## Birch map
-The follow map shows all birch tree species that are located within 100 meters of a city park.
+The following map shows all birch tree species that are located within 100 meters of a city park.
 <div id="mapidbirch" style="width: 700px; height: 600px">
       <script>
             var mymapbirch = L.map('mapidbirch').setView([43.599, -79.648], 11);
@@ -232,7 +232,7 @@ The follow map shows all birch tree species that are located within 100 meters o
 </div>
 
 ## Oak map
-The follow map shows all oak tree species that are located within 100 meters of a city park.
+The following map shows all oak tree species that are located within 100 meters of a city park.
 <div id="mapidoak" style="width: 700px; height: 600px">
       <script>
             var mymapoak = L.map('mapidoak').setView([43.599, -79.648], 11);
@@ -288,7 +288,7 @@ The follow map shows all oak tree species that are located within 100 meters of 
 </div>
 
 ## Willow map
-The follow map shows all willow tree species that are located within 100 meters of a city park.
+The following map shows all willow tree species that are located within 100 meters of a city park.
 <div id="mapidwillow" style="width: 700px; height: 600px">
       <script>
             var mymapwillow = L.map('mapidwillow').setView([43.599, -79.648], 11);
