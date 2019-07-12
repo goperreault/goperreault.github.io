@@ -63,7 +63,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                   maxZoom: 18,
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
-            }).addTo(mapmirabel)
+            }).addTo(mapmirabelclass)
             var geojsonMirabel = {
                   fillColor: "#a90f32",
                   color: "#a90f32",
