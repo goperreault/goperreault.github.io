@@ -87,6 +87,48 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
+                  case 'Bureau': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Bureau': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Bureau': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Bureau': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Bureau': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Bureau': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
                 }
             }
             function forEachFeature(feature, layer) {
@@ -97,7 +139,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             $.getJSON("geo_layers/classification_74005-US-2016.geojson",function(data){
                   L.geoJson(data, {
                       style: mirastyle
-                      
+
                   }).addTo(mapmirabelclass);
             });
             var legend = L.control({position: 'bottomleft'});
