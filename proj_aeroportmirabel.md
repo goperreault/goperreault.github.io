@@ -80,9 +80,15 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                   fillOpacity: 0.5
                 };
             }
+            function forEachFeature(feature, layer) {
+                var popupContent =  feature.properties.class;
+                layer.bindPopup(popupContent);
+                //layer.bindTooltip(popupContent);
+            }
             $.getJSON("geo_layers/classification_74005-US-2016.geojson",function(data){
                   L.geoJson(data, {
                       style: polystyle
+                      onEachFeature: forEachFeature
                   }).addTo(mapmirabelclass);
             });
             var legend = L.control({position: 'bottomleft'});
