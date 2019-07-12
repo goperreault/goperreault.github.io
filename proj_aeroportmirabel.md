@@ -87,42 +87,119 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
-                  case 'Bureau': return {
+                  case 'Commerciale': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
-                  case 'Bureau': return {
+                  case 'Golf': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
-                  case 'Bureau': return {
+                  case 'Hydrographie': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
-                  case 'Bureau': return {
+                  case 'Industrie': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
-                  case 'Bureau': return {
+                  case 'Institution économique': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
                     color: "#a90f32",
                     fillOpacity: 0.5
                   }
-                  case 'Bureau': return {
+                  case 'Institution non-économique': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Parc ou espace vert': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence 1 logement': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence ou condo 2-4 logements': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence ou condo 25+ logements': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence ou condo 5-24 logements': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Rue ou ruelle': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Stationnement': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Terrain vacant': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Utilité publique': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Zone aéroportuaire': return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                  case 'Zone ferroviaire': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
