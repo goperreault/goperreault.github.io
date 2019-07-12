@@ -137,10 +137,10 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Residence 1 logement': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#fee601",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#fee601",
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 2-4 logements': return {
