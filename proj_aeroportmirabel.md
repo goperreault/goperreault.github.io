@@ -97,7 +97,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             $.getJSON("geo_layers/classification_74005-US-2016.geojson",function(data){
                   L.geoJson(data, {
                       style: mirastyle
-                      onEachFeature: forEachFeature
+                      
                   }).addTo(mapmirabelclass);
             });
             var legend = L.control({position: 'bottomleft'});
