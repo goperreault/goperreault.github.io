@@ -73,14 +73,14 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             };
             function mirastyle(feature) {
                 switch (feature.properties.class){
-                  case 'Agricole' return {
+                  case 'Agricole': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
                     color: "#a90f32",
                     fillOpacity: 0.5
                   };
-                  case 'Bureau' return {
+                  case 'Bureau': return {
                     fillColor: "#a90f32",
                     weight: 2,
                     opacity: 0.5,
