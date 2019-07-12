@@ -71,14 +71,23 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                   opacity: 1,
                   fillOpacity: 0.8
             };
-            function polystyle(feature) {
-                return {
-                  fillColor: "#a90f32",
-                  weight: 2,
-                  opacity: 0.5,
-                  color: "#a90f32",
-                  fillOpacity: 0.5
-                };
+            function mirastyle(feature) {
+                switch (feature.properties.class){
+                  case 'Agricole' return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  };
+                  case 'Bureau' return {
+                    fillColor: "#a90f32",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a90f32",
+                    fillOpacity: 0.5
+                  }
+                }
             }
             function forEachFeature(feature, layer) {
                 var popupContent =  feature.properties.class;
@@ -87,7 +96,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             }
             $.getJSON("geo_layers/classification_74005-US-2016.geojson",function(data){
                   L.geoJson(data, {
-                      style: polystyle
+                      style: mirastyle
                       onEachFeature: forEachFeature
                   }).addTo(mapmirabelclass);
             });
