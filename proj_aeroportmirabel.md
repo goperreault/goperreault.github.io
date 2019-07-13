@@ -57,7 +57,7 @@ Map that shows the required land that was expropriated for the construction of t
 Map that shows how the land is used based on 2016 data. According to the [city's website](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), Mirabel is home to 55 020 residents, where 87% of the land being for agricultural uses.
 <div id="mapidmirabelclass" style="width: 700px; height: 500px">
       <script>
-            var mapmirabelclass = L.map('mapidmirabelclass').setView([45.657400, -74.075657], 10);
+            var mapmirabelclass = L.map('mapidmirabelclass').setView([45.657400, -74.085657], 10);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: '<a href="http://cmm.qc.ca/donnees-et-territoire/observatoire-grand-montreal/produits-cartographiques/donnees-georeferencees/">Utilisation du sol, 2016, Communauté Métropolitaine de Montréal</a><br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
@@ -81,10 +81,10 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   };
                   case 'Bureau': return {
-                    fillColor: "#18b8a8",
+                    fillColor: "#780000",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#18b8a8",
+                    color: "#780000",
                     fillOpacity: 0.5
                   }
                   case 'Commerciale': return {
@@ -223,7 +223,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             legend.onAdd = function (mapmirabelclass) {
                   var div = L.DomUtil.create('div', 'info legend');
                   div.innerHTML += '<i class="polygon" style="background: #a8f8a8"></i><span>Agricole</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #18b8a8"></i><span>Bureau</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #780000"></i><span>Bureau</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #fe0001"></i><span>Commerciale</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #08f808"></i><span>Golf</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #c0feff"></i><span>Hydrographie</span><br>';
