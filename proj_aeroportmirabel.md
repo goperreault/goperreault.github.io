@@ -165,17 +165,17 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Rue ou ruelle': return {
-                    fillColor: "#ccccdd",
+                    fillColor: "#0c0c0d",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#ccccdd",
+                    color: "#0c0c0d",
                     fillOpacity: 0.5
                   }
                   case 'Stationnement': return {
-                    fillColor: "#b0b0bf",
+                    fillColor: "#363636",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#b0b0bf",
+                    color: "#363636",
                     fillOpacity: 0.5
                   }
                   case 'Terrain vacant': return {
@@ -193,17 +193,17 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Zone aéroportuaire': return {
-                    fillColor: "#a9a9b8",
+                    fillColor: "#d67ad0",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a9a9b8",
+                    color: "#d67ad0",
                     fillOpacity: 0.5
                   }
                   case 'Zone ferroviaire': return {
-                    fillColor: "#9999a6",
+                    fillColor: "#705039",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#9999a6",
+                    color: "#705039",
                     fillOpacity: 0.5
                   }
                 }
@@ -235,12 +235,12 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                   div.innerHTML += '<i class="polygon" style="background: #fecc01"></i><span>Residence ou condo 2-4 logements</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #feb401"></i><span>Residence ou condo 5-24 logements</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #fe9a01"></i><span>Residence ou condo 25+ logements</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #ccccdd"></i><span>Rue ou ruelle</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #b0b0bf"></i><span>Stationnement</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #0c0c0d"></i><span>Rue ou ruelle</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #363636"></i><span>Stationnement</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #877878"></i><span>Terrain vacant</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #9494a1"></i><span>Utilité publique</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a9a9b8"></i><span>Zone aéroportuaire</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #9999a6"></i><span>Zone ferroviaire</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #d67ad0"></i><span>Zone aéroportuaire</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #705039"></i><span>Zone ferroviaire</span><br>';
                   return div
             }
             legend.addTo(mapmirabelclass);
