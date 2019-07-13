@@ -57,7 +57,7 @@ Map that shows the required land that was expropriated for the construction of t
 Map that shows how the land is used based on 2016 data. According to the [city's website](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), Mirabel is home to 55 020 residents, where 87% of the land being for agricultural uses.
 <div id="mapidmirabelclass" style="width: 700px; height: 500px">
       <script>
-            var mapmirabelclass = L.map('mapidmirabelclass').setView([45.657400, -74.115657], 10);
+            var mapmirabelclass = L.map('mapidmirabelclass').setView([45.657400, -74.185657], 10);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: '<a href="http://cmm.qc.ca/donnees-et-territoire/observatoire-grand-montreal/produits-cartographiques/donnees-georeferencees/">Utilisation du sol, 2016, Communauté Métropolitaine de Montréal</a><br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
