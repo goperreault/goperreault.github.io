@@ -221,12 +221,25 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapmirabelclass) {
-                  var div = L.DomUtil.create('div', 'info legend');/*,
-                  labels = ['<strong>Metro</strong>'],
-                  categories = ['Line 5'];
-                  labels.push(categories);
-                  div.innerHTML = labels.join('<br>'); */
-                  /*div.innerHTML += "<h4>Metro</h4>";*/
+                  var div = L.DomUtil.create('div', 'info legend');
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Agricole</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
                   return div
             }
