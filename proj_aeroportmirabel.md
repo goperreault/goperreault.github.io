@@ -74,66 +74,66 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             function mirastyle(feature) {
                 switch (feature.properties.class){
                   case 'Agricole': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#a8f8a8",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#a8f8a8",
                     fillOpacity: 0.5
                   };
                   case 'Bureau': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#18b8a8",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#18b8a8",
                     fillOpacity: 0.5
                   }
                   case 'Commerciale': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#fe0001",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#fe0001",
                     fillOpacity: 0.5
                   }
                   case 'Golf': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#08f808",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#08f808",
                     fillOpacity: 0.5
                   }
                   case 'Hydrographie': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#c0feff",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#c0feff",
                     fillOpacity: 0.5
                   }
                   case 'Industrie': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#880888",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#880888",
                     fillOpacity: 0.5
                   }
                   case 'Institution économique': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#78a2ff",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#78a2ff",
                     fillOpacity: 0.5
                   }
                   case 'Institution non-économique': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#96c2ff",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#96c2ff",
                     fillOpacity: 0.5
                   }
                   case 'Parc ou espace vert': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#00a001",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#00a001",
                     fillOpacity: 0.5
                   }
                   case 'Residence 1 logement': return {
@@ -144,17 +144,17 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 2-4 logements': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#feb401",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#feb401",
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 25+ logements': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#fe9a01",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#fe9a01",
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 5-24 logements': return {
@@ -179,31 +179,31 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Terrain vacant': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#877878",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#877878",
                     fillOpacity: 0.5
                   }
                   case 'Utilité publique': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#9494a1",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#9494a1",
                     fillOpacity: 0.5
                   }
                   case 'Zone aéroportuaire': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#a9a9b8",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#a9a9b8",
                     fillOpacity: 0.5
                   }
                   case 'Zone ferroviaire': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#9999a6",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#9999a6",
                     fillOpacity: 0.5
                   }
                 }
