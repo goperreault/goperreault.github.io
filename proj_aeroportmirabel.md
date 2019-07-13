@@ -144,10 +144,10 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 2-4 logements': return {
-                    fillColor: "#feb401",
+                    fillColor: "#fecc01",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#feb401",
+                    color: "#fecc01",
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 25+ logements': return {
@@ -158,24 +158,24 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                     fillOpacity: 0.5
                   }
                   case 'Residence ou condo 5-24 logements': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#feb401",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#feb401",
                     fillOpacity: 0.5
                   }
                   case 'Rue ou ruelle': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#ccccdd",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#ccccdd",
                     fillOpacity: 0.5
                   }
                   case 'Stationnement': return {
-                    fillColor: "#a90f32",
+                    fillColor: "#b0b0bf",
                     weight: 2,
                     opacity: 0.5,
-                    color: "#a90f32",
+                    color: "#b0b0bf",
                     fillOpacity: 0.5
                   }
                   case 'Terrain vacant': return {
@@ -222,25 +222,25 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapmirabelclass) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Agricole</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Mirabel Landuse</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a8f8a8"></i><span>Agricole</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #18b8a8"></i><span>Bureau</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #fe0001"></i><span>Commerciale</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #08f808"></i><span>Golf</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #c0feff"></i><span>Hydrographie</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #880888"></i><span>Industrie</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #78a2ff"></i><span>Institution économique</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #96c2ff"></i><span>Institution non-économique</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #00a001"></i><span>Parc ou espace vert</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #fee601"></i><span>Résidence 1 logement</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #fecc01"></i><span>Residence ou condo 2-4 logements</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #feb401"></i><span>Residence ou condo 5-24 logements</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #fe9a01"></i><span>Residence ou condo 25+ logements</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #ccccdd"></i><span>Rue ou ruelle</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #b0b0bf"></i><span>Stationnement</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #877878"></i><span>Terrain vacant</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #9494a1"></i><span>Utilité publique</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #a9a9b8"></i><span>Zone aéroportuaire</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #9999a6"></i><span>Zone ferroviaire</span><br>';
                   return div
             }
             legend.addTo(mapmirabelclass);
