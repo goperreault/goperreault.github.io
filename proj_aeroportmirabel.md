@@ -246,3 +246,67 @@ Map that shows how the land is used based on 2016 data. According to the [city's
             legend.addTo(mapmirabelclass);
      </script>
 </div>
+
+## Urban vs Non-urban
+Map that shows how the non-urban land use dominates the area.
+<div id="mapidmirabelurban" style="width: 700px; height: 500px">
+      <script>
+            var mapmirabelurban = L.map('mapidmirabelclass').setView([45.657400, -74.185657], 10);
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                  attribution: '<a href="http://cmm.qc.ca/donnees-et-territoire/observatoire-grand-montreal/produits-cartographiques/donnees-georeferencees/">Utilisation du sol, 2016, Communauté Métropolitaine de Montréal</a><br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  maxZoom: 18,
+                  id: 'mapbox.streets',
+                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            }).addTo(mapmirabelurban)
+            var geojsonMirabel = {
+                  fillColor: "#a90f32",
+                  color: "#a90f32",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+            };
+            function miraurbanstyle(feature) {
+                return {
+                    fillColor: "#b7484b",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#b7484b",
+                    fillOpacity: 0.5
+                  };
+            }
+            function miranonurbanstyle(feature) {
+                return {
+                    fillColor: "#ffb947",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#ffb947",
+                    fillOpacity: 0.5
+                  };
+            }
+            function forEachFeature(feature, layer) {
+                var popupContent =  feature.properties.class;
+                layer.bindPopup(popupContent);
+                //layer.bindTooltip(popupContent);
+            }
+            $.getJSON("geo_layers/classification_74005-US-2016_urban.geojson",function(data){
+                  L.geoJson(data, {
+                      style: miraurbanstyle
+
+                  }).addTo(mapmirabelurban);
+            });
+            $.getJSON("geo_layers/classification_74005-US-2016_nonurban.geojson",function(data){
+                  L.geoJson(data, {
+                      style: miranonurbanstyle
+
+                  }).addTo(mapmirabelurban);
+            });
+            var legend = L.control({position: 'bottomleft'});
+            legend.onAdd = function (mapmirabelurban) {
+                  var div = L.DomUtil.create('div', 'info legend');
+                  div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Urban</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>Non-urban</span><br>';
+                  return div
+            }
+            legend.addTo(mapmirabelurban);
+     </script>
+</div>
