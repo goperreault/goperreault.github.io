@@ -258,13 +258,6 @@ Map that shows how the non-urban land use dominates the area.
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapmirabelurban)
-            var geojsonMirabel = {
-                  fillColor: "#a90f32",
-                  color: "#a90f32",
-                  weight: 1,
-                  opacity: 1,
-                  fillOpacity: 0.8
-            };
             function miraurbanstyle(feature) {
                 return {
                     fillColor: "#b7484b",
@@ -291,13 +284,11 @@ Map that shows how the non-urban land use dominates the area.
             $.getJSON("geo_layers/classification_74005-US-2016_urban.geojson",function(data){
                   L.geoJson(data, {
                       style: miraurbanstyle
-
                   }).addTo(mapmirabelurban);
             });
             $.getJSON("geo_layers/classification_74005-US-2016_nonurban.geojson",function(data){
                   L.geoJson(data, {
                       style: miranonurbanstyle
-
                   }).addTo(mapmirabelurban);
             });
             var legend = L.control({position: 'bottomleft'});
