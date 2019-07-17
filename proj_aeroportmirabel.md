@@ -281,7 +281,7 @@ Map that shows how the non-urban land use dominates the area.
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/classification_74005-US-2016.geojson",function(data){
+            $.getJSON("geo_layers/classification_74005-US-2016_urban.geojson",function(data){
                   L.geoJson(data, {
                       style: miraurbanstyle
                   }).addTo(mapmirabelurban);
