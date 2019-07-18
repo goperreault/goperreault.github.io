@@ -322,10 +322,10 @@ The following map shows the current trees located in Creditview Woods Park based
             legend.onAdd = function (map) {
                   var div = L.DomUtil.create('div', 'info legend'),
                   labels = ['<strong>Trees</strong>'],
-                  categories = ['Trees'];
+                  categories = ['WHITE SPRUCE'];
                   for (var i = 0; i < categories.length; i++) {
                     div.innerHTML += labels.push(
-                      '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
+                      '<i class="circle" style="background:' + getTreeColor(categories[i]) + '"></i> ' +
                       (categories[i] ? categories[i] + '<br>' : '+')
                     );
                   }
