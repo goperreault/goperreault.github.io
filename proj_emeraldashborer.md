@@ -19,7 +19,7 @@ During the summer of 2019 I will be visiting Creditview Woods Park to observe th
 The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory.
 <div id="mapidtreecwp" style="width: 700px; height: 600px">
       <script>
-            var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.661720], 15);
+            var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.661720], 16);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'City-owned Tree Inventory - MississaugaData, 03/04/2019 <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 18,
