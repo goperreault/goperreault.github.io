@@ -261,7 +261,7 @@ The following map shows the current trees located in Creditview Woods Park based
                   }
                 }
             }
-            function getTreeColor(d) {
+            function getTreeColor(feature) {
               switch(feature.properties.BOTDESC){
                 case 'WHITE SPRUCE': return "#705039";
                 case 'ACCOLATE ELM': return  "#a8f8a8";
