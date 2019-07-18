@@ -324,7 +324,7 @@ The following map shows the current trees located in Creditview Woods Park based
                   categories = ['ACCOLATE ELM','AMERICAN ELM','ASH SPP.','AUSTRIAN PINE','BASSWOOD LINDEN','BUR OAK','COLORADO BLUE SPRUCE','COLORADO SPRUCE','COLUMNAR NORWAY MAPLE','COMMON ZELKOVA','DEADOO','EASTERN WHITE CEDAR','FALSE CYPRUS','GLENLEVEN LINDEN','HONEY LOCUST','IRON WOOD','IVORY SILK JAPANESE LILAC','LITTLELEAF LINDEN','NORWAY MAPLE','RED MAPLE','RED OAK','SCOTCH PINE','SHAGBARK HICKORY','SILVER MAPLE','STUMP','SUGAR MAPLE','TREMBLING POPLAR','WHITE OAK','WHITE PINE','WHITE SPRUCE'];
                   for (var i = 0; i < categories.length; i++) {
                     div.innerHTML += labels.push(
-                      '<i class="circle" style="background:' + getTreeColor(categories[i]) + ',font: 12px Arial"></i> ' +
+                      '<i class="circle" style="background:' + getTreeColor(categories[i]) + '"></i> ' +
                       (categories[i] ? categories[i] + '<br>' : '+')
                     );
                   }
