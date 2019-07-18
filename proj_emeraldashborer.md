@@ -37,6 +37,7 @@ The following map shows the current trees located in Creditview Woods Park based
             function treecwstyle(feature) {
                 switch (feature.properties.BOTDESC){
                   case 'ACCOLATE ELM': return {
+                    radius: 3,
                     fillColor: "#a8f8a8",
                     weight: 2,
                     opacity: 0.5,
@@ -44,6 +45,7 @@ The following map shows the current trees located in Creditview Woods Park based
                     fillOpacity: 0.5
                   };
                   case 'Bureau': return {
+                    radius: 3,
                     fillColor: "#780000",
                     weight: 2,
                     opacity: 0.5,
