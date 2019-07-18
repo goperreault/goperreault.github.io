@@ -213,7 +213,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
-            $.getJSON("geo_layers/classification_74005-US-2016_webproj.geojson",function(data){
+            $.getJSON("geo_layers/classification_74005-US-2016.geojson",function(data){
                   L.geoJson(data, {
                       style: mirastyle
 
