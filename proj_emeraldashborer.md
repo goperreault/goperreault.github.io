@@ -263,7 +263,6 @@ The following map shows the current trees located in Creditview Woods Park based
             }
             function getTreeColor(d) {
               switch(d){
-                case 'WHITE SPRUCE': return "#705039";
                 case 'ACCOLATE ELM': return  "#a8f8a8";
                 case 'AMERICAN ELM': return "#780000";
                 case 'ASH SPP.': return "#fe0001";
@@ -323,13 +322,13 @@ The following map shows the current trees located in Creditview Woods Park based
                   var div = L.DomUtil.create('div', 'info legend'),
                   labels = ['<strong>Trees</strong>'],
                   categories = ['WHITE SPRUCE'];
-                  /**for (var i = 0; i < categories.length; i++) {
+                  for (var i = 0; i < categories.length; i++) {
                     div.innerHTML += labels.push(
                       '<i class="circle" style="background:' + getTreeColor(categories[i]) + '"></i> ' +
                       (categories[i] ? categories[i] + '<br>' : '+')
                     );
                   }
-                  */
+
                   div.innerHTML = labels.join('<br>');
                   return div;
              };
