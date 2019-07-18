@@ -43,7 +43,7 @@ The following map shows the current trees located in Creditview Woods Park based
                     opacity: 0.5,
                     color: "#a8f8a8",
                     fillOpacity: 0.5
-                  };
+                  }
                   case 'AMERICAN ELM': return {
                     radius: 3,
                     fillColor: "#780000",
@@ -263,10 +263,38 @@ The following map shows the current trees located in Creditview Woods Park based
             }
             function getTreeColor(d) {
               switch(d){
-                case 'WHITE SPRUCE':
-                  return "#705039";
-                default:
-                  return '#ffffff'
+                case 'WHITE SPRUCE': return "#705039";
+                case 'ACCOLATE ELM': return  "#a8f8a8";
+                case 'AMERICAN ELM': return "#780000";
+                case 'ASH SPP.': return "#fe0001";
+                case 'AUSTRIAN PINE': return "#08f808";
+                case 'BASSWOOD LINDEN': return "#c0feff";
+                case 'BUR OAK': return "#880888";
+                case 'COLORADO BLUE SPRUCE': return "#78a2ff";
+                case 'COLORADO SPRUCE': return "#96c2ff";
+                case 'COLUMNAR NORWAY MAPLE': return "#00a001";
+                case 'COMMON ZELKOVA': return "#fee601";
+                case 'DEADOO': return "#fecc01";
+                case 'EASTERN WHITE CEDAR': return "#fe9a01";
+                case 'FALSE CYPRUS': return "#feb401";
+                case 'GLENLEVEN LINDEN': return "#0c0c0d";
+                case 'HONEY LOCUST': return "#363636";
+                case 'IRON WOOD': return "#877878";
+                case 'IVORY SILK JAPANESE LILAC': return "#9494a1";
+                case 'LITTLELEAF LINDEN': return "#d67ad0";
+                case 'NORWAY MAPLE': return "#705039";
+                case 'RED MAPLE': return "#705039";
+                case 'RED OAK': return "#705039";
+                case 'SCOTCH PINE': return "#705039";
+                case 'SHAGBARK HICKORY': return "#705039";
+                case 'SILVER MAPLE': return "#705039";
+                case 'STUMP': return "#705039";
+                case 'SUGAR MAPLE': return "#705039";
+                case 'TREMBLING POPLAR': return "#705039";
+                case 'WHITE OAK': return "#705039";
+                case 'WHITE PINE': return "#705039";
+                case 'WHITE SPRUCE': return "#705039";
+                default: return '#ffffff'
               }
 
             }
@@ -279,6 +307,7 @@ The following map shows the current trees located in Creditview Woods Park based
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, {fillColor: getTreeColor(feature.properties.BOTDESC),
+                                                      radius: 3
                                                       weight: 2,
                                                       opacity: 0.5,
                                                       color: "#000000",
