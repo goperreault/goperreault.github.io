@@ -34,6 +34,143 @@ The following map shows the current trees located in Creditview Woods Park based
                   opacity: 1,
                   fillOpacity: 0.8
             };
+            function treecwstyle(feature) {
+                switch (feature.properties.BOTDESC){
+                  case 'ACCOLATE ELM': return {
+                    fillColor: "#a8f8a8",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#a8f8a8",
+                    fillOpacity: 0.5
+                  };
+                  case 'Bureau': return {
+                    fillColor: "#780000",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#780000",
+                    fillOpacity: 0.5
+                  }
+                  case 'Commerciale': return {
+                    fillColor: "#fe0001",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#fe0001",
+                    fillOpacity: 0.5
+                  }
+                  case 'Golf': return {
+                    fillColor: "#08f808",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#08f808",
+                    fillOpacity: 0.5
+                  }
+                  case 'Hydrographie': return {
+                    fillColor: "#c0feff",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#c0feff",
+                    fillOpacity: 0.5
+                  }
+                  case 'Industrie': return {
+                    fillColor: "#880888",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#880888",
+                    fillOpacity: 0.5
+                  }
+                  case 'Institution économique': return {
+                    fillColor: "#78a2ff",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#78a2ff",
+                    fillOpacity: 0.5
+                  }
+                  case 'Institution non-économique': return {
+                    fillColor: "#96c2ff",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#96c2ff",
+                    fillOpacity: 0.5
+                  }
+                  case 'Parc ou espace vert': return {
+                    fillColor: "#00a001",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#00a001",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence 1 logement': return {
+                    fillColor: "#fee601",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#fee601",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence ou condo 2-4 logements': return {
+                    fillColor: "#fecc01",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#fecc01",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence ou condo 25+ logements': return {
+                    fillColor: "#fe9a01",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#fe9a01",
+                    fillOpacity: 0.5
+                  }
+                  case 'Residence ou condo 5-24 logements': return {
+                    fillColor: "#feb401",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#feb401",
+                    fillOpacity: 0.5
+                  }
+                  case 'Rue ou ruelle': return {
+                    fillColor: "#0c0c0d",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#0c0c0d",
+                    fillOpacity: 0.5
+                  }
+                  case 'Stationnement': return {
+                    fillColor: "#363636",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#363636",
+                    fillOpacity: 0.5
+                  }
+                  case 'Terrain vacant': return {
+                    fillColor: "#877878",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#877878",
+                    fillOpacity: 0.5
+                  }
+                  case 'Utilité publique': return {
+                    fillColor: "#9494a1",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#9494a1",
+                    fillOpacity: 0.5
+                  }
+                  case 'Zone aéroportuaire': return {
+                    fillColor: "#d67ad0",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#d67ad0",
+                    fillOpacity: 0.5
+                  }
+                  case 'Zone ferroviaire': return {
+                    fillColor: "#705039",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "#705039",
+                    fillOpacity: 0.5
+                  }
+                }
+            }
             function getColor(d) {
                   return d === 'Ash'  ? "#259ff0" :
                   d === 'Birch'  ? "#729b6f" :
@@ -48,7 +185,7 @@ The following map shows the current trees located in Creditview Woods Park based
             $.getJSON("geo_layers/Tree_3857_creditviewwoods.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, geojsonMarkerCWP);
+                        return L.circleMarker(latlng, treecwstyle);
                         },
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
