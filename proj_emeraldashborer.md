@@ -256,16 +256,19 @@ The following map shows the current trees located in Creditview Woods Park based
                     fillColor: "#ffffff",
                     weight: 2,
                     opacity: 0.5,
-                    color: "ffffff",
+                    color: "#ffffff",
                     fillOpacity: 0.5
                   }
                 }
             }
-            function getColor(d) {
-                  return d === 'Ash'  ? "#259ff0" :
-                  d === 'Birch'  ? "#729b6f" :
-                  d === 'Oak' ? "#a47158" :
-                 "#f45f42";
+            function getTreeColor(d) {
+              switch(d){
+                case 'WHITE SPRUCE':
+                  return "#705039";
+                default:
+                  return '#ffffff'
+              }
+
             }
             function forEachFeature(feature, layer) {
                 var popupContent =  feature.properties.BOTDESC;
@@ -275,7 +278,12 @@ The following map shows the current trees located in Creditview Woods Park based
             $.getJSON("geo_layers/Tree_3857_creditviewwoods.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, {style: treecwstyle});
+                        return L.circleMarker(latlng, {fillColor: getTreeColor(feature.properties.BOTDESC),
+                                                      weight: 2,
+                                                      opacity: 0.5,
+                                                      color: "#000000",
+                                                      fillOpacity: 0.5}
+                                              );
                         },
 
                         onEachFeature: forEachFeature
