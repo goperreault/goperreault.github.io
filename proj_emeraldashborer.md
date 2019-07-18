@@ -44,7 +44,7 @@ The following map shows the current trees located in Creditview Woods Park based
                     color: "#a8f8a8",
                     fillOpacity: 0.5
                   };
-                  case 'Bureau': return {
+                  case 'AMERICAN ELM': return {
                     radius: 3,
                     fillColor: "#780000",
                     weight: 2,
@@ -52,28 +52,32 @@ The following map shows the current trees located in Creditview Woods Park based
                     color: "#780000",
                     fillOpacity: 0.5
                   }
-                  case 'Commerciale': return {
+                  case 'ASH SPP.': return {
+                    radius: 3,
                     fillColor: "#fe0001",
                     weight: 2,
                     opacity: 0.5,
                     color: "#fe0001",
                     fillOpacity: 0.5
                   }
-                  case 'Golf': return {
+                  case 'AUSTRIAN PINE': return {
+                    radius: 3,
                     fillColor: "#08f808",
                     weight: 2,
                     opacity: 0.5,
                     color: "#08f808",
                     fillOpacity: 0.5
                   }
-                  case 'Hydrographie': return {
+                  case 'BASSWOOD LINDEN': return {
+                    radius: 3,
                     fillColor: "#c0feff",
                     weight: 2,
                     opacity: 0.5,
                     color: "#c0feff",
                     fillOpacity: 0.5
                   }
-                  case 'Industrie': return {
+                  case 'BUR OAK': return {
+                    radius: 3,
                     fillColor: "#880888",
                     weight: 2,
                     opacity: 0.5,
@@ -187,8 +191,9 @@ The following map shows the current trees located in Creditview Woods Park based
             $.getJSON("geo_layers/Tree_3857_creditviewwoods.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, treecwstyle);
+                        return L.circleMarker(latlng, radius: 3);
                         },
+                        style: treecwstyle
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
             });
