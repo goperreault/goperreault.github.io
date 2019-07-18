@@ -15,3 +15,58 @@ Map showing the site with the highest density of removed trees. In total, 874 as
 
 ## Current Tree Status
 During the summer of 2019 I will be visiting Creditview Woods Park to observe the current status of the trees. I had visited the site in 2017 where I noticed the effects of the removal in the forested areas.
+
+The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory.
+<div id="mapidtreecwp" style="width: 700px; height: 600px">
+      <script>
+            var mymaptreecwp = L.map('mapidtreecwp').setView([43.599, -79.648], 11);
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                  attribution: 'City-owned Tree Inventory - MississaugaData, 03/04/2019 <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                  maxZoom: 18,
+                  id: 'mapbox.streets',
+                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            }).addTo(mymaptreecwp);
+            var geojsonMarkerCWP = {
+                  radius: 3,
+                  fillColor: "#259ff0",
+                  color: "#000",
+                  weight: 1,
+                  opacity: 1,
+                  fillOpacity: 0.8
+            };
+            function getColor(d) {
+                  return d === 'Ash'  ? "#259ff0" :
+                  d === 'Birch'  ? "#729b6f" :
+                  d === 'Oak' ? "#a47158" :
+                 "#f45f42";
+            }
+            function forEachFeature(feature, layer) {
+                var popupContent =  feature.properties.BOTDESC;
+                layer.bindPopup(popupContent);
+                //layer.bindTooltip(popupContent);
+            }
+            $.getJSON("geo_layers/Tree_3857_creditviewwoods.geojson",function(data){
+                  L.geoJson(data, {
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, geojsonMarkerCWP);
+                        },
+                        onEachFeature: forEachFeature
+                  }).addTo(mymaptreecwp);
+            });
+            var legend = L.control({position: 'bottomleft'});
+            legend.onAdd = function (map) {
+                  var div = L.DomUtil.create('div', 'info legend'),
+                  labels = ['<strong>Trees</strong>'],
+                  categories = ['Trees'];
+                  for (var i = 0; i < categories.length; i++) {
+                    div.innerHTML += labels.push(
+                      '<i class="circle" style="background:' + getColor(categories[i]) + '"></i> ' +
+                      (categories[i] ? categories[i] + '<br>' : '+')
+                    );
+                  }
+                  div.innerHTML = labels.join('<br>');
+                  return div;
+             };
+             legend.addTo(mymaptrecwp);
+     </script>
+</div>
