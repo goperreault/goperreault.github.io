@@ -252,6 +252,13 @@ The following map shows the current trees located in Creditview Woods Park based
                     color: "#705039",
                     fillOpacity: 0.5
                   }
+                  default: return{
+                    fillColor: "#ffffff",
+                    weight: 2,
+                    opacity: 0.5,
+                    color: "ffffff",
+                    fillOpacity: 0.5
+                  }
                 }
             }
             function getColor(d) {
