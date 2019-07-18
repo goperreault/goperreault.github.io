@@ -270,7 +270,7 @@ The following map shows the current trees located in Creditview Woods Park based
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, treecwstyle);
                         },
-                        
+
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
             });
@@ -288,6 +288,6 @@ The following map shows the current trees located in Creditview Woods Park based
                   div.innerHTML = labels.join('<br>');
                   return div;
              };
-             legend.addTo(mymaptrecwp);
+             legend.addTo(mymaptreecwp);
      </script>
 </div>
