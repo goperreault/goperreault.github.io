@@ -322,7 +322,7 @@ The following map shows the current trees located in Creditview Woods Park based
                 case 'WHITE PINE': return "#705039";
                 case 'WHITE PINE': return "#705039";
                 case 'WHITE SPRUCE': return "#705039";
-                case 'WHITE SPRUCE': return "#705039";
+                case 'White Spruce': return "#705039";
                 default: return '#ffffff'
               }
 
