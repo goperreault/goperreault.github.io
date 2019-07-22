@@ -280,47 +280,47 @@ The following map shows the current trees located in Creditview Woods Park based
                 case 'COLORADO SPRUCE': return "#96c2ff";
                 case 'Colorado Spruce': return "#96c2ff";
                 case 'COLUMNAR NORWAY MAPLE': return "#00a001";
-                case 'COLUMNAR NORWAY MAPLE': return "#00a001";
+                case 'Columnar Norway Maple': return "#00a001";
                 case 'COMMON ZELKOVA': return "#fee601";
-                case 'COMMON ZELKOVA': return "#fee601";
+                case 'Common Zelkova': return "#fee601";
                 case 'DEADOO': return "#fecc01";
-                case 'DEADOO': return "#fecc01";
+                case 'Deadoo': return "#fecc01";
                 case 'EASTERN WHITE CEDAR': return "#fe9a01";
-                case 'EASTERN WHITE CEDAR': return "#fe9a01";
+                case 'Eastern White Cedar': return "#fe9a01";
                 case 'FALSE CYPRUS': return "#feb401";
-                case 'FALSE CYPRUS': return "#feb401";
+                case 'False Cyprus': return "#feb401";
                 case 'GLENLEVEN LINDEN': return "#0c0c0d";
-                case 'GLENLEVEN LINDEN': return "#0c0c0d";
+                case 'Glenleven Linden': return "#0c0c0d";
                 case 'HONEY LOCUST': return "#363636";
-                case 'HONEY LOCUST': return "#363636";
+                case 'Honey Locust': return "#363636";
                 case 'IRON WOOD': return "#877878";
-                case 'IRON WOOD': return "#877878";
+                case 'Iron Wood': return "#877878";
                 case 'IVORY SILK JAPANESE LILAC': return "#9494a1";
-                case 'IVORY SILK JAPANESE LILAC': return "#9494a1";
+                case 'Ivory Silk Japanese Lilac': return "#9494a1";
                 case 'LITTLELEAF LINDEN': return "#d67ad0";
-                case 'LITTLELEAF LINDEN': return "#d67ad0";
+                case 'Littleleaf Linden': return "#d67ad0";
                 case 'NORWAY MAPLE': return "#705039";
-                case 'NORWAY MAPLE': return "#705039";
+                case 'Norway Maple': return "#705039";
                 case 'RED MAPLE': return "#705039";
-                case 'RED MAPLE': return "#705039";
+                case 'Red Maple': return "#705039";
                 case 'RED OAK': return "#705039";
-                case 'RED OAK': return "#705039";
+                case 'Red Oak': return "#705039";
                 case 'SCOTCH PINE': return "#705039";
-                case 'SCOTCH PINE': return "#705039";
+                case 'Scotch Pine': return "#705039";
                 case 'SHAGBARK HICKORY': return "#705039";
-                case 'SHAGBARK HICKORY': return "#705039";
+                case 'Shagbark Hickory': return "#705039";
                 case 'SILVER MAPLE': return "#705039";
-                case 'SILVER MAPLE': return "#705039";
+                case 'Silver Maple': return "#705039";
                 case 'STUMP': return "#705039";
-                case 'STUMP': return "#705039";
+                case 'Stump': return "#705039";
                 case 'SUGAR MAPLE': return "#705039";
-                case 'SUGAR MAPLE': return "#705039";
+                case 'Sugar Maple': return "#705039";
                 case 'TREMBLING POPLAR': return "#705039";
-                case 'TREMBLING POPLAR': return "#705039";
+                case 'Trembling Poplar': return "#705039";
                 case 'WHITE OAK': return "#705039";
-                case 'WHITE OAK': return "#705039";
+                case 'White Oak': return "#705039";
                 case 'WHITE PINE': return "#705039";
-                case 'WHITE PINE': return "#705039";
+                case 'White Pine': return "#705039";
                 case 'WHITE SPRUCE': return "#705039";
                 case 'White Spruce': return "#705039";
                 default: return '#ffffff'
@@ -352,7 +352,7 @@ The following map shows the current trees located in Creditview Woods Park based
                   var div = L.DomUtil.create('div', 'info legend'),
                   labels = ['<strong>Trees</strong>'],
                   categories = ['ACCOLATE ELM','AMERICAN ELM','ASH SPP.','AUSTRIAN PINE','BASSWOOD LINDEN','BUR OAK','COLORADO BLUE SPRUCE','COLORADO SPRUCE','COLUMNAR NORWAY MAPLE','COMMON ZELKOVA','DEADOO','EASTERN WHITE CEDAR','FALSE CYPRUS','GLENLEVEN LINDEN','HONEY LOCUST','IRON WOOD','IVORY SILK JAPANESE LILAC','LITTLELEAF LINDEN','NORWAY MAPLE','RED MAPLE','RED OAK','SCOTCH PINE','SHAGBARK HICKORY','SILVER MAPLE','STUMP','SUGAR MAPLE','TREMBLING POPLAR','WHITE OAK','WHITE PINE','WHITE SPRUCE'];
-                  categoriesL = ['Accolate Elm','AMERICAN ELM','ASH SPP.','AUSTRIAN PINE','BASSWOOD LINDEN','BUR OAK','COLORADO BLUE SPRUCE','COLORADO SPRUCE','COLUMNAR NORWAY MAPLE','COMMON ZELKOVA','DEADOO','EASTERN WHITE CEDAR','FALSE CYPRUS','GLENLEVEN LINDEN','HONEY LOCUST','IRON WOOD','IVORY SILK JAPANESE LILAC','LITTLELEAF LINDEN','NORWAY MAPLE','RED MAPLE','RED OAK','SCOTCH PINE','SHAGBARK HICKORY','SILVER MAPLE','STUMP','SUGAR MAPLE','TREMBLING POPLAR','WHITE OAK','WHITE PINE','White Spruce'];
+                  categoriesL = ['Accolate Elm','American Elm','Ash SPP.','Austrian Pine','Basswood Linden','Bur Oak','Colorado Blue Spruce','Colorado Spruce','Columnar Norway Maple','Common Zelkova','Deadoo','Eastern White Cedar','False Cyprus','Glenleven Linden','Honey Locust','Iron Wood','Ivory Silk Japanese Lilac','Littleleaf Linden','Norway Maple','Red Maple','Red Oak','Scotch Pine','Shagbark Hickory','Silver Maple','Stump','Sugar Maple','Trembling Poplar','White Oak','White Pine','White Spruce'];
                   for (var i = 0; i < categoriesL.length; i++) {
                     div.innerHTML += labels.push(
                       '<i class="circle" style="background:' + getTreeColor(categoriesL[i]) + '"></i> ' +
