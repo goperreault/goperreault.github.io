@@ -17,7 +17,7 @@ Map showing the site with the highest density of removed trees. In total, 874 as
 During the summer of 2019 I will be visiting Creditview Woods Park to observe the current status of the trees. I had visited the site in 2017 where I noticed the effects of the removal in the forested areas.
 
 The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory.
-<div id="mapidtreecwp" style="width: 700px; height: 600px">
+<div id="mapidtreecwp" style="width: 700px; height: 800px">
       <script>
             var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.661720], 16);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
