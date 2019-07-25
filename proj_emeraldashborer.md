@@ -137,8 +137,8 @@ The following map shows the current trees located in Creditview Woods Park based
              };
              var legend2 = L.control({position: 'bottomleft'});
              legend2.onAdd = function (map) {
-                   var div = L.DomUtil.create('div', 'info legend'),
-                   labels = ['<strong>Trees</strong>'],
+                   var div = L.DomUtil.create('div', 'info legend');
+                   labels = ['<strong>Trees</strong>'];
                    div.innerHTML += '<i class="circle" style="background: #a8f8a8"></i><span>Accolate Elm</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #780000"></i><span>American Elm</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #fe0001"></i><span>Commerciale</span><br>';
