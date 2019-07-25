@@ -135,6 +135,31 @@ The following map shows the current trees located in Creditview Woods Park based
                   div.innerHTML = labels.join('<br>');
                   return div;
              };
-             legend.addTo(mymaptreecwp);
+             var legend2 = L.control({position: 'bottomleft'});
+             legend2.onAdd = function (map) {
+                   var div = L.DomUtil.create('div', 'info legend'),
+                   labels = ['<strong>Trees</strong>'],
+                   div.innerHTML += '<i class="circle" style="background: #a8f8a8"></i><span>Accolate Elm</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #780000"></i><span>American Elm</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #fe0001"></i><span>Commerciale</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #08f808"></i><span>Golf</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #c0feff"></i><span>Hydrographie</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #880888"></i><span>Industrie</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #78a2ff"></i><span>Institution économique</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #96c2ff"></i><span>Institution non-économique</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #00a001"></i><span>Parc ou espace vert</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #fee601"></i><span>Résidence 1 logement</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #fecc01"></i><span>Residence ou condo 2-4 logements</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #feb401"></i><span>Residence ou condo 5-24 logements</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #fe9a01"></i><span>Residence ou condo 25+ logements</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #0c0c0d"></i><span>Rue ou ruelle</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #363636"></i><span>Stationnement</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #877878"></i><span>Terrain vacant</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #9494a1"></i><span>Utilité publique</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #d67ad0"></i><span>Zone aéroportuaire</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #705039"></i><span>Zone ferroviaire</span><br>';
+                   return div
+              };
+             legend2.addTo(mymaptreecwp);
      </script>
 </div>
