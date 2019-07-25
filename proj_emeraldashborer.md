@@ -26,14 +26,6 @@ The following map shows the current trees located in Creditview Woods Park based
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymaptreecwp);
-            var geojsonMarkerCWP = {
-                  radius: 3,
-                  fillColor: "#259ff0",
-                  color: "#000",
-                  weight: 1,
-                  opacity: 1,
-                  fillOpacity: 0.8
-            };
             function getTreeColor(d) {
               switch(d){
                 case 'ACCOLATE ELM': return  "#a8f8a8";
@@ -120,21 +112,6 @@ The following map shows the current trees located in Creditview Woods Park based
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
             });
-            var legend = L.control({position: 'bottomleft'});
-            legend.onAdd = function (map) {
-                  var div = L.DomUtil.create('div', 'info legend'),
-                  labels = ['<strong>Trees</strong>'],
-                  categoriesL = ['Accolate Elm','American Elm','Ash SPP.','Austrian Pine','Basswood Linden','Bur Oak','Colorado Blue Spruce','Colorado Spruce','Columnar Norway Maple','Common Zelkova','Deadoo','Eastern White Cedar','False Cyprus','Glenleven Linden','Honey Locust','Iron Wood','Ivory Silk Japanese Lilac','Littleleaf Linden','Norway Maple','Red Maple','Red Oak','Scotch Pine','Shagbark Hickory','Silver Maple','Stump','Sugar Maple','Trembling Poplar','White Oak','White Pine','White Spruce'];
-                  for (var i = 0; i < categoriesL.length; i++) {
-                    div.innerHTML += labels.push(
-                      '<i class="circle" style="background:' + getTreeColor(categoriesL[i]) + '"></i> ' +
-                      (categoriesL[i] ? categoriesL[i] + '<br>' : '+')
-                    );
-                  }
-
-                  div.innerHTML = labels.join('<br>');
-                  return div;
-             };
              var legend2 = L.control({position: 'bottomleft'});
              legend2.onAdd = function (map) {
                    var div = L.DomUtil.create('div', 'info legend');
