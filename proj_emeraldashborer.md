@@ -72,10 +72,10 @@ The following map shows the current trees located in Creditview Woods Park based
                         pointToLayer: function (feature, latlng) {
                         return L.circleMarker(latlng, {fillColor: getTreeColor(feature.properties.BOTDESC),
                                                       radius: 3,
-                                                      weight: 2,
-                                                      opacity: 0.7,
+                                                      weight: 1,
+                                                      opacity: 1,
                                                       color: "#000000",
-                                                      fillOpacity: 0.7}
+                                                      fillOpacity: 0.8}
                                               );
                         },
 
