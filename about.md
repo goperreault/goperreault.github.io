@@ -20,6 +20,3 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 * Organization and time management
 * Patience and perseverance
 * Attention to details
-
-
-[Homepage](./index.html)

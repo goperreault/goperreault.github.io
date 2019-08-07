@@ -19,5 +19,3 @@ Showcasing geography related projects.
 
 ## About me
 [View about](./about.html)
-
-## French Translation coming soon!
