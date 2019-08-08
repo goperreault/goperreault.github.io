@@ -54,7 +54,7 @@ Map that shows the required land that was expropriated for the construction of t
 </div>
 
 ## Current Landuse
-Map that shows how the land is used based on 2016 data. According to the [city's website](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), Mirabel is home to 55 020 residents, where 87% of the land being for agricultural uses.
+Map that shows how the land is used based on 2016 data. According to the [city's website](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), Mirabel is home to 55 020 residents, where a large portion of the land being for agricultural uses.
 <div id="mapidmirabelclass" style="width: 700px; height: 500px">
       <script>
             var mapmirabelclass = L.map('mapidmirabelclass').setView([45.657400, -74.185657], 10);
@@ -248,7 +248,7 @@ Map that shows how the land is used based on 2016 data. According to the [city's
 </div>
 
 ## Urban vs Non-urban
-Map that shows how the non-urban land use dominates the area.
+Map that shows how the non-urban land use dominates the area. The urban area measures 103,999 square kilometres whereas the non-urban area measures 382,392 square kilometres, making the non-urban cover 78% of the land.
 <div id="mapidmirabelurban" style="width: 700px; height: 500px">
       <script>
             var mapmirabelurban = L.map('mapidmirabelurban').setView([45.657400, -74.075657], 10);
