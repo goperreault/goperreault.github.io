@@ -64,6 +64,11 @@ The following map shows Line 15 in comparison to the existing Métro lines.
                       onEachFeature: forEachFeature
                   }).addTo(mapmetro);
             });
+            $.getJSON("geo_layers/buff500_merge_dis.geojson",function(data){
+                  L.geoJson(data, {
+                      style: polystyle
+                  }).addTo(mapmetro);
+            });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapmetro) {
                   var div = L.DomUtil.create('div', 'info legend');/*,
@@ -285,7 +290,7 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
             $.getJSON("geo_layers/petiteceintureline.geojson",function(data){
                   L.geoJson(data, {
                       style: ceinturelinestyle
-                      
+
                   }).addTo(mapceinture);
             });
             $.getJSON("geo_layers/ligne15_ligne.geojson",function(data){
