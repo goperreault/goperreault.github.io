@@ -41,6 +41,15 @@ The following map shows Line 15 in comparison to the existing Métro lines.
                   fillOpacity: 0.9
                 };
             }
+            function polystyle(feature) {
+                return {
+                  fillColor: "#c6c6c6",
+                  weight: 2,
+                  opacity: 0.5,
+                  color: "#c6c6c6",
+                  fillOpacity: 0.5
+                };
+            }
             function forEachFeature(feature, layer) {
                 var popupContent =  "Station:</br>" + feature.properties.nom;
                 //layer.bindPopup(popupContent);
