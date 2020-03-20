@@ -13,7 +13,7 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 * ERDAS Imagine
 * LeafletJS
 * PostgreSQL/PostGIS
-* Python
+* Python 
 
 ## Other Skills
 * Fluency in French
