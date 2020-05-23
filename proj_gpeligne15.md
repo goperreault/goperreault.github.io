@@ -5,7 +5,7 @@ layout: default
 # The Grand Paris Express around Paris, Line 15
 A project that draws Line 15, a subset of the larger Grand Paris Express, around the city of Paris. This larger infrastructure project consist of [four new automated metro lines and the extension of existing metro lines to connect key areas around Paris](https://www.societedugrandparis.fr/info/grand-paris-express-largest-transport-project-europe-1061).
 ## Line 15 and existing Métro lines
-The following map shows Line 15 in comparison to the existing Métro lines. It also draws 500 meter buffers around each of the stations, showing the extent of coverage of the metro within a geographically small area.  
+The following map shows Line 15 in comparison to the existing Métro lines. It also draws 500 meter buffers around each of the stations, showing the extent of coverage of the metro within a geographically small area.
 <div id="mapidmetro" style="width: 700px; height: 500px">
       <script>
             var mapmetro = L.map('mapidmetro').setView([48.854908, 2.387671], 11);
@@ -173,7 +173,7 @@ The following map shows Line 15 in comparison to the existing RER lines.
      </script>
 </div>
 ## Line 15 and existing Transilien lines
-The following map shows Line 15 in comparison to the existing Transilien lines.
+The following map shows Line 15 in comparison to the existing Transilien lines, that end at the major railway stations in Paris.
 <div id="mapidtransilien" style="width: 700px; height: 500px">
       <script>
             var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
@@ -250,7 +250,7 @@ The following map shows Line 15 in comparison to the existing Transilien lines.
      </script>
 </div>
 ## Line 15 and defunct circular line, La Petite Ceinture
-The following map shows Line 15 in comparison to La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture).
+The following map shows Line 15 in comparison to La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture). The map was made to compare the old circular railway to the future metro. It displays the extent of the urban areas around Paris for which La Petite Ceinture would not serve if put back into service today.
 <div id="mapidceinture" style="width: 700px; height: 500px">
       <script>
             var mapceinture = L.map('mapidceinture').setView([48.854908, 2.387671], 11);
