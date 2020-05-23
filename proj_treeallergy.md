@@ -344,6 +344,6 @@ The following map shows all willow tree species that are located within 100 mete
 </div>
 
 ## Lisgar neighbourhood
-The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadow Brook Trail, a xkm trail that follows a creek and ends at Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive and Rosehurst Drive, where the trees were also mapped to compare both the trail and road.
+The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadow Brook Trail, a 4.7km trail that starts at Buttonbush Park, follows a creek and ends at Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive and Rosehurst Drive, where the trees were also mapped to compare both the trail and road.
 
 [//]: <> [Homepage](./index.html)
