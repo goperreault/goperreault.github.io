@@ -3,10 +3,10 @@ title: Tree Allergy
 layout: default
 ---
 # Trees and pollen allergies in Mississauga
-A project to help with my seasonal pollen allergies. It maps the four tree species from which I get the worse allergic reaction during springtime. It uses the City of Mississauga's Open data tree inventory catalog to extract all of the ash, birch, oak and willow species. The goal of the project is to identify where each species is located within the city and close to park areas.
+A project to help with my seasonal pollen allergies. It maps the four tree species from which I get the worse allergic reaction during springtime. It uses the City of Mississauga's Open data tree inventory catalog to extract all of the ash, birch, oak and willow species. The goal of the project is to identify where each species is located within the the Lisgar neighbourhood, in particular the trail located alongside the Sixteen Mile Creek.
 
 ## Pollen season
-According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca/toronto-ontario/), all four tree pollens start in April and lasts until late May to early June, the exception being willow that ends earlier in May. Additional research shows that rising temperatures affect pollen season, as shown in [Lewis H Ziska et al's study of the northern hemisphere](https://www.sciencedirect.com/science/article/pii/S2542519619300154?via%3Dihub&for-guid=a3a12ea2-bd65-e711-b65f-90b11c343abd&utm_source=usatoday-Climate%20Point&utm_medium=email&utm_campaign=narrative&utm_term=article_body#!).
+According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca/toronto-ontario/), all four tree pollens start in April and lasts until late May to early June, the exception being willow that ends earlier in May.
 
 [//]: <> ## Static maps
 [//]: <> The follow maps show the distribution of each trees species in the city.
@@ -342,4 +342,8 @@ The following map shows all willow tree species that are located within 100 mete
              legend.addTo(mymapwillow);
      </script>
 </div>
+
+## Lisgar neighbourhood
+The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadowbrook Trail, a xkm trail that follows the Sixteen Mile Creek and ends at the Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive, where the trees were also mapped to compare both the trail and road.
+
 [//]: <> [Homepage](./index.html)
