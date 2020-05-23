@@ -344,6 +344,6 @@ The following map shows all willow tree species that are located within 100 mete
 </div>
 
 ## Lisgar neighbourhood
-The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadowbrook Trail, a xkm trail that follows the Sixteen Mile Creek and ends at the Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive, where the trees were also mapped to compare both the trail and road.
+The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadow Brook Trail, a xkm trail that follows the Sixteen Mile Creek and ends at the Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive, where the trees were also mapped to compare both the trail and road.
 
 [//]: <> [Homepage](./index.html)
