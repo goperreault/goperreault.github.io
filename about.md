@@ -4,7 +4,7 @@ layout: default
 ---
 
 # About me
-My name is Guillaume Perreault. I received a Bachelor of Science from the University of Toronto in 2019 where I majored in Geographic Information Systems and minored in geography (human geography focused) and french studies. My studies complemented my interest in public transit systems.
+My name is Guillaume Perreault. I received a Bachelor of Science from the University of Toronto in 2019 where I majored in Geographic Information Systems and minored in geography (human geography focused) and french studies. My studies complemented my interests in urban transportation.
 
 ## Technical Skills
 * ESRI ArcGIS (10.4)
@@ -13,7 +13,7 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 * ERDAS Imagine
 * LeafletJS
 * PostgreSQL/PostGIS
-* Python 
+* Python
 
 ## Other Skills
 * Fluency in French
