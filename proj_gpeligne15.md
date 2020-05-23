@@ -250,7 +250,7 @@ The following map shows Line 15 in comparison to the existing Transilien lines, 
      </script>
 </div>
 ## Line 15 and defunct circular line, La Petite Ceinture
-The following map shows Line 15 in comparison to La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture). The map was made to compare the old circular railway to the future metro. It displays the extent of the urban areas around Paris for which La Petite Ceinture would not serve if put back into service today.
+The following map shows Line 15 in comparison to La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture). The map was made to compare the old circular railway to the future metro. It displays the extent of the urban area around Paris for which La Petite Ceinture would not serve if put back into service today.
 <div id="mapidceinture" style="width: 700px; height: 500px">
       <script>
             var mapceinture = L.map('mapidceinture').setView([48.854908, 2.387671], 11);
