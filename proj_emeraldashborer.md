@@ -82,6 +82,7 @@ The following map shows the current trees located in Creditview Woods Park based
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
             });
+            /**
             $.getJSON("geo_layers/Tree_3857_ash_creditviewwoods.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
@@ -97,13 +98,14 @@ The following map shows the current trees located in Creditview Woods Park based
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
             });
-             var legend2 = L.control({position: 'bottomleft'});
+            **/
+            var legend2 = L.control({position: 'bottomleft'});
              legend2.onAdd = function (map) {
                    var div = L.DomUtil.create('div', 'info legend');
                    labels = ['<strong>Trees</strong>'];
                    div.innerHTML += '<i class="circle" style="background: #a81787"></i><span>Accolate Elm</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #20102d"></i><span>American Elm</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #33c423" radius=5></i><span>Ash SPP.</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #33c423"></i><span>Ash SPP.</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #f2ef72"></i><span>Austrian Pine</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #b7216c"></i><span>Basswood Linden</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #f14a54"></i><span>Bur Oak</span><br>';
