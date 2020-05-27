@@ -82,6 +82,21 @@ The following map shows the current trees located in Creditview Woods Park based
                         onEachFeature: forEachFeature
                   }).addTo(mymaptreecwp);
             });
+            $.getJSON("geo_layers/Tree_3857_ash_creditviewwoods.geojson",function(data){
+                  L.geoJson(data, {
+                        pointToLayer: function (feature, latlng) {
+                        return L.circleMarker(latlng, {fillColor: getTreeColor(feature.properties.BOTDESC),
+                                                      radius: 5,
+                                                      weight: 1,
+                                                      opacity: 1,
+                                                      color: "#000000",
+                                                      fillOpacity: 0.8}
+                                              );
+                        },
+
+                        onEachFeature: forEachFeature
+                  }).addTo(mymaptreecwp);
+            });
              var legend2 = L.control({position: 'bottomleft'});
              legend2.onAdd = function (map) {
                    var div = L.DomUtil.create('div', 'info legend');
