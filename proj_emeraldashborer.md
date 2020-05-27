@@ -16,7 +16,7 @@ Map showing the site with the highest density of removed trees. In total, 874 as
 ## Current Tree Status
 I had visited the site in 2017 where I noticed the effects of the removal in the forested areas.
 
-The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory. The next map shows the Ash trees in the area.
+The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory. The map shows the single Ash tree which remains in the area.
 <div id="mapidtreecwp" style="width: 700px; height: 600px">
       <script>
             var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.662720], 16);
@@ -103,7 +103,7 @@ The following map shows the current trees located in Creditview Woods Park based
                    labels = ['<strong>Trees</strong>'];
                    div.innerHTML += '<i class="circle" style="background: #a81787"></i><span>Accolate Elm</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #20102d"></i><span>American Elm</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #33c423"></i><span>Ash SPP.</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #33c423" radius=5></i><span>Ash SPP.</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #f2ef72"></i><span>Austrian Pine</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #b7216c"></i><span>Basswood Linden</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #f14a54"></i><span>Bur Oak</span><br>';
