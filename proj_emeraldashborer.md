@@ -19,10 +19,10 @@ I had visited the site in 2017 where I noticed the effects of the removal in the
 The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory. The map also shows the single Ash tree which remains in the area.
 <div id="mapidtreecwp" style="width: 700px; height: 600px">
       <script>
-            var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.662720], 17);
+            var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.662720], 18);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'City-owned Tree Inventory - MississaugaData, 03/04/2019 <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                  maxZoom: 18,
+                  maxZoom: 20,
                   id: 'mapbox.streets',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mymaptreecwp);
