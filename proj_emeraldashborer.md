@@ -19,7 +19,7 @@ I had visited the site in 2017 where I noticed the effects of the removal in the
 The following map shows the current trees located in Creditview Woods Park based on the city's tree data inventory. The map also shows the single Ash tree which remains in the area.
 <div id="mapidtreecwp" style="width: 700px; height: 600px">
       <script>
-            var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.662720], 18);
+            var mymaptreecwp = L.map('mapidtreecwp').setView([43.580222, -79.662720], 17);
             L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                   attribution: 'City-owned Tree Inventory - MississaugaData, 03/04/2019 <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                   maxZoom: 20,
@@ -102,8 +102,8 @@ The following map shows the current trees located in Creditview Woods Park based
              legend2.onAdd = function (map) {
                    var div = L.DomUtil.create('div', 'info legend');
                    labels = ['<strong>Trees</strong>'];
-                   div.innerHTML += '<i class="circle" style="background: #a81787"></i><span>Trees</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #33c423"></i><span>Ash SPP.</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #33c423"></i><span>Ash Tree</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #a81787"></i><span>Other Trees</span><br>';
                    return div
               };
              legend2.addTo(mymaptreecwp);
