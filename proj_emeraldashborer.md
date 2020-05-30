@@ -70,7 +70,7 @@ The following map shows the current trees located in Creditview Woods Park based
             $.getJSON("geo_layers/Tree_3857_creditviewwoods.geojson",function(data){
                   L.geoJson(data, {
                         pointToLayer: function (feature, latlng) {
-                        return L.circleMarker(latlng, {fillColor: getTreeColor(feature.properties.BOTDESC),
+                        return L.circleMarker(latlng, {fillColor: "#a81787",
                                                       radius: 3,
                                                       weight: 1,
                                                       opacity: 1,
@@ -103,36 +103,9 @@ The following map shows the current trees located in Creditview Woods Park based
              legend2.onAdd = function (map) {
                    var div = L.DomUtil.create('div', 'info legend');
                    labels = ['<strong>Trees</strong>'];
-                   div.innerHTML += '<i class="circle" style="background: #a81787"></i><span>Accolate Elm</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #20102d"></i><span>American Elm</span><br>';
+                   div.innerHTML += '<i class="circle" style="background: #a81787"></i><span>Trees</span><br>';
                    div.innerHTML += '<i class="circle" style="background: #33c423"></i><span>Ash SPP.</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #f2ef72"></i><span>Austrian Pine</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #b7216c"></i><span>Basswood Linden</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #f14a54"></i><span>Bur Oak</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #426c6f"></i><span>Colorado Blue Spruce</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #51286c"></i><span>Colorado Spruce</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #a50dd8"></i><span>Columnar Norway Maple</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #0c0ced"></i><span>Common Zelkova</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #c98d69"></i><span>Deadoo</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #378a35"></i><span>Eastern White Cedar</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #52fbe5"></i><span>False Cyprus</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #105b76"></i><span>Glenleven Linden</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #659bcb"></i><span>Honey Locust</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #e3a3b7"></i><span>Iron Wood</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #724632"></i><span>Ivory Silk Japanese Lilac</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #95b308"></i><span>Littleleaf Linden</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #f11a3a"></i><span>Norway Maple</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #ea08d3"></i><span>Red Maple</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #e1ec64"></i><span>Red Oak</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #8765a6"></i><span>Scotch Pine</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #af1545"></i><span>Shagbark Hickory</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #8fbc60"></i><span>Silver Maple</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #7f1a64"></i><span>Stump</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #63bb17"></i><span>Sugar Maple</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #edb824"></i><span>Trembling Poplar</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #2bdbd8"></i><span>White Oak</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #f41556"></i><span>White Pine</span><br>';
-                   div.innerHTML += '<i class="circle" style="background: #705039"></i><span>White Spruce</span><br>';
+                   
                    return div
               };
              legend2.addTo(mymaptreecwp);
