@@ -9,10 +9,10 @@ The following map shows Line 15 in comparison to the existing Métro lines. It a
 <div id="mapidmetro" style="width: 700px; height: 500px">
       <script>
             var mapmetro = L.map('mapidmetro').setView([48.854908, 2.387671], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; © <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
                   maxZoom: 18,
-                  id: 'mapbox.light',
+                  id: 'mapbox/light-v10',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapmetro)
             var geojsonMetroStops = {
@@ -100,10 +100,10 @@ The following map shows Line 15 in comparison to the existing RER lines.
 <div id="mapidrer" style="width: 700px; height: 500px">
       <script>
             var maprer = L.map('mapidrer').setView([48.854908, 2.387671], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Tracés du réseau de transport ferré dIle-de-France -<br>Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                  attribution: 'Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Tracés du réseau de transport ferré dIle-de-France -<br>Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; © <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
                   maxZoom: 18,
-                  id: 'mapbox.light',
+                  id: 'mapbox/light-v10',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(maprer)
             var geojsonMetroStops = {
@@ -177,10 +177,10 @@ The following map shows Line 15 in comparison to the existing Transilien lines, 
 <div id="mapidtransilien" style="width: 700px; height: 500px">
       <script>
             var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'Tracés du réseau de transport ferré dIle-de-France -<br>Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                  attribution: 'Tracés du réseau de transport ferré dIle-de-France -<br>Ile-de-France Mobilités, 23/11/2018, Open licence<br>Map data &copy; © <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
                   maxZoom: 18,
-                  id: 'mapbox.light',
+                  id: 'mapbox/light-v10',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(maptransilien)
             var geojsonMetroStops = {
@@ -254,10 +254,10 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
 <div id="mapidceinture" style="width: 700px; height: 500px">
       <script>
             var mapceinture = L.map('mapidceinture').setView([48.854908, 2.387671], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: 'La Petite Ceinture - <a href="https://www.apur.org/en">Apur</a> 2017<br>Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                  attribution: 'La Petite Ceinture - <a href="https://www.apur.org/en">Apur</a> 2017<br>Offre transport de la RATP - RATP, 22/05/2019, sous license ODbL<br>Map data &copy; © <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
                   maxZoom: 18,
-                  id: 'mapbox.light',
+                  id: 'mapbox/light-v10',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapceinture)
             var geojsonMetroStops = {
