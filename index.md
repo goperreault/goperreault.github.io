@@ -5,8 +5,8 @@ layout: default
 ## Welcome!
 Showcasing geography related projects.
 
-## Trees and pollen allergies in Mississauga
-[View project](./proj_treeallergy.html)
+[//]: ## Trees and pollen allergies in Mississauga
+[//]: [View project](./proj_treeallergy.html)
 
 ## Emerald Ash Borer Tree Removal in Mississauga
 [View project](./proj_emeraldashborer.html)
