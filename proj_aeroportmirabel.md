@@ -7,7 +7,7 @@ layout: default
 A project that shows the coverage of the Mirabel Airport.
 
 ## Land
-Map that shows the required land that was expropriated for the construction of the airport. This map is based on a source found through a TVA news report. The map shows the large extent of the land centered around the Autoroute 15 and Autoroute 50 interchange, a key interchange that never saw its intended traffic use over the years. In fact, Autoroute 50 was only partially completed in 2xxx (source).
+Map that shows the required land that was expropriated for the construction of the airport. This map is based on a source found through a TVA news report. The map shows the large extent of the land centered around the Autoroute 15 and Autoroute 50 interchange, a key interchange that never saw its intended traffic use over the years. 
 <div id="mapidmirabel" style="width: 700px; height: 500px">
       <script>
             var mapmirabel = L.map('mapidmirabel').setView([45.657400, -74.075657], 10);
