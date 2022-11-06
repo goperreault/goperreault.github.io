@@ -37,7 +37,7 @@ Planners should learn about the history of the site, including why this space wa
 ## Mississauga Chinese Centre
 ![arch](./tourpics/arch.jpg)
 ![coveredwalkway](./tourpics/coveredwalkway.jpg)
-![ninedragonwall](./tourpics/nindragonwall.jpg)
+![ninedragonwall](./tourpics/ninedragonwall.jpg)
 ![pavilion](./tourpics/pavilion.jpg)
 
 ## The Great Punjab Business Centre
