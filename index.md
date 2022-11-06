@@ -18,10 +18,10 @@ Showcasing geography related projects.
 [View project](./proj_aeroportmirabel.html)
 
 ## Bus Tour Reflections
-[View project]
+[View project](.bustourreflection.html)
 
 ## Jane's Walk Tour
-[View project]
+[View project](.janeswalktour)
 
 [//]: # ## About me
 [//]: # [View about](./about.html)
