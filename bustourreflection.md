@@ -24,4 +24,16 @@ A strong background about the space before visiting would be encouraged to bette
 Based on the bus tour visits to the site(s), what remains unknown to you? What other information planners should collect in order to inform unbiased assessments of the site(s)?
 Planners should learn about the history of the site, including why this space was chosen to locate the Chinese centre. As such, a careful study of zoning by-laws and demographics of the city can aid in offering a better understanding of the site. Information may also be contained in research conducted about the community. Epistemological studies about the community offers a dialogue between researchers and the people of the community. Future goals and purposes by the city can inform possible changes and impacts to the space, for example the Dundas Connects which can aim to offer an alternative to the automobile for travelling to the site.
 
+## Mississauga Chinese Centre
 ![arch](./tourpics/arch.jpg)
+![coveredwalkway](./tourpics/coveredwalkway.jpg)
+![ninedragonwall](./tourpics/nindragonwall.jpg)
+![pavilion](./tourpics/pavilion.jpg)
+
+## The Great Punjab Business Centre
+![muralentrance](./tourpics/muralentrance.jpg)
+![muralwall](./tourpics/muralwall.jpg)
+![statue1](./tourpics/statue1.jpg)
+![statue2](./tourpics/statue2.jpg)
+![sikhmuseum](./tourpics/sikhmuseum.jpg)
+![gurdwara](./tourpics/gurdwara.jpg)
