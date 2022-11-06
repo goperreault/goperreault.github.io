@@ -17,6 +17,3 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 
 ## Other Skills
 * Fluency in French
-* Organization and time management
-* Patience and perseverance
-* Attention to details
