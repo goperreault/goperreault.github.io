@@ -17,5 +17,11 @@ Showcasing geography related projects.
 ## Mirabel Airport Land Coverage
 [View project](./proj_aeroportmirabel.html)
 
+## Bus Tour Reflections
+[View project]
+
+## Jane's Walk Tour
+[View project]
+
 [//]: # ## About me
 [//]: # [View about](./about.html)
