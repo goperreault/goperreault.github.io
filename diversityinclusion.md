@@ -8,5 +8,5 @@ Projects related to TMU's PL8101 Diversity and Inclusion class
 ## Bus Tour Reflection
 [View project](/bustourreflection.html)
 
-## Jane's Walk Tour
+## Jane's Walk Tour Proposal
 [View project](/janeswalktour)
