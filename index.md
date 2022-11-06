@@ -17,11 +17,9 @@ Showcasing geography related projects.
 ## Mirabel Airport Land Coverage
 [View project](./proj_aeroportmirabel.html)
 
-## Bus Tour Reflections
-[View project](/bustourreflection.html)
+## PL8101 Diversity and Inclusion Projects
+[View project](/diversityinclusion.html)
 
-## Jane's Walk Tour
-[View project](/janeswalktour)
 
 [//]: # ## About me
 [//]: # [View about](./about.html)
