@@ -1,6 +1,6 @@
 ---
 title: PL8101 Diversity and Inclusion
-layout: default
+layout: layoutTMU
 ---
 # PL8101 Diversity and Inclusion
 Projects related to TMU's PL8101 Diversity and Inclusion class

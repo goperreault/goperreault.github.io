@@ -1,6 +1,6 @@
 ---
 title: Bus Tour Reflection
-layout: default
+layout: layoutTMU
 ---
 # Bus Tour Reflection
 A project identifying diversity and inclusivity during a bus tour of the Mississauga Chinese Centre and the Great Punjab Business Centre, localted in Mississauga and Brampton Ontario, Canada.
