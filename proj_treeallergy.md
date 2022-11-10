@@ -6,7 +6,7 @@ layout: default
 A project to help with my seasonal pollen allergies. It maps the four tree species from which I get the worse allergic reaction during springtime. It uses the City of Mississauga's Open data tree inventory catalog to extract all of the ash, birch, oak and willow species. The goal of the project is to identify where each species is located within the the Lisgar neighbourhood, in particular the trail located alongside a creek.
 
 ## Pollen season
-According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca/toronto-ontario/), all four tree pollens start in April and lasts until late May to early June, the exception being willow that ends earlier in May. Through anecdotal evidence I can confirm that pollen season lasts from late April to mid June. 
+According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca/toronto-ontario/), all four tree pollens start in April and lasts until late May to early June, the exception being willow that ends earlier in May. Through anecdotal evidence I can confirm that pollen season lasts from late April to mid June.
 
 [//]: <> ## Static maps
 [//]: <> The follow maps show the distribution of each trees species in the city.
@@ -15,7 +15,7 @@ According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca
 [//]: <> ![Oak trees map](./Oak_trees.jpeg)
 [//]: <> ![Willow trees map](./Willow_trees.jpeg)
 
-<!--
+
 ## All Trees
 The following map shows all four tree species in Mississauga.
 <div id="mapid" style="width: 700px; height: 600px">
@@ -343,8 +343,8 @@ The following map shows all willow tree species that are located within 100 mete
              legend.addTo(mymapwillow);
      </script>
 </div>
--->
+<!--
 ## Lisgar neighbourhood
 The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadow Brook Trail, a 4.7km trail that starts at Buttonbush Park, follows a creek and ends at Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive and Rosehurst Drive, where the trees were also mapped to compare both the trail and road.
-
+-->
 [//]: <> [Homepage](./index.html)
