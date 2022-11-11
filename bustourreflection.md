@@ -34,7 +34,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                 };
             }
             function forEachFeature(feature, layer) {
-                var popupContent =  feature.properties.name;
+                var popupContent =  feature.properties.NAMES;
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
