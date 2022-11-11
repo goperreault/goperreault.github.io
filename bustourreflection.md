@@ -3,7 +3,7 @@ title: Bus Tour Reflection
 layout: layoutTMU
 ---
 ## Bus Tour Reflection
-A project identifying diversity and inclusivity during a bus tour of the Mississauga Chinese Centre and the Great Punjab Business Centre, located in Mississauga and Brampton Ontario, Canada.
+A project identifying diversity and inclusivity during a bus tour of the Mississauga Chinese Centre and The Great Punjab Business Centre, located in Mississauga, Ontario, Canada.
 
 **Site Map**
 <div id="mapidbustour" style="width: 700px; height: 500px">
@@ -57,7 +57,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             legend.onAdd = function (mapbustour) {
                   var div = L.DomUtil.create('div', 'info legend');
                   div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>Great Punjab Business Centre</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>The Great Punjab Business Centre</span><br>';
                   return div
             }
             legend.addTo(mapbustour);
