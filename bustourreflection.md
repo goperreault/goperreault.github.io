@@ -5,14 +5,16 @@ layout: layoutTMU
 ## Bus Tour Reflection
 A project identifying diversity and inclusivity during a bus tour of the Mississauga Chinese Centre and the Great Punjab Business Centre, localted in Mississauga and Brampton Ontario, Canada.
 
+**Background Demographics**
 
-**Site Descriptions**
+
+**Site Description**
 
 The Mississauga Chinese Centre stands out as a landmark along Dundas Street. Its entryway gives the impression of a specifically Asian centre. The entry into the centre displayed the types of uses, including mostly retail spaces. The arch also serves as a break into the existing landscape along Dundas Street, which is populated by other retail spaces and a residential neighbourhood. The large residential slab across the street reflects this break, which ironically, the centre’s towers meant to imitate a view over the city, gets overshadowed by this slab. In contrast, the mostly empty lands adjacent to the slab shows potential for further development around the site. In addition, the train tracks, which carry Go Transit’s Milton Line, delineate the site and the neighbourhood’s activities to Dundas Street.
 In contrast, the Great Punjab Business Centre blends with its surroundings along the Airport Road industrial corridor. The entryway, located on Drew, offers a familiar built form to any commercial and retail spaces. It is only once visitors enter the site that the intricate details of the buildings become more prominent. The colour and choice of material exemplifies the centre as a retail and commercial space for the Punjab community.
 
 
-**Key Features of Site**
+**Key Features of the Site**
 
 According to the numerous inscriptions along the site, the centre was built to imitate a Chinese commercial centre and city, with its large corner towers, the arch, the nine dragon wall, Soo Chow garden, the fortress, the stele, and the covered walkways. Indeed, these walkways are meant to “imitate the ones in Beijing”, which offers protection and serves as a marker for the retail spaces along the site. Culturally, the nine dragon wall, defined as the only one outside of Asia, reinforce the space’s clear Chinese influence and offers a strong welcoming marker for customers entering the space. In fact, one may not call them customers, but merely citizens of the space, as the site offers a home away from home, even if they have always lived in Canada. The large tower of the fortress serves as a second marker for those who enter the space by its second entrance, further implying the space’s purpose as a Chinese centre.
 The Punjab business centre offers a few landmarks to denote the space for its community. First, the mural wall with the engraved history denotes the site’s focus on the Punjab community. As written, the depiction of the Komagata Maru gives way for reflection as to how these immigrants arrived in Canada. Next, the statue of Maharaja Ranjit Singh depicts the founder of the Sikh Empire overlooking and acting as overlooker on the site. The Sikh Heritage Museum of Canada located amongst the retail spaces and offices, further entrenches the cultural usage of the site. As such, businesses and offices offer diverse services to the community, including integration services offering immigrants an opportunity for life in Canada.
