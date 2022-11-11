@@ -15,6 +15,12 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                   id: 'mapbox/streets-v11',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapbustour)
+            L.marker([43.59789523871053,-79.59447134236618]).addTo(mapbustour)
+            .bindPopup('Mississauga Chinese Centre')
+            .openPopup();
+            L.marker([43.7095005796771,-79.65271204349811]).addTo(mapbustour)
+            .bindPopup('The Great Punjab Business Centre')
+            .openPopup();
           function punjabstyle(feature) {
                 return {
                   fillColor: "#ffb947",
@@ -66,7 +72,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
 **Site Description**
 
 The Mississauga Chinese Centre stands out as a landmark along Dundas Street. Its entryway gives the impression of a specifically Asian centre. The entry into the centre displayed the types of uses, including mostly retail spaces. The arch also serves as a break into the existing landscape along Dundas Street, which is populated by other retail spaces and a residential neighbourhood. The large residential slab across the street reflects this break, which ironically, the centre’s towers meant to imitate a view over the city, gets overshadowed by this slab. In contrast, the mostly empty lands adjacent to the slab shows potential for further development around the site. In addition, the train tracks, which carry Go Transit’s Milton Line, delineate the site and the neighbourhood’s activities to Dundas Street.
-In contrast, the Great Punjab Business Centre blends with its surroundings along the Airport Road industrial corridor. The entryway, located on Drew, offers a familiar built form to any commercial and retail spaces. It is only once visitors enter the site that the intricate details of the buildings become more prominent. The colour and choice of material exemplifies the centre as a retail and commercial space for the Punjab community.
+In contrast, The Great Punjab Business Centre blends with its surroundings along the Airport Road industrial corridor. The entryway, located on Drew, offers a familiar built form to any commercial and retail spaces. It is only once visitors enter the site that the intricate details of the buildings become more prominent. The colour and choice of material exemplifies the centre as a retail and commercial space for the Punjab community.
 
 
 **Key Features of the Site**
