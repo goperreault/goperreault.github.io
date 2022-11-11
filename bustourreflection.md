@@ -15,7 +15,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                   id: 'mapbox/streets-v11',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapbustour)
-          function chinesestyle(feature) {
+          function punjabstyle(feature) {
                 return {
                   fillColor: "#ffb947",
                   weight: 2,
@@ -24,7 +24,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                   fillOpacity: 0.5
                 };
             }
-            function punjabstyle(feature) {
+            function chinesestyle(feature) {
                 return {
                   fillColor: "#b7484b",
                   weight: 2,
@@ -51,13 +51,14 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapbustour) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>Mississauga Chinese Centre</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Great Punjab Business Centre</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>Great Punjab Business Centre</span><br>';
                   return div
             }
             legend.addTo(mapbustour);
      </script>
 </div>
+
 
 **Background Demographics**
 
