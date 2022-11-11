@@ -8,7 +8,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
 **Site Map**
 <div id="mapidbustour" style="width: 700px; height: 500px">
       <script>
-            var mapbustour = L.map('mapidbustour').setView([43.599, -79.648], 11);
+            var mapbustour = L.map('mapidbustour').setView([43.64148815020137,-79.61874431494705], 11);
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                   attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
                   maxZoom: 18,
@@ -17,6 +17,15 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             }).addTo(mapbustour)
           function chinesestyle(feature) {
                 return {
+                  fillColor: "#ffb947",
+                  weight: 2,
+                  opacity: 0.5,
+                  color: "#ffb947",
+                  fillOpacity: 0.5
+                };
+            }
+            function punjabstyle(feature) {
+                return {
                   fillColor: "#b7484b",
                   weight: 2,
                   opacity: 0.5,
@@ -24,17 +33,8 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                   fillOpacity: 0.5
                 };
             }
-            function punjabstyle(feature) {
-                return {
-                  fillColor: "#a90f32",
-                  weight: 2,
-                  opacity: 0.5,
-                  color: "#a90f32",
-                  fillOpacity: 0.5
-                };
-            }
             function forEachFeature(feature, layer) {
-                var popupContent =  feature.properties.class;
+                var popupContent =  feature.properties.name;
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
@@ -51,8 +51,8 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapbustour) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #a90f32"></i><span>Great Punjab Business Centre</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>Mississauga Chinese Centre</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Great Punjab Business Centre</span><br>';
                   return div
             }
             legend.addTo(mapbustour);
