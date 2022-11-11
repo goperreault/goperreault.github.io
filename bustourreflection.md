@@ -19,8 +19,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             .bindPopup('Mississauga Chinese Centre')
             .openPopup();
             L.marker([43.7095005796771,-79.65271204349811]).addTo(mapbustour)
-            .bindPopup('The Great Punjab Business Centre')
-            .openPopup();
+            .bindPopup('The Great Punjab Business Centre');
           function punjabstyle(feature) {
                 return {
                   fillColor: "#ffb947",
