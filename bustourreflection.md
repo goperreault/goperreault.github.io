@@ -82,7 +82,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
 
 **Background Demographics**
 
-The City of Mississauga has a highly diverse population of Chinese and Punjab residents. In fact, 7.8% of the total population denotes their ethnic or cultural origin as Chinese, while 1.5% denotes their origin as Punjabi. At the local level, the census tract for the Mississauga Chinese Centre denotes 3.7% of the population as Chinese ethnic origin. For The Great Punjab Business Centre, 4.3% of the population denotes their ethnic or cultural origin as Punjabi. These numbers showcase the different ethnic origins as being important to the cultural make up of the city.
+The City of Mississauga has a highly diverse population of Chinese and Punjab residents. In fact, 7.8% of the total population denotes their ethnic/cultural origin as Chinese, while 1.5% denotes their ethnic/cultural origin as Punjabi. At the local level, the census tract for the Mississauga Chinese Centre denotes 3.7% of the population as Chinese ethnic/cultural origin. For The Great Punjab Business Centre, 4.3% of the population denotes their ethnic/cultural origin as Punjabi. These numbers showcase the different ethnic and cultural origins as being important to the cultural make up of the city.
 
 **Site Description**
 
