@@ -93,7 +93,7 @@ In contrast, The Great Punjab Business Centre blends with its surroundings along
 **Key Features of the Site**
 
 According to the numerous inscriptions along the site, the centre was built to imitate a Chinese commercial centre and city, with its large corner towers, the arch, the nine dragon wall, Soo Chow garden, the fortress, the stele, and the covered walkways. Indeed, these walkways are meant to “imitate the ones in Beijing”, which offers protection and serves as a marker for the retail spaces along the site. Culturally, the nine dragon wall, defined as the only one outside of Asia, reinforce the space’s clear Chinese influence and offers a strong welcoming marker for customers entering the space. In fact, one may not call them customers, but merely citizens of the space, as the site offers a home away from home, even if they have always lived in Canada. The large tower of the fortress serves as a second marker for those who enter the space by its second entrance, further implying the space’s purpose as a Chinese centre.
-The Punjab business centre offers a few landmarks to denote the space for its community. First, the mural wall with the engraved history denotes the site’s focus on the Punjab community. As written, the depiction of the Komagata Maru gives way for reflection as to how these immigrants arrived in Canada. Next, the statue of Maharaja Ranjit Singh depicts the founder of the Sikh Empire overlooking and acting as overlooker on the site. The Sikh Heritage Museum of Canada located amongst the retail spaces and offices, further entrenches the cultural usage of the site. As such, businesses and offices offer diverse services to the community, including integration services offering immigrants an opportunity for life in Canada.
+The Great Punjab Business Centre offers a few landmarks to denote the space for its community. First, the mural wall with the engraved history denotes the site’s focus on the Punjab community. As written, the depiction of the Komagata Maru gives way for reflection as to how these immigrants arrived in Canada. Next, the statue of Maharaja Ranjit Singh depicts the founder of the Sikh Empire overlooking and acting as overlooker on the site. The Sikh Heritage Museum of Canada located amongst the retail spaces and offices, further entrenches the cultural usage of the site. As such, businesses and offices offer diverse services to the community, including integration services offering immigrants an opportunity for life in Canada.
 
 
 **Inclusive Spaces**
@@ -113,15 +113,31 @@ A strong background about the space before visiting would be encouraged to bette
 Planners should learn about the history of the site, including why this space was chosen to locate the Chinese centre. As such, a careful study of zoning by-laws and demographics of the city can aid in offering a better understanding of the site. Information may also be contained in research conducted about the community. Epistemological studies about the community offers a dialogue between researchers and the people of the community. Future goals and purposes by the city can inform possible changes and impacts to the space, for example the Dundas Connects which can aim to offer an alternative to the automobile for travelling to the site.
 
 ## Mississauga Chinese Centre
+*Arch at entryway*
 ![arch](./tourpics/arch.jpg)
+
+*Covered walkway*
 ![coveredwalkway](./tourpics/coveredwalkway.jpg)
+
+*Nine Dragon Wall*
 ![ninedragonwall](./tourpics/ninedragonwall.jpg)
+
+*Pavilion*
 ![pavilion](./tourpics/pavilion.jpg)
 
 ## The Great Punjab Business Centre
+*Mural at entrance*
 ![muralentrance](./tourpics/muralentrance.jpg)
+
+*Mural Wall with depiction of the Komagata Maru*
 ![muralwall](./tourpics/muralwall.jpg)
+
+*Statue of Maharaja Ranjit Singh*
 ![statue1](./tourpics/statue1.jpg)
 ![statue2](./tourpics/statue2.jpg)
+
+*Sikh Heritage Museum of Canada*
 ![sikhmuseum](./tourpics/sikhmuseum.jpg)
+
+*Nearby Gurdwara*
 ![gurdwara](./tourpics/gurdwara.jpg)
