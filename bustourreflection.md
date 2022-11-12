@@ -40,10 +40,10 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             }
             function censusstyle(feature) {
                 return {
-                  fillColor: "#ffffff",
+                  fillColor: "#194a8d",
                   weight: 2,
                   opacity: 0.5,
-                  color: "#ffffff",
+                  color: "#194a8d",
                   fillOpacity: 0.1
                 };
             }
@@ -72,7 +72,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                   var div = L.DomUtil.create('div', 'info legend');
                   div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>The Great Punjab Business Centre</span><br>';
-                  div.innerHTML += '<i class="polygon" style="background: #ffffff"></i><span>Census Tract</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #194a8d"></i><span>Census Tract</span><br>';
                   return div
             }
             legend.addTo(mapbustour);
