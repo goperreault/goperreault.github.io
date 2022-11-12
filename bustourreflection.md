@@ -129,7 +129,7 @@ Planners should learn about the history of the site, including why this space wa
 *Mural at entrance*
 ![muralentrance](./tourpics/muralentrance.jpg)
 
-*Mural Wall with depiction of the Komagata Maru*
+*Mural with depiction of the Komagata Maru*
 ![muralwall](./tourpics/muralwall.jpg)
 
 *Statue of Maharaja Ranjit Singh*
