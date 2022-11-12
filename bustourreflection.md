@@ -38,10 +38,14 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                   fillOpacity: 0.5
                 };
             }
-            function forEachFeature(feature, layer) {
-                var popupContent =  feature.properties.NAMES;
-                layer.bindPopup(popupContent);
-                //layer.bindTooltip(popupContent);
+            function censusstyle(feature) {
+                return {
+                  fillColor: "#ffffff",
+                  weight: 2,
+                  opacity: 0.5,
+                  color: "#ffffff",
+                  fillOpacity: 0.1
+                };
             }
             $.getJSON("geo_layers/MissChineseBusi.geojson",function(data){
                   L.geoJson(data, {
@@ -53,11 +57,22 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                       style: punjabstyle
                   }).addTo(mapbustour);
             });
+            $.getJSON("geo_layers/ct5350510.geojson",function(data){
+                  L.geoJson(data, {
+                      style: censusstyle
+                  }).addTo(mapbustour);
+            });
+            $.getJSON("geo_layers/ct5350528.geojson",function(data){
+                  L.geoJson(data, {
+                      style: censusstyle
+                  }).addTo(mapbustour);
+            });
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapbustour) {
                   var div = L.DomUtil.create('div', 'info legend');
                   div.innerHTML += '<i class="polygon" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
                   div.innerHTML += '<i class="polygon" style="background: #ffb947"></i><span>The Great Punjab Business Centre</span><br>';
+                  div.innerHTML += '<i class="polygon" style="background: #ffffff"></i><span>Census Tract</span><br>';
                   return div
             }
             legend.addTo(mapbustour);
@@ -66,7 +81,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
 
 
 **Background Demographics**
-
+The City of Mississauga has a highly diverse population of Chinese and Punjab residents. In fact, 7.8% of the total population denotes their ethnic or cultural origin as Chinese, while 1.5% denotes their origin as Punjabi. At the local level, the census tract for the Mississauga Chinese Centre denotes 3.7% of the population as Chinese ethnic origin. For The Great Punjab Business Centre, 4.3% of the population denotes their ethnic or cultural origin as Punjabi. These numbers showcase the different ethnic origins as being important to the cultural make up of the city.
 
 **Site Description**
 
@@ -88,7 +103,7 @@ The Punjab business centre’s many job centre offering establishes an inclusive
 
 **Knowledge and Sharing**
 
-To learn and share knowledge about another culture is important for planners. As we aim to build inclusive communities, knowledge serves as a guide to better understand the goal and purpose of these spaces. As such, the centre’s use of descriptive imagery in the fortress’ hallway helps outsiders to appreciate the built form and purpose of the centre as central to the Chinese community. The mix of guidance and retail offers a theoretical and practice use of the space, where one may wish to immerse themselves and discover a foreign cultural community. Furthermore, it builds upon the south Asian community located in Mississauga [see Figure graph]. In similar fashion, the landmarks around the Punjab business centre reinforce the notion of the space as welcoming to the Sikh and non-Sikh community. The inclusion of the museum further demonstrates the space as knowledge sharing within the larger communities in the Greater Toronto Area.
+To learn and share knowledge about another culture is important for planners. As we aim to build inclusive communities, knowledge serves as a guide to better understand the goal and purpose of these spaces. As such, the centre’s use of descriptive imagery in the fortress’ hallway helps outsiders to appreciate the built form and purpose of the centre as central to the Chinese community. The mix of guidance and retail offers a theoretical and practice use of the space, where one may wish to immerse themselves and discover a foreign cultural community. In similar fashion, the landmarks around the Punjab business centre reinforce the notion of the space as welcoming to the Sikh and non-Sikh community. The inclusion of the museum further demonstrates the space as knowledge sharing within the larger communities in the Greater Toronto Area.
 
 
 **How to approach a space as a planner and gain knowledge**
