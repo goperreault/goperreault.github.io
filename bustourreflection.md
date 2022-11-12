@@ -57,12 +57,12 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
                       style: punjabstyle
                   }).addTo(mapbustour);
             });
-            $.getJSON("geo_layers/ct5350510.geojson",function(data){
+            $.getJSON("geo_layers/ct_5350510.geojson",function(data){
                   L.geoJson(data, {
                       style: censusstyle
                   }).addTo(mapbustour);
             });
-            $.getJSON("geo_layers/ct5350528.geojson",function(data){
+            $.getJSON("geo_layers/ct_5350528.geojson",function(data){
                   L.geoJson(data, {
                       style: censusstyle
                   }).addTo(mapbustour);
