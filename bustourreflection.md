@@ -78,7 +78,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
             legend.addTo(mapbustour);
      </script>
 </div>
-
+*Interactive Map of both sites with census tracts*
 
 **Background Demographics**
 
