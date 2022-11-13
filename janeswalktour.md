@@ -35,7 +35,7 @@ Is the Franco-Ontario population properly included as part of a historical conte
             L.marker([43.668856, -79.405349]).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
-            .bindPopup('Université de lOntario Français');
+            .bindPopup('Université de l&#8217;Ontario Français');
      </script>
 </div>
 *Interactive Map of Sites*
