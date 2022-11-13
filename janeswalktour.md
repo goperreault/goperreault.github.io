@@ -13,7 +13,7 @@ Having grown up in the francophone community, it is important to realize the cur
 **Map with Stops**
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
-            var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 11);
+            var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                   attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
                   maxZoom: 18,
