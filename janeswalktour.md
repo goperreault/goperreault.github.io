@@ -14,8 +14,12 @@ When building inclusive cities, we must consider the historical cultural heritag
 Having grown up in the francophone community, it is important to realize the current diversity of francophones in Ontario, and certainly Toronto as a multicultural city. As such, this tour will guide us through important landmarks and institutions that reflect the history of Franco-Ontarians.
 
 Therefore, three important questions are at hand.
+
 Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?
+
 Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?
+
+
 
 **Map with Stops**
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
