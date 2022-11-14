@@ -19,6 +19,7 @@ Were New France’s activities with indigenous people seen as early colonisation
 
 Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?
 
+How does the UOF contribute to building a more inclusive society?
 
 
 **Map with Stops**
