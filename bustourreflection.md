@@ -159,4 +159,4 @@ Government of Canada, S. C. (2022c, February 9). Profile table, Census Profile, 
 
 Mississauga, C. of. (2021, November 11). Mississauga Further Strengthens Its Commitment to Indigenous Communities (Mississauga, Ontario, Canada). City of Mississauga; City of Mississauga. https://www.mississauga.ca/city-of-mississauga-news/news/mississauga-further-strengthens-its-commitment-to-indigenous-communities/
 
-Ricee, S. (2017, February 28). What is Inclusivity? &#91;2022&#93; | Diversity for Social ImpactTM. https://diversity.social/inclusivity/
+Ricee, S. (2017, February 28). What is Inclusivity? &#91;2022&#93; Diversity for Social ImpactTM. https://diversity.social/inclusivity/
