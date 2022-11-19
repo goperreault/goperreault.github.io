@@ -5,6 +5,11 @@ layout: layoutTMU
 ## Jane's Walk Tour Proposal
 A project outlining diversity and inclusivity.
 
+**Land Acknowledgment**
+
+The author wishes to acknowledge that the present-day City of Toronto is located on the traditional territory of many nations including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples and is now home to many diverse First Nations, Inuit and Métis peoples. The author also acknowledges that the City of Toronto is covered by Treaty 13 signed with the Mississaugas of the Credit, and the Williams Treaties signed with multiple Mississaugas and Chippewa bands.
+
+
 **Background**
 
 It was 4 centuries ago that the French settled in what is now called Ontario. Their presence has not always been welcomed, as demonstrated by the fights they had to keep their language and culture. First, the Regulation 17 from 1912 to 1917 prohibited French from being taught in schools. The Montfort event from 1997 to 2002 reflects their resilience, as the fought the closure of a French language hospital in Ontario. More recently the 2018 protest against the provincial government’s budget cuts which affected francophones, namely by eliminated funding for the francophone university in the Greater Toronto Area. Throughout these battles, the cultural and ethnic makeup of Franco-Ontarians has changed to become more inclusive of other French speaking countries. As of the 2021 Canadian census, 3.4% (484 425) of Ontario denote French as first language spoken at home with 11.1% (1 550 545) having a knowledge of French. In Toronto, 1.4% (38 695) denote French as first language spoken at home with 8.6% (238 505) having knowledge of French.

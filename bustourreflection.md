@@ -5,6 +5,12 @@ layout: layoutTMU
 ## Bus Tour Reflection
 A project identifying diversity and inclusivity during a bus tour of the Mississauga Chinese Centre and The Great Punjab Business Centre, located in Mississauga, Ontario, Canada.
 
+
+**Land Acknowledgment**
+
+The author wishes to acknowledge lands which constitute the present-day City of Mississauga as being part of the Treaty and Traditional Territory of the Mississauga’s of the Credit First Nation, The Haudenosaunee Confederacy the Huron-Wendat and Wyandot Nations.
+
+
 **Site Map**
 <div id="mapidbustour" style="width: 700px; height: 500px">
       <script>
