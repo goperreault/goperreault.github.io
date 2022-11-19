@@ -12,7 +12,8 @@ The author wishes to acknowledge that the present-day City of Toronto is located
 
 **Background**
 
-It was 4 centuries ago that the French settled in what is now called Ontario (Sylvestre, 2020). Their presence has not always been welcomed, as demonstrated by the fights they had to keep their language and culture. First, the Regulation 17 from 1912 to 1917 prohibited French from being taught in schools. The Montfort event from 1997 to 2002 reflects their resilience, as the fought the closure of a French language hospital in Ontario (Arseneault & Bock, 2004; Sylvestre, 2020). More recently the 2018 protest against the provincial government’s budget cuts which affected francophones, namely by eliminated funding for the francophone university in the Greater Toronto Area. Throughout these battles, the cultural and ethnic makeup of Franco-Ontarians has changed to become more inclusive of other French speaking countries. As of the 2021 Canadian census, 3.4% (484 425) of Ontario denote French as first language spoken at home with 11.1% (1 550 545) having a knowledge of French. In Toronto, 1.4% (38 695) denote French as first language spoken at home with 8.6% (238 505) having knowledge of French (Government of Canada, 2022).
+It was 4 centuries ago that the French settled in what is now called Ontario (Sylvestre, 2020). Their presence has not always been welcomed, as demonstrated by the fights they had to keep their language and culture. First, the Regulation 17 from 1912 to 1917 prohibited French from being taught in schools. The Montfort event from 1997 to 2002 reflects their resilience, as the fought the closure of a French language hospital in Ontario (Arseneault & Bock, 2004; Sylvestre, 2020). More recently the 2018 protest against the provincial government’s budget cuts which affected francophones, namely by eliminated funding for the francophone university in the Greater Toronto Area (Crawley, 2018; Marquis, 2018). Throughout these battles, the cultural and ethnic makeup of Franco-Ontarians has changed to become more inclusive of other French speaking countries. As of the 2021 Canadian census, 3.4% (484 425) of Ontario denote French as first language spoken at home with 11.1% (1 550 545) having a knowledge of French. In Toronto, 1.4% (38 695) denote French as first language spoken at home with 8.6% (238 505) having knowledge of French (Government of Canada, 2022). According to the data based on the 2016 Canadian census, for the francophones in Ontario, 17% are born abroad where 37% immigrated from Africa, 27% from Europe, 20% from Asia and 17% from the Americas (Toolkit, 2016). At the Toronto level, 48% are born abroad where 28% immigrated from Africa, 32% from Europe, 27% from Asia and 14% from the Americas (Social Development, Finance & Administration, Toronto, 2020).
+
 
 When building inclusive cities, we must consider the historical cultural heritage of communities. By listening to these communities, policies can be written in a way that considers the variety of knowledge. The communities must fit into the existing city make up.
 
@@ -60,7 +61,7 @@ Trading post between the French and indigenous people existed along the shores o
 
 **Alliance Française Toronto**
 
-This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarian make up not only decedents of New France, but also people from other French speaking countries.
+This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
 
 **Université de l'Ontario Français**
 
@@ -80,7 +81,11 @@ Alliance Française. (n.d.). About us. Alliance Française Toronto. Retrieved No
 
 Arseneault, S., & Bock, M. (Eds.). (2004). L’Ontario français: Des Pays-d’en-Haut à nos jours. Centre franco-ontarien de ressources pédagogiques.
 
-Government of Canada, S. C. (2022, February 9). Profile table, Census Profile, 2021 Census of Population—Ontario [Province];Toronto, City (C) [Census subdivision], Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+Crawley, M. (2018, December 1). How Ontario’s francophones are teaching Doug Ford a French lesson. CBC. https://www.cbc.ca/news/canada/toronto/doug-ford-ontario-french-protests-1.4927217
+
+Government of Canada, S. C. (2022, February 9). Profile table, Census Profile, 2021 Census of Population—Ontario &#91;Province&#93;;Toronto, City (C) &#91;Census subdivision&#93;, Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+
+Marquis, M. (2018, December 1). Franco-Ontarians protest Ford government’s cuts to services for French speakers | CityNews Toronto. Citynews Toronto. https://toronto.citynews.ca/2018/12/01/ontario-francophone-protests/
 
 Marsh, J. H. (2015a, January 14). Étienne Brûlé | The Canadian Encyclopedia. The Canadian Encyclopedia. https://www.thecanadianencyclopedia.ca/en/article/etienne-brule
 
@@ -88,9 +93,13 @@ Marsh, J. H. (2015b, July 2). Toronto Feature: Fort Rouillé | The Canadian Ency
 
 Ontario. (2014, July 24). Université de l’Ontario français Act, 2017, S.O. 2017, c. 34, Sched. 43. Ontario.Ca. https://www.ontario.ca/laws/view
 
+Social Development, Finance & Administration, Toronto. (2020). A profile of the Francophone Communities in Toronto. https://www.toronto.ca/legdocs/mmis/2020/fa/bgrd/backgroundfile-145323.pdf
+
 Sylvestre, P.-F. (2019). L’Ontario français, quatre siècles d’histoire (Les Éditions David).
 
 Sylvestre, P.-F. (2020, September 23). Francophones of Ontario (Franco-Ontarians) | The Canadian Encyclopedia. The Canadian Encyclopedia. https://www.thecanadianencyclopedia.ca/en/article/franco-ontarians
+
+Toolkit, W. E. (2016, June 15). Infographic: The French Presence in Ontario. https://www.clo-ocol.gc.ca/en/statistics/infographics/french-presence-ontario
 
 Toronto, C. of. (2018, December 13). Land Acknowledgement (Toronto, Ontario, Canada). City of Toronto; City of Toronto. https://www.toronto.ca/city-government/accessibility-human-rights/indigenous-affairs-office/land-acknowledgement/
 

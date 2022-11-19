@@ -151,12 +151,12 @@ Planners should learn about the history of the site, including why this space wa
 
 **References**
 
-Government of Canada, S. C. (2022a, February 9). Profile table, Census Profile, 2021 Census of Population—5350510.00 [Census tract], Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+Government of Canada, S. C. (2022a, February 9). Profile table, Census Profile, 2021 Census of Population—5350510.00 &#91;Census tract&#93;, Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 
-Government of Canada, S. C. (2022b, February 9). Profile table, Census Profile, 2021 Census of Population—5350528.62 [Census tract], Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+Government of Canada, S. C. (2022b, February 9). Profile table, Census Profile, 2021 Census of Population—5350528.62 &#91;Census tract&#93;, Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 
-Government of Canada, S. C. (2022c, February 9). Profile table, Census Profile, 2021 Census of Population—Mississauga, City (CY) [Census subdivision], Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+Government of Canada, S. C. (2022c, February 9). Profile table, Census Profile, 2021 Census of Population—Mississauga, City (CY) &#91;Census subdivision&#93;, Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 
 Mississauga, C. of. (2021, November 11). Mississauga Further Strengthens Its Commitment to Indigenous Communities (Mississauga, Ontario, Canada). City of Mississauga; City of Mississauga. https://www.mississauga.ca/city-of-mississauga-news/news/mississauga-further-strengthens-its-commitment-to-indigenous-communities/
 
-Ricee, S. (2017, February 28). What is Inclusivity? [2022] | Diversity for Social ImpactTM. https://diversity.social/inclusivity/
+Ricee, S. (2017, February 28). What is Inclusivity? &#91;2022&#93; | Diversity for Social ImpactTM. https://diversity.social/inclusivity/
