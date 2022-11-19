@@ -73,6 +73,7 @@ Were New France’s activities with indigenous people seen as early colonisation
 Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?
 How does the UOF contribute to building a more inclusive society?
 
+
 **References**
 
 Alliance Française. (n.d.). About us. Alliance Française Toronto. Retrieved November 19, 2022, from https://www.alliance-francaise.ca/en/who/about-us
