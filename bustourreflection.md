@@ -8,7 +8,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
 
 **Land Acknowledgment**
 
-The author wishes to acknowledge lands which constitute the present-day City of Mississauga as being part of the Treaty and Traditional Territory of the Mississauga’s of the Credit First Nation, The Haudenosaunee Confederacy the Huron-Wendat and Wyandot Nations.
+The author wishes to acknowledge lands which constitute the present-day City of Mississauga as being part of the Treaty and Traditional Territory of the Mississauga’s of the Credit First Nation, The Haudenosaunee Confederacy the Huron-Wendat and Wyandot Nations (Mississauga, 2021).
 
 
 **Site Map**
@@ -88,7 +88,7 @@ The author wishes to acknowledge lands which constitute the present-day City of 
 
 **Background Demographics**
 
-The City of Mississauga has a highly diverse population of Chinese and Punjab residents. In fact, 7.8% of the total population denotes their ethnic/cultural origin as Chinese, while 1.5% denotes their ethnic/cultural origin as Punjabi. At the local level, the census tract for the Mississauga Chinese Centre denotes 3.7% of the population as Chinese ethnic/cultural origin. For The Great Punjab Business Centre, 4.3% of the population denotes their ethnic/cultural origin as Punjabi. These numbers showcase the different ethnic and cultural origins as being important to the cultural make up of the city.
+The City of Mississauga has a highly diverse population of Chinese and Punjab residents. In fact, 7.8% of the total population denotes their ethnic or cultural origin as Chinese, while 1.5% denotes their origin as Punjabi. At the local level, the census tract for the Mississauga Chinese Centre denotes 3.7% of the population as Chinese ethnic origin. For The Great Punjab Business Centre, 4.3% of the population denotes their ethnic or cultural origin as Punjabi (Government of Canada, 2022a, 2022b, 2022c). These numbers showcase the different ethnic origins as being important to the cultural make up of the city.
 
 **Site Description**
 
@@ -104,7 +104,7 @@ The Great Punjab Business Centre offers a few landmarks to denote the space for 
 
 **Inclusive Spaces**
 
-Inclusivity, which aims to remove barriers for all, defines the overall character of the space. The retail spaces offer services to all customers. The plaques located around the centre that define its built form also includes English for those who wish to better understand the space’s character.
+Inclusivity, which aims to remove barriers for all, defines the overall character of the space (Ricee, 2017). The retail spaces offer services to all customers. The plaques located around the centre that define its built form also includes English for those who wish to better understand the space’s character.
 The Punjab business centre’s many job centre offering establishes an inclusive environment to integrate the community’s needs with the surrounding reality of Canadian life. Located amongst industrial spaces around the airport, and close to the strong Sikh population in Brampton, confirms the choice of this location as close to its community.
 
 
@@ -147,3 +147,9 @@ Planners should learn about the history of the site, including why this space wa
 
 *Nearby Gurdwara*
 ![gurdwara](./tourpics/gurdwara.jpg)
+
+**References**
+
+
+Government of Canada, S. C. (2022a, February 9). Profile table, Census Profile, 2021 Census of Population—5350510.00 [Census tract], Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
+Government of Canada, S. C. (2022b, February 9). Profile table, Census Profile, 2021 Census of Population—5350528.62 [Census tract], Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
