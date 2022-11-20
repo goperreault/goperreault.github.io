@@ -86,7 +86,7 @@ Therefore, three important questions are at hand
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapjanewalk) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="line" style="background: #194a8d"></i><span>Jane&#8217s Walk Tour</span><br>';
+                  div.innerHTML += '<i class="line" style="background: #194a8d"></i><span>Jane&#8217s Walk Route</span><br>';
                   return div
             }
             legend.addTo(mapjanewalk);
