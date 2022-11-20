@@ -67,7 +67,7 @@ Therefore, three important questions are at hand
             function routestyle(feature) {
                 return {
                   fillColor: "#194a8d",
-                  weight: 3,
+                  weight: 5,
                   opacity: 0.5,
                   color: "#194a8d",
                   fillOpacity: 0.1
