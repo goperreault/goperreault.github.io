@@ -81,7 +81,7 @@ Therefore, three important questions are at hand
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapjanewalk) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="line" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
+                  div.innerHTML += '<i class="line" style="background: #b7484b"></i><span>Jane&#8217s Walk Tour</span><br>';
                   return div
             }
             legend.addTo(mapjanewalk);
