@@ -63,14 +63,22 @@ Therefore, three important questions are at hand
             L.marker([43.668856, -79.405349]).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
-            .bindPopup('Université de l&#8217;Ontario Français');
+            .bindPopup('Université de l&#8217;Ontario français');
      </script>
 </div>
 *Interactive Map of Sites*
 
 Transit Directions
 
-The transit walk uses TTC buses and subway. It starts at Fort Rouillé. A short walk to take the 29 Dufferin bus northbound to Dufferin Station. Then, a Westbound Line 2 Train to Old Mill Station. A short walk to Étienne Brulé Park. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station. A short walk along Spadina Avenue to Alliance Française Toronto. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station. Exit Union Station at Bay Street and take Southbound 19 Bay bus to Queens Quay & Sherbourne. Walk to Université de l’Ontario Français.
+The transit walk uses TTC buses and subway. It starts at Fort Rouillé (next to Scadding Cabin on CNE grounds).
+1. A short walk to take the 29 Dufferin bus northbound (14470 Saskatchewan Rd at Dufferin St) to Dufferin Station.
+2. Then, a Westbound Line 2 Train to Old Mill Station.
+3. A short walk to Étienne Brulé Park (10 Catherine St).
+4. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station.
+5. A short walk along Spadina Avenue to Alliance Française Toronto (24 Spadina Rd).
+6. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station.
+7. Exit Union Station at Bay Street and take Southbound 19 Bay bus (246 Bay St at Front St) to Lower Jarvis St (15320 Queens Quay at Lower Jarvis St).
+8. Walk to Université de l’Ontario français (9 Lower Jarvis St).
 
 
 **Fort Rouillé**
@@ -85,7 +93,7 @@ This park is named after the French explorer Étienne Brulé who in 1610 arrived
 
 This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
 
-**Université de l'Ontario Français**
+**Université de l'Ontario français**
 
 The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals.
 
