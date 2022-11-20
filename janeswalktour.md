@@ -80,7 +80,7 @@ Therefore, three important questions are at hand
             }
             $.getJSON("geo_layers/janeswalkroute.geojson",function(data){
                   L.geoJson(data, {
-                      style: routestyle
+                      style: routestyle,
                       onEachFeature: forEachFeature
                   }).addTo(mapjanewalk);
 
