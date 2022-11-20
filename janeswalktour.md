@@ -74,7 +74,7 @@ Therefore, three important questions are at hand
                 };
             }
             function forEachFeature(feature, layer) {
-                var popupContent =  feature.properties.class;
+                var popupContent =  feature.properties.name;
                 layer.bindPopup(popupContent);
                 //layer.bindTooltip(popupContent);
             }
