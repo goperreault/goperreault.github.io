@@ -67,11 +67,16 @@ Therefore, three important questions are at hand
             function routestyle(feature) {
                 return {
                   fillColor: "#194a8d",
-                  weight: 2,
+                  weight: 3,
                   opacity: 0.5,
                   color: "#194a8d",
                   fillOpacity: 0.1
                 };
+            }
+            function forEachFeature(feature, layer) {
+                var popupContent =  feature.properties.name;
+                layer.bindPopup(popupContent);
+                //layer.bindTooltip(popupContent);
             }
             $.getJSON("geo_layers/janeswalkroute.geojson",function(data){
                   L.geoJson(data, {
@@ -81,7 +86,7 @@ Therefore, three important questions are at hand
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapjanewalk) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="line" style="background: #b7484b"></i><span>Jane&#8217s Walk Tour</span><br>';
+                  div.innerHTML += '<i class="line" style="background: #194a8d"></i><span>Jane&#8217s Walk Tour</span><br>';
                   return div
             }
             legend.addTo(mapjanewalk);
