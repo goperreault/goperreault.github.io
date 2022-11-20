@@ -64,6 +64,27 @@ Therefore, three important questions are at hand
             .bindPopup('Alliance Française Toronto');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
+            function routestyle(feature) {
+                return {
+                  fillColor: "#194a8d",
+                  weight: 2,
+                  opacity: 0.5,
+                  color: "#194a8d",
+                  fillOpacity: 0.1
+                };
+            }
+            $.getJSON("geo_layers/janeswalkroute.geojson",function(data){
+                  L.geoJson(data, {
+                      style: routestyle
+                  }).addTo(mapjanewalk);
+            });
+            var legend = L.control({position: 'bottomleft'});
+            legend.onAdd = function (mapjanewalk) {
+                  var div = L.DomUtil.create('div', 'info legend');
+                  div.innerHTML += '<i class="line" style="background: #b7484b"></i><span>Mississauga Chinese Centre</span><br>';
+                  return div
+            }
+            legend.addTo(mapjanewalk);
      </script>
 </div>
 *Interactive Map of Sites*
