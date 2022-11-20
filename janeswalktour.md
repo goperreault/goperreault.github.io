@@ -21,11 +21,11 @@ Having grown up in the francophone community, it is important to realize the cur
 
 Therefore, three important questions are at hand.
 
-Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?
+*Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?*
 
-Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?
+*Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?*
 
-How does the UOF contribute to building a more inclusive society?
+*How does the UOF contribute to building a more inclusive society?*
 
 
 **Map with Stops**
@@ -70,9 +70,15 @@ The recently opened campus is a key success of the fights to protect francophone
 **Outcomes and Takeaways**
 
 By reflecting on the three questions, we can assess and understand the purpose of this tour through a diversity and inclusivity lens.
-Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?
-Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?
-How does the UOF contribute to building a more inclusive society?
+
+*Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?*
+Although Étienne Brulé’s history shows a will to integrate amongst the indigenous people, we cannot overstate his more controversial actions amongst the people, including tales of debauchery (Sylvestre, 2019). The earlier French colonizers also sought to push their religious views onto the indigenous people (Arseneault & Bock, 2004). As such, colonization was in full swing before the arrival of the English.
+
+*Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?*
+Landmarks and names are an important contributor to the history of French presence in the City of Toronto. Their actions and feats are recognized by way of imprints into the city’s cultural heritage. Franco-Ontarians and francophones alike can look back to the earlier settlement that would become the City of Toronto, where current cultural events and activities continue the presence of francophone in the city.
+
+*How does the UOF contribute to building a more inclusive society?*
+The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
 
 
 **References**
