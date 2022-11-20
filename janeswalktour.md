@@ -3,7 +3,7 @@ title: Jane's Walk Tour Proposal
 layout: layoutTMU
 ---
 ## Jane's Walk Tour Proposal
-A project outlining diversity and inclusivity through a Jane's Walk tour proposal.
+A project outlining diversity and inclusivity through a Jane's Walk tour pro.
 
 **Land Acknowledgment**
 
@@ -39,10 +39,10 @@ Therefore, three important questions are at hand.
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
             L.marker([43.651912, -79.490305]).addTo(mapjanewalk)
-            .bindPopup('Étienne Brulé Park')
-            .openPopup();
+            .bindPopup('Étienne Brulé Park');
             L.marker([43.630658, -79.423548]).addTo(mapjanewalk)
-            .bindPopup('Fort Rouillé');
+            .bindPopup('Fort Rouillé')
+            .openPopup();
             L.marker([43.668856, -79.405349]).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
@@ -51,13 +51,13 @@ Therefore, three important questions are at hand.
 </div>
 *Interactive Map of Sites*
 
-**Étienne Brulé Park**
-
-This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
-
 **Fort Rouillé**
 
 Trading post between the French and indigenous people existed along the shores of Lake Ontario, the first in 1720 along the Humber River, the second 1750 at the mouth of the Humber River and finally Fort Rouillé in 1750-51 until its ordered destruction in 1759 (Marsh, 2015b; Sylvestre, 2019). Stone is laid on the former boundaries of the fort, with a plaque indicating its function as a fur trading post. This marks an important relationship between indigenous people, as trade was of high importance in New France (Sylvestre, 2019, 2020). With current knowledge of how indigenous people were treated in Canada, the monument provides a reflective moment to consider New France’s initial trading with indigenous people.
+
+**Étienne Brulé Park**
+
+This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
 
 **Alliance Française Toronto**
 
