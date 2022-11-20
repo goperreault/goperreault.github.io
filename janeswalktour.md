@@ -68,6 +68,11 @@ Therefore, three important questions are at hand
 </div>
 *Interactive Map of Sites*
 
+Transit Directions
+
+The transit walk uses TTC buses and subway. It starts at Fort Rouillé. A short walk to take the 29 Dufferin bus northbound to Dufferin Station. Then, a Westbound Line 2 Train to Old Mill Station. A short walk to Étienne Brulé Park. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station. A short walk along Spadina Avenue to Alliance Française Toronto. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station. Exit Union Station at Bay Street and take Southbound 19 Bay bus to Queens Quay & Sherbourne. Walk to Université de l’Ontario Français.
+
+
 **Fort Rouillé**
 
 Trading post between the French and indigenous people existed along the shores of Lake Ontario, the first in 1720 along the Humber River, the second 1750 at the mouth of the Humber River and finally Fort Rouillé in 1750-51 until its ordered destruction in 1759 (Marsh, 2015b; Sylvestre, 2019). Stone is laid on the former boundaries of the fort, with a plaque indicating its function as a fur trading post. This marks an important relationship between indigenous people, as trade was of high importance in New France (Sylvestre, 2019, 2020). With current knowledge of how indigenous people were treated in Canada, the monument provides a reflective moment to consider New France’s initial trading with indigenous people.
