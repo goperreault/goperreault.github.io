@@ -29,7 +29,7 @@ According to the data based on the 2016 Canadian census, for the francophones in
 
 <img src="charts/francophonecharts_immigrantsON.jpg" width="300">
 <img src="charts/francophonecharts_immigrantsTO.jpg" width="300">
-*Place of Birth of Francophones in Ontario and Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
+ *Place of Birth of Francophones in Ontario and Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
 
 When building inclusive cities, we must consider the historical cultural heritage of communities. By listening to these communities, policies can be written in a way that considers the variety of knowledge. The communities must fit into the existing city make up.
 
