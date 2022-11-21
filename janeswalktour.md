@@ -61,7 +61,7 @@ Therefore, three important questions are at hand
             .bindPopup('Fort Rouillé')
             .openPopup();
             L.marker([43.66877704481316,-79.40501414188695]).addTo(mapjanewalk)
-            .bindPopup('Alliance Française Toronto');
+            .bindPopup('Alliance Française Toronto Campus');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
             function routestyle(feature) {
@@ -103,7 +103,7 @@ The transit walk uses TTC buses and subway. It starts at Fort Rouillé (next to 
 2. Then, a Westbound Line 2 Train to Old Mill Station.
 3. A short walk to Étienne Brulé Park (10 Catherine St).
 4. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station.
-5. A short walk along Spadina Avenue to Alliance Française Toronto (24 Spadina Rd).
+5. A short walk along Spadina Avenue to Alliance Française Toronto Campus (24 Spadina Rd).
 6. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station.
 7. Exit Union Station at Bay Street and take Southbound 19 Bay bus (246 Bay St at Front St) to Lower Jarvis St (15320 Queens Quay at Lower Jarvis St).
 8. Walk to Université de l’Ontario français (9 Lower Jarvis St).
@@ -113,17 +113,39 @@ The transit walk uses TTC buses and subway. It starts at Fort Rouillé (next to 
 
 Trading post between the French and indigenous people existed along the shores of Lake Ontario, the first in 1720 along the Humber River, the second 1750 at the mouth of the Humber River and finally Fort Rouillé in 1750-51 until its ordered destruction in 1759 (Marsh, 2015b; Sylvestre, 2019). Stone is laid on the former boundaries of the fort, with a plaque indicating its function as a fur trading post. This marks an important relationship between indigenous people, as trade was of high importance in New France (Sylvestre, 2019, 2020). With current knowledge of how indigenous people were treated in Canada, the monument provides a reflective moment to consider New France’s initial trading with indigenous people.
 
+![Fort Rouillé monument](./walkpics/fortr1.jpg)
+*Fort Rouillé monument*
+
+![Fort Rouillé plaque](./tourpics/fortr2.jpg)
+*Fort Rouillé plaque*
+
 **Étienne Brulé Park**
 
 This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
 
-**Alliance Française Toronto**
+![Park Étienne Brulé](./walkpics/parkec.jpg)
+*Park Étienne Brulé overlooking the Humber River*
 
-This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
+
+**Alliance Française - Toronto Campus**
+
+This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities, with their campus located alongside the Spadina Theatre (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
+
+![Alliance Française](./walkpics/afto.jpg)
+*Alliance Française Entrance on Spadina Ave*
+
+![Alliance Française Spadina Theatre](./walkpics/aftost.jpg)
+*Alliance Française Spadina Theatre*
+
 
 **Université de l'Ontario français**
 
 The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals.
+
+![Université de Ontario français](./tourpics/arch.jpg)
+*Université de l'Ontario français campus entrance*
+
+
 
 **Outcomes and Takeaways**
 
