@@ -17,6 +17,7 @@ It was 4 centuries ago that the French settled in what is now called Ontario (Sy
 
 As of the 2021 Canadian census, 3.4% (484 425) of Ontario denote French as first language spoken at home with 11.1% (1 550 545) having a knowledge of French. In Toronto, 1.4% (38 695) denote French as first language spoken at home with 8.6% (238 505) having knowledge of French (Government of Canada, 2022).
 
+<img src="charts/francophonecharts_languageON.jpg" width="200">
 ![languageON](./charts/francophonecharts_languageON.jpg)
 ![languageTO](./charts/francophonecharts_languageTO.jpg)
 *Knowledge of French in Ontario and Toronto (Government of Canada, 2022)*
