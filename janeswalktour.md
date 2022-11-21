@@ -116,7 +116,7 @@ Trading post between the French and indigenous people existed along the shores o
 ![Fort Rouillé monument](./walkpics/fortr1.jpg)
 *Fort Rouillé monument*
 
-![Fort Rouillé plaque](./tourpics/fortr2.jpg)
+![Fort Rouillé plaque](./walkpics/fortr2.jpg)
 *Fort Rouillé plaque*
 
 **Étienne Brulé Park**
@@ -142,7 +142,7 @@ This non-profit organization aims to “embody the current value of humanism, re
 
 The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals.
 
-![Université de Ontario français](./tourpics/arch.jpg)
+![Université de Ontario français](./walkpics/uof.jpg)
 *Université de l'Ontario français campus entrance*
 
 
