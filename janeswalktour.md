@@ -60,7 +60,7 @@ Therefore, three important questions are at hand
             L.marker([43.630658, -79.423548]).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
-            L.marker([43.668856, -79.405349]).addTo(mapjanewalk)
+            L.marker([43.66877704481316,-79.40501414188695]).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
