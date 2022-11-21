@@ -17,20 +17,24 @@ It was 4 centuries ago that the French settled in what is now called Ontario (Sy
 
 As of the 2021 Canadian census, 3.4% (484 425) of Ontario denote French as first language spoken at home with 11.1% (1 550 545) having a knowledge of French. In Toronto, 1.4% (38 695) denote French as first language spoken at home with 8.6% (238 505) having knowledge of French (Government of Canada, 2022).
 
-<img src="charts/francophonecharts_languageON.jpg" width="200">
-![languageON](./charts/francophonecharts_languageON.jpg)
-![languageTO](./charts/francophonecharts_languageTO.jpg)
+<img src="charts/francophonecharts_languageON.jpg" width="300">
+<img src="charts/francophonecharts_languageTO.jpg" width="300">
+[//]: # ![languageON](./charts/francophonecharts_languageON.jpg)
+[//]: # ![languageTO](./charts/francophonecharts_languageTO.jpg)
 *Knowledge of French in Ontario and Toronto (Government of Canada, 2022)*
 
 According to the data based on the 2016 Canadian census, for the francophones in Ontario, 17% are born abroad where 37% immigrated from Africa, 27% from Europe, 20% from Asia and 17% from the Americas (Toolkit, 2016). At the Toronto level, 48% are born abroad where 28% immigrated from Africa, 32% from Europe, 27% from Asia and 14% from the Americas (Social Development, Finance & Administration, Toronto, 2020).
 
-![francopopON](./charts/francophonecharts_francophonepopON.jpg)
-![francopopTO](./charts/francophonecharts_francophonepopTO.jpg)
-
+<img src="charts/francophonecharts_francophonepopON.jpg" width="300">
+<img src="charts/francophonecharts_francophonepopTO.jpg" width="300">
+[//]: # ![francopopON](./charts/francophonecharts_francophonepopON.jpg)
+[//]: # ![francopopTO](./charts/francophonecharts_francophonepopTO.jpg)
 *Francophone Population in Ontario and Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
 
-![immigrantsON](./charts/francophonecharts_immigrantsON.jpg)
-![immigrantsTO](./charts/francophonecharts_immigrantsTO.jpg)
+<img src="charts/francophonecharts_immigrantsON.jpg" width="300">
+<img src="charts/francophonecharts_immigrantsTO.jpg" width="300">
+[//]: # ![immigrantsON](./charts/francophonecharts_immigrantsON.jpg)
+[//]: # ![immigrantsTO](./charts/francophonecharts_immigrantsTO.jpg)
 *Place of Birth of Francophones in Ontario and Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
 
 When building inclusive cities, we must consider the historical cultural heritage of communities. By listening to these communities, policies can be written in a way that considers the variety of knowledge. The communities must fit into the existing city make up.
