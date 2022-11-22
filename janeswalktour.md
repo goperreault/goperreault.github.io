@@ -93,7 +93,7 @@ Therefore, three important questions are at hand
             legend.addTo(mapjanewalk);
      </script>
 </div>
-*Interactive Map of Sites*
+*Interactive Map of Sites with Route*
 
 Transit Directions
 
