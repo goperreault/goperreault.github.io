@@ -84,7 +84,7 @@ The author wishes to acknowledge lands which constitute the present-day City of 
             legend.addTo(mapbustour);
      </script>
 </div>
-*Interactive Map of both sites with census tracts*
+*Interactive Map of both sites with census tracts (Government of Canada, 2022a, 2022b, 2022c)*
 
 **Background Demographics**
 
