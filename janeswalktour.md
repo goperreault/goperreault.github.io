@@ -97,15 +97,15 @@ Therefore, three important questions are at hand
 
 Transit Directions
 
-The transit walk uses TTC buses and subway. It starts at Fort Rouillé (next to Scadding Cabin on CNE grounds).
+The transit walk uses TTC buses and subway. It starts at **Fort Rouillé** (next to Scadding Cabin on CNE grounds).
 1. A short walk to take the 29 Dufferin bus northbound (14470 Saskatchewan Rd at Dufferin St) to Dufferin Station.
 2. Then, a Westbound Line 2 Train to Old Mill Station.
-3. A short walk to Étienne Brulé Park (10 Catherine St).
+3. A short walk to **Étienne Brulé Park** (10 Catherine St).
 4. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station.
-5. A short walk along Spadina Avenue to Alliance Française Toronto Campus (24 Spadina Rd).
+5. A short walk along Spadina Avenue to **Alliance Française Toronto Campus** (24 Spadina Rd).
 6. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station.
 7. Exit Union Station at Bay Street and take Southbound 19 Bay bus (246 Bay St at Front St) to Lower Jarvis St (15320 Queens Quay at Lower Jarvis St).
-8. Walk to Université de l’Ontario français (9 Lower Jarvis St).
+8. Walk to **Université de l’Ontario français** (9 Lower Jarvis St).
 
 
 **Fort Rouillé**
@@ -164,6 +164,8 @@ The university’s mandate to offer programs in French to the francophone popula
 
 
 **References**
+
+All photographs taken by author on Novembre 21 2022
 
 Alliance Française. (n.d.). About us. Alliance Française Toronto. Retrieved November 19, 2022, from https://www.alliance-francaise.ca/en/who/about-us
 

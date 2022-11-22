@@ -118,7 +118,7 @@ To learn and share knowledge about another culture is important for planners. As
 A strong background about the space before visiting would be encouraged to better prepare ourselves. This can be achieved through simply researching about the existing community and its historical immigration to the country. In addition to the offerings of knowledge each space may have, planners should be concerned with the history of the space, such as the choice of location, existing surroundings, and how it was planned to interact with established communities.
 Planners should learn about the history of the site, including why this space was chosen to locate the Chinese centre. As such, a careful study of zoning by-laws and demographics of the city can aid in offering a better understanding of the site. Information may also be contained in research conducted about the community. Epistemological studies about the community offers a dialogue between researchers and the people of the community. Future goals and purposes by the city can inform possible changes and impacts to the space, for example the Dundas Connects which can aim to offer an alternative to the automobile for travelling to the site.
 
-## Mississauga Chinese Centre
+# Mississauga Chinese Centre
 *Arch at entryway*
 ![arch](./tourpics/arch.jpg)
 
@@ -131,7 +131,7 @@ Planners should learn about the history of the site, including why this space wa
 *Pavilion*
 ![pavilion](./tourpics/pavilion.jpg)
 
-## The Great Punjab Business Centre
+# The Great Punjab Business Centre
 *Mural at entrance*
 ![muralentrance](./tourpics/muralentrance.jpg)
 
@@ -150,6 +150,8 @@ Planners should learn about the history of the site, including why this space wa
 
 
 **References**
+
+All photographs taken by author on Octobre 28 2022
 
 Government of Canada, S. C. (2022a, February 9). Profile table, Census Profile, 2021 Census of Population—5350510.00 &#91;Census tract&#93;, Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 
