@@ -17,7 +17,7 @@ Showcasing geography related projects.
 ## Mirabel Airport Land Coverage
 [View project](./proj_aeroportmirabel.html)
 
-## PL8101 Diversity and Inclusion Projects
+## PL8101 Diversity and Inclusive Planning
 [View project](/diversityinclusion.html)
 
 
