@@ -2,7 +2,7 @@
 title: Bus Tour Reflection
 layout: layoutTMU
 ---
-## Bus Tour Reflection
+# Bus Tour Reflection
 A project identifying diversity and inclusivity during a bus tour of the Mississauga Chinese Centre and The Great Punjab Business Centre, located in Mississauga, Ontario, Canada.
 
 
@@ -118,7 +118,7 @@ To learn and share knowledge about another culture is important for planners. As
 A strong background about the space before visiting would be encouraged to better prepare ourselves. This can be achieved through simply researching about the existing community and its historical immigration to the country. In addition to the offerings of knowledge each space may have, planners should be concerned with the history of the space, such as the choice of location, existing surroundings, and how it was planned to interact with established communities.
 Planners should learn about the history of the site, including why this space was chosen to locate the Chinese centre. As such, a careful study of zoning by-laws and demographics of the city can aid in offering a better understanding of the site. Information may also be contained in research conducted about the community. Epistemological studies about the community offers a dialogue between researchers and the people of the community. Future goals and purposes by the city can inform possible changes and impacts to the space, for example the Dundas Connects which can aim to offer an alternative to the automobile for travelling to the site.
 
-# Mississauga Chinese Centre
+## Mississauga Chinese Centre
 *Arch at entryway*
 ![arch](./tourpics/arch.jpg)
 
@@ -131,7 +131,7 @@ Planners should learn about the history of the site, including why this space wa
 *Pavilion*
 ![pavilion](./tourpics/pavilion.jpg)
 
-# The Great Punjab Business Centre
+## The Great Punjab Business Centre
 *Mural at entrance*
 ![muralentrance](./tourpics/muralentrance.jpg)
 
@@ -149,7 +149,7 @@ Planners should learn about the history of the site, including why this space wa
 ![gurdwara](./tourpics/gurdwara.jpg)
 
 
-**References**
+### References
 
 All photographs taken by author on Octobre 28 2022
 

@@ -2,7 +2,7 @@
 title: Jane's Walk Tour Proposal
 layout: layoutTMU
 ---
-## Jane's Walk Tour Proposal
+# Jane's Walk Tour Proposal
 A project outlining diversity and inclusivity through a Jane's Walk tour proposal. [Learn more about Jane's Walk](https://janeswalk.org/about/)
 
 **Land Acknowledgment**
