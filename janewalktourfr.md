@@ -18,9 +18,9 @@ D'après le dernier recensement canadien datant de 2021, 3.4% (484 425) de la p
 
 <img src="charts/francophonecharts_languageON.jpg" width="300">
 <img src="charts/francophonecharts_languageTO.jpg" width="300">
-*La langue francaise en Ontario et à Toronto (Government of Canada, 2022)*
+*La langue française en Ontario et à Toronto (Government of Canada, 2022)*
 
-D'après des données du recensement canadien datant de 2016, 17% des francophones en Ontario sont nés en dehors du Canada, dont 37% ont immigré de l'afrique, 27% de l'europe, 20% de l'asie et 17% des amériques (Toolkit, 2016). Au niveau municipal, dans la ville de Toronto, 48% des francophones sont nés en dehors du Canada,  dont 28% ont immigré de l'afrique, 32% de l'europe, 27% de l'asie et 14% des amériques (Social Development, Finance & Administration, Toronto, 2020).
+D'après des données du recensement canadien datant de 2016, 17% des francophones en Ontario sont nés en dehors du Canada, dont 37% ont immigré de l'afrique, 27% de l'europe, 20% de l'asie et 17% des amériques (Toolkit, 2016). Au niveau municipal, dans la ville de Toronto, 48% des francophones sont nés en dehors du Canada, dont 28% ont immigré de l'afrique, 32% de l'europe, 27% de l'asie et 14% des amériques (Social Development, Finance & Administration, Toronto, 2020).
 
 <img src="charts/francophonecharts_francophonepopON.jpg" width="300">
 <img src="charts/francophonecharts_francophonepopTO.jpg" width="300">
@@ -30,7 +30,8 @@ D'après des données du recensement canadien datant de 2016, 17% des francophon
 <img src="charts/francophonecharts_immigrantsTO.jpg" width="300">
  *Lieux de naissance des francophones en Ontario et à Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
 
-When building inclusive cities, we must consider the historical cultural heritage of communities. By listening to these communities, policies can be written in a way that considers the variety of knowledge. The communities must fit into the existing city make up.
+En considérant l'inclusivité dans les régions urbaines, nous devons prendre en compte l'histoire, la culture et l'héritage culturel des communautés. Ce sont ces communautés sur lesquels nous nous basons pour rédiger les politiques et sur lesquels nous devons inclure leur savoir faire. Ces communautés doivent faire partie de la composition des régions urbaines, n'étant pas négligées.
+
 
 Having grown up in the francophone community, it is important to realize the current diversity of francophones in Ontario, and certainly Toronto as a multicultural city. As such, this tour will guide us through important landmarks and institutions that reflect the history of Franco-Ontarians.
 
