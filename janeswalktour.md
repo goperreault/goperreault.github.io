@@ -47,6 +47,34 @@ Therefore, three important questions are at hand
 ## Map with Sites
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
+          var fortfIcon = L.icon({
+              iconUrl: 'icons/fortr_icon.png',
+
+              iconSize:     [38, 95], // size of the icon
+              iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+              popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+            });
+          var parcebIcon = L.icon({
+              iconUrl: 'icons/parceb_icon.png',
+
+              iconSize:     [38, 95], // size of the icon
+              iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+              popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          });
+          var afrIcon = L.icon({
+              iconUrl: 'icons/afr_icon.png',
+
+              iconSize:     [38, 95], // size of the icon
+              iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+              popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          });
+          var uofIcon = L.icon({
+              iconUrl: 'icons/uof_icon.png',
+
+              iconSize:     [38, 95], // size of the icon
+              iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+              popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          });
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                   attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
@@ -54,14 +82,14 @@ Therefore, three important questions are at hand
                   id: 'mapbox/streets-v11',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
-            L.marker([43.651912, -79.490305]).addTo(mapjanewalk)
+            L.marker([43.651912, -79.490305],(icon:parcebIcon)).addTo(mapjanewalk)
             .bindPopup('Étienne Brulé Park');
-            L.marker([43.630658, -79.423548]).addTo(mapjanewalk)
+            L.marker([43.630658, -79.423548],(icon:fortIcon)).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
-            L.marker([43.66877704481316,-79.40501414188695]).addTo(mapjanewalk)
+            L.marker([43.66877704481316,-79.40501414188695],(icon:afrIcon)).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto Campus');
-            L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
+            L.marker([43.644849, -79.369394],(icon:uofIcon)).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
             function routestyle(feature) {
                 return {
