@@ -34,16 +34,16 @@ En considérant l'inclusivité dans les régions urbaines, nous devons prendre e
 
 En grandissant comme francophone, il est important de souligner la diversité culturelle et ethnique des francophones en Ontario, et surtout à Toronto, ville multiculturelle. C'est ainsi que notre visite guidée nous amènera à quatre lieux significatif pour les francophones à Toronto.
 
-Therefore, three important questions are at hand
+C'est ainsi que se posent trois questions pertinantes
 
-***Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?***
+***Le lien entre la Nouvelle-France et les autochtones était-il signe de colonisation ou de commerce entre les deux peuple?***
 
-***Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?***
+***La population franco-ontarienne fait-elle partie du context historique inclusif de la ville de Toronto?***
 
-***How does the UOF contribute to building a more inclusive society?***
+***Comment l'UOF cherche-t-elle à promouvoir l'inclusivité dans notre société?***
 
 
-## Carte avec les arrêts
+## Carte avec les lieux significatifs
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
@@ -92,7 +92,7 @@ Therefore, three important questions are at hand
             legend.addTo(mapjanewalk);
      </script>
 </div>
-*Carte interactive des sites et le trajet*
+*Carte interactive des lieux et le trajet*
 
 **Itinéraire en transport en commun**
 
