@@ -128,8 +128,8 @@ This park is named after the French explorer Étienne Brulé who in 1610 arrived
 *Étienne Brulé Park overlooking the Humber River*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
 
-*Old Mills bridge over Humber River next to Étienne Brulé Park*
-![Old Mills bridge](./walkpics/parkec2.jpg)
+*Old Mill bridge over Humber River next to Étienne Brulé Park*
+![Old Mill bridge](./walkpics/parkec2.jpg)
 
 
 ## Alliance Française - Toronto Campus

@@ -127,8 +127,8 @@ This park is named after the French explorer Étienne Brulé who in 1610 arrived
 *Parc Étienne Brulé sur les bords de la rivière Humber*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
 
-*Pont Old Mills traversant la rivière Humber au bord du parc Étienne Brulé*
-![Old Mills bridge](./walkpics/parkec2.jpg)
+*Pont Old Mill traversant la rivière Humber au bord du parc Étienne Brulé*
+![Old Mill bridge](./walkpics/parkec2.jpg)
 
 
 ## Alliance Française Toronto
