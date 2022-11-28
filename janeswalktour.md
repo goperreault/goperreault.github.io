@@ -52,28 +52,28 @@ Therefore, three important questions are at hand
 
               iconSize:     [30, 90], // size of the icon
               iconAnchor:   [20, 50], // point of the icon which will correspond to marker's location
-              popupAnchor:  [1, 40] // point from which the popup should open relative to the iconAnchor
+              popupAnchor:  [1, -50] // point from which the popup should open relative to the iconAnchor
             });
           var parcebIcon = L.icon({
               iconUrl: 'icons/parceb_icon.png',
 
               iconSize:     [80, 50], // size of the icon
               iconAnchor:   [40, 20], // point of the icon which will correspond to marker's location
-              popupAnchor:  [1, 1] // point from which the popup should open relative to the iconAnchor
+              popupAnchor:  [1, -10] // point from which the popup should open relative to the iconAnchor
           });
           var afrIcon = L.icon({
               iconUrl: 'icons/afr_icon.png',
 
               iconSize:     [38, 50], // size of the icon
               iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
-              popupAnchor:  [1, 1] // point from which the popup should open relative to the iconAnchor
+              popupAnchor:  [1, -10] // point from which the popup should open relative to the iconAnchor
           });
           var uofIcon = L.icon({
               iconUrl: 'icons/uof_icon.png',
 
               iconSize:     [38, 40], // size of the icon
               iconAnchor:   [30, 20], // point of the icon which will correspond to marker's location
-              popupAnchor:  [1, 1] // point from which the popup should open relative to the iconAnchor
+              popupAnchor:  [1, -10] // point from which the popup should open relative to the iconAnchor
           });
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
