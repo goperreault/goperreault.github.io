@@ -197,4 +197,4 @@ Université de l’Ontario français. (2022a, September 6). La rentrée 2022 de 
 
 Université de l’Ontario français. (2022b, November 18). A look inside Toronto’s only francophone university. https://www.macleans.ca/longforms/torontos-only-francophone-university-uof/
 
-[En Français](/janeswalktourfr)
+[En Français](/janewalktourfr)
