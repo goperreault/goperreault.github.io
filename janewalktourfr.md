@@ -14,21 +14,21 @@ L'auteur souhaite reconnaître le territoire sur lequel est l'actuelle ville de 
 
 Il y a quatres siècle que les français sont arrivés en amérique du nord, sur le territoire qui deviendra la province de l'Ontario (Sylvestre, 2020). Ils n'ont pas toujours été le bienvenus, comme le démontre leurs luttes pour préserver leur culture et leur langue. Premièrement, le règlement 17 de 1912 à 1917, interdisait l'apprentissage du français dans les écoles. La lutte de l'hôpital Monfort de 1997 à 2002 fut un deuxième combat de résilience pour le français avec le seul hôpital de langue française en Ontario (Arseneault & Bock, 2004; Sylvestre, 2020). Récemment, il y a eu la manifestation de 2018 contre les compressions du gouvernement provincial qui cherchait, en autre, à éliminer les fonds pour la seule université de langue française dans la région de Toronto (Crawley, 2018; Marquis, 2018). À travers ces combats, la culture et la diversité ethnique des francophones en Ontario à changer, incluant divers immigrants de pays francophones.
 
-D'après le dernier recensement canadian (datant de 2021), 3.4% (484 425) de la population en Ontario parle le français à la maison, et 11.1% (1 550 545) ont une connaissance du français. À Toronto, 1.4% (38 695) de la population parle le français à la maison et 8.6% (238 505) ont une connaissance du français (Government of Canada, 2022).
+D'après le dernier recensement canadien datant de 2021, 3.4% (484 425) de la population en Ontario parle le français à la maison, et 11.1% (1 550 545) ont une connaissance du français. À Toronto, 1.4% (38 695) de la population parle le français à la maison et 8.6% (238 505) ont une connaissance du français (Government of Canada, 2022).
 
 <img src="charts/francophonecharts_languageON.jpg" width="300">
 <img src="charts/francophonecharts_languageTO.jpg" width="300">
-*Knowledge of French in Ontario and Toronto (Government of Canada, 2022)*
+*La langue francaise en Ontario et à Toronto (Government of Canada, 2022)*
 
-According to the data based on the 2016 Canadian census, for the francophones in Ontario, 17% are born abroad where 37% immigrated from Africa, 27% from Europe, 20% from Asia and 17% from the Americas (Toolkit, 2016). At the Toronto level, 48% are born abroad where 28% immigrated from Africa, 32% from Europe, 27% from Asia and 14% from the Americas (Social Development, Finance & Administration, Toronto, 2020).
+D'après des données du recensement canadien datant de 2016, 17% des francophones en Ontario sont nés en dehors du Canada, dont 37% ont immigré de l'afrique, 27% de l'europe, 20% de l'asie et 17% des amériques (Toolkit, 2016). Au niveau municipal, dans la ville de Toronto, 48% des francophones sont nés en dehors du Canada,  dont 28% ont immigré de l'afrique, 32% de l'europe, 27% de l'asie et 14% des amériques (Social Development, Finance & Administration, Toronto, 2020).
 
 <img src="charts/francophonecharts_francophonepopON.jpg" width="300">
 <img src="charts/francophonecharts_francophonepopTO.jpg" width="300">
-*Francophone Population in Ontario and Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
+*La population francophone en Ontario et à Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
 
 <img src="charts/francophonecharts_immigrantsON.jpg" width="300">
 <img src="charts/francophonecharts_immigrantsTO.jpg" width="300">
- *Place of Birth of Francophones in Ontario and Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
+ *Lieux de naissance des francophones en Ontario et à Toronto (Toolkit, 2016; Social Development, Finance & Administration, Toronto, 2020)*
 
 When building inclusive cities, we must consider the historical cultural heritage of communities. By listening to these communities, policies can be written in a way that considers the variety of knowledge. The communities must fit into the existing city make up.
 
