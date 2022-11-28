@@ -149,7 +149,7 @@ The recently opened campus is a key success of the fights to protect francophone
 *L'entrée principale de l'Université de l'Ontario français*
 ![Université de Ontario français](./walkpics/uof.jpg)
 
-*Ensign de l'Université de l'Ontario français sur Lower Jarvis*
+*Ensigne de l'Université de l'Ontario français sur Lower Jarvis*
 ![Université de Ontario français sign](./walkpics/uof2.jpg)
 
 ## En sommaire
