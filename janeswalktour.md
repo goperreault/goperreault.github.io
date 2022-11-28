@@ -91,6 +91,8 @@ Therefore, three important questions are at hand
             .bindPopup('Alliance Française Toronto Campus');
             L.marker([43.644849, -79.369394],{icon:uofIcon}).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
+            L.marker([43.64662,-79.40244]).addTo(mapjanewalk)
+            .bindPopup('Centre Francophone du Grand Toronto');
             function routestyle(feature) {
                 return {
                   fillColor: "#194a8d",
@@ -134,6 +136,7 @@ The transit walk uses TTC buses and subway. It starts at **Fort Rouillé** (next
 6. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station.
 7. Exit Union Station at Bay Street and take Southbound 19 Bay bus (246 Bay St at Front St) to Lower Jarvis St (15320 Queens Quay at Lower Jarvis St).
 8. Walk to **Université de l’Ontario français** (9 Lower Jarvis St).
+
 
 
 ## Fort Rouillé
