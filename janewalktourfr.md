@@ -3,7 +3,7 @@ title: Visite Guidée Jane's Walk
 layout: layoutTMU
 ---
 # Visite Guidée Jane's Walk
-Un project à propos de la diversité et de l'inclusivité à travers une visite guidée Jane's Walk. [En apprendre d'avantage au sujet de Jane's Walk](https://janeswalk.org/about/)
+Un project à propos de la diversité et de l'inclusivité à travers une visite guidée Jane's Walk. [En apprendre d'avantage au sujet de Jane's Walk](https://janeswalk.org/about/). Ce projet fut inspiré par une visite lors de l'événement Doors Open de [La Société d'Histoire de Toronto](https://sht.ca/).
 
 **Reconnaissance du territoire**
 

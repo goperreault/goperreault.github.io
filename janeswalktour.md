@@ -3,7 +3,7 @@ title: Jane's Walk Tour Proposal
 layout: layoutTMU
 ---
 # Jane's Walk Tour Proposal
-A project outlining diversity and inclusivity through a Jane's Walk tour proposal. [Learn more about Jane's Walk](https://janeswalk.org/about/)
+A project outlining diversity and inclusivity through a Jane's Walk tour proposal. [Learn more about Jane's Walk](https://janeswalk.org/about/). This project was inspired by a Doors Open tours provided by [La Société d'Histoire de Toronto](https://sht.ca/).
 
 **Land Acknowledgment**
 
