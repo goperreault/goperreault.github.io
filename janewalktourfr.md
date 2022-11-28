@@ -1,9 +1,9 @@
 ---
-title: Jane's Walk Tour
+title: Visite Guidée Jane's Walk
 layout: layoutTMU
 ---
-# Jane's Walk Tour
-Un project à propos de la diversité et de l'inclusivité à travers un Jane's Walk Tour. [En apprendre d'avantage au sujet de Jane's Walk](https://janeswalk.org/about/)
+# Visite Guidée Jane's Walk
+Un project à propos de la diversité et de l'inclusivité à travers une visite guidée Jane's Walk. [En apprendre d'avantage au sujet de Jane's Walk](https://janeswalk.org/about/)
 
 **Reconnaissance du territoire**
 
@@ -12,7 +12,7 @@ L'auteur souhaite reconnaître le territoire sur lequel est l'actuelle ville de 
 
 ## Contexte
 
-Il y a quatres siècle que les français sont arrivés en amérique du nord, sur le territoire qui deviendra la province de l'Ontario (Sylvestre, 2020). Ils n'ont pas toujours été le bienvenus, comme le démontre leurs luttes pour préserver leur culture et leur langue. Premièrement, le règlement 17 de 1912 à 1917, interdisait l'apprentissage du français dans les écoles. La lutte de l'hôpital Monfort de 1997 à 2002 fut un deuxième combat de résilience pour le français avec le seul hôpital de langue française en Ontario (Arseneault & Bock, 2004; Sylvestre, 2020). Récemment, il y a eu la manifestation de 2018 contre les compressions du gouvernement provincial qui cherchait, en autre, à éliminer les fonds pour la seule université de langue française dans la région de Toronto (Crawley, 2018; Marquis, 2018). À travers ces combats, la culture et la diversité ethnique des francophones en Ontario à changer, incluant divers immigrants de pays francophones.
+Il y a quatre siècle que les français sont arrivés en amérique du nord, sur le territoire qui deviendra la province de l'Ontario (Sylvestre, 2020). Ils n'ont pas toujours été le bienvenus, comme le démontre leurs luttes pour préserver leur culture et leur langue. Premièrement, le règlement 17 de 1912 à 1917, interdisait l'apprentissage du français dans les écoles. La lutte de l'hôpital Monfort de 1997 à 2002 fut un deuxième combat de résilience pour le français avec le seul hôpital de langue française en Ontario (Arseneault & Bock, 2004; Sylvestre, 2020). Récemment, il y a eu la manifestation de 2018 contre les compressions du gouvernement provincial qui cherchait, en autre, à éliminer les fonds pour la seule université de langue française dans la région de Toronto (Crawley, 2018; Marquis, 2018). À travers ces combats, la culture et la diversité ethnique des francophones en Ontario à changer, incluant divers immigrants de pays francophones.
 
 D'après le dernier recensement canadien datant de 2021, 3.4% (484 425) de la population en Ontario parle le français à la maison, et 11.1% (1 550 545) ont une connaissance du français. À Toronto, 1.4% (38 695) de la population parle le français à la maison et 8.6% (238 505) ont une connaissance du français (Government of Canada, 2022).
 
@@ -32,8 +32,7 @@ D'après des données du recensement canadien datant de 2016, 17% des francophon
 
 En considérant l'inclusivité dans les régions urbaines, nous devons prendre en compte l'histoire, la culture et l'héritage culturel des communautés. Ce sont ces communautés sur lesquels nous nous basons pour rédiger les politiques et sur lesquels nous devons inclure leur savoir faire. Ces communautés doivent faire partie de la composition des régions urbaines, n'étant pas négligées.
 
-
-Having grown up in the francophone community, it is important to realize the current diversity of francophones in Ontario, and certainly Toronto as a multicultural city. As such, this tour will guide us through important landmarks and institutions that reflect the history of Franco-Ontarians.
+En grandissant comme francophone, il est important de souligner la diversité culturelle et ethnique des francophones en Ontario, et surtout à Toronto, ville multiculturelle. C'est ainsi que notre visite guidée nous amènera à quatre lieux significatif pour les francophones à Toronto.
 
 Therefore, three important questions are at hand
 
