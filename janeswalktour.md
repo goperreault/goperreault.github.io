@@ -55,7 +55,7 @@ Therefore, three important questions are at hand
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
             L.marker([43.651912, -79.490305]).addTo(mapjanewalk)
-            .bindPopup( <img src="walkpics/fortr1.jpg" width="30">);
+            .bindPopup('Étienne Brulé Park');
             L.marker([43.630658, -79.423548]).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
