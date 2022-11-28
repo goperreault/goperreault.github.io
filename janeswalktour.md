@@ -52,7 +52,7 @@ Therefore, three important questions are at hand
 
               iconSize:     [30, 90], // size of the icon
               iconAnchor:   [20, 50], // point of the icon which will correspond to marker's location
-              popupAnchor:  [1, 1] // point from which the popup should open relative to the iconAnchor
+              popupAnchor:  [1, 40] // point from which the popup should open relative to the iconAnchor
             });
           var parcebIcon = L.icon({
               iconUrl: 'icons/parceb_icon.png',
