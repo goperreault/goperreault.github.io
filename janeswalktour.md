@@ -44,7 +44,7 @@ Therefore, three important questions are at hand
 ***How does the UOF contribute to building a more inclusive society?***
 
 
-## Map with Stops
+## Map with Sites
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
