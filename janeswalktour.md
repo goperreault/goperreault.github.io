@@ -51,7 +51,7 @@ Therefore, three important questions are at hand
               iconUrl: 'icons/fortr_icon.png',
 
               iconSize:     [30, 90], // size of the icon
-              iconAnchor:   [1, 1], // point of the icon which will correspond to marker's location
+              iconAnchor:   [20, 1], // point of the icon which will correspond to marker's location
               popupAnchor:  [1, 1] // point from which the popup should open relative to the iconAnchor
             });
           var parcebIcon = L.icon({
