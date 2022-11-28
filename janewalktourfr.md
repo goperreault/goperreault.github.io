@@ -55,12 +55,12 @@ Therefore, three important questions are at hand
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
             L.marker([43.651912, -79.490305]).addTo(mapjanewalk)
-            .bindPopup('Étienne Brulé Park');
+            .bindPopup('Parc Étienne Brulé');
             L.marker([43.630658, -79.423548]).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
             L.marker([43.66877704481316,-79.40501414188695]).addTo(mapjanewalk)
-            .bindPopup('Alliance Française Toronto Campus');
+            .bindPopup('Alliance Française Toronto');
             L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
             function routestyle(feature) {
@@ -87,7 +87,7 @@ Therefore, three important questions are at hand
             var legend = L.control({position: 'bottomleft'});
             legend.onAdd = function (mapjanewalk) {
                   var div = L.DomUtil.create('div', 'info legend');
-                  div.innerHTML += '<i class="line" style="background: #194a8d"></i><span>Jane&#8217s Walk Route</span><br>';
+                  div.innerHTML += '<i class="line" style="background: #194a8d"></i><span>Trajet Jane&#8217s Walk</span><br>';
                   return div
             }
             legend.addTo(mapjanewalk);
@@ -98,42 +98,42 @@ Therefore, three important questions are at hand
 **Itinéraire en transport en commun**
 
 Le trajet en transport en commun se sert des autobus et du métro de la CTT. Nous commençons au **Fort Rouillé** (à côté de la Scadding Cabin sur le terrain du CNE).
-1. A short walk to take the 29 Dufferin bus northbound (14470 Saskatchewan Rd at Dufferin St) to Dufferin Station.
-2. Then, a Westbound Line 2 Train to Old Mill Station.
-3. A short walk to **Étienne Brulé Park** (10 Catherine St).
-4. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station.
-5. A short walk along Spadina Avenue to **Alliance Française Toronto Campus** (24 Spadina Rd).
-6. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station.
-7. Exit Union Station at Bay Street and take Southbound 19 Bay bus (246 Bay St at Front St) to Lower Jarvis St (15320 Queens Quay at Lower Jarvis St).
-8. Walk to **Université de l’Ontario français** (9 Lower Jarvis St).
+1. Du fort, nous marchons à l'arrêt d'autobus pour prendre le 29 Dufferin en direction nord (14470 Saskatchewan Rd at Dufferin St) vers la Station Dufferin.
+2. Ensuite, nous prenons la Ligne 2 du métro en direction ouest vers la station Old Mill.
+3. Nous marchons au **Parc Étienne Brulé** (10 Catherine St).
+4. Nous marchons vers la station Old Mill, où nous prenons la ligne 2 du métro en direction est vers la station Spadina.
+5. Nous marchons au campus de **l'Alliance Française Toronto** (24 Spadina Rd).
+6. Nous marchons vers la station Spadina où nous prenons la ligne 1 du métro en direction sud vers la station Union.
+7. En sortant de la Gare Union, nous marchons vers la rue Bay pour prendre l'autobus 19 en direction sud (246 Bay St at Front St) vers la rue Lower Jarvis (15320 Queens Quay at Lower Jarvis St).
+8. Nous marchons vers le campus de **l'Université de l’Ontario français** (9 Lower Jarvis St).
 
 
 ## Fort Rouillé
 
 Trading post between the French and indigenous people existed along the shores of Lake Ontario, the first in 1720 along the Humber River, the second 1750 at the mouth of the Humber River and finally Fort Rouillé in 1750-51 until its ordered destruction in 1759 (Marsh, 2015b; Sylvestre, 2019). Stone is laid on the former boundaries of the fort, with a plaque indicating its function as a fur trading post. This marks an important relationship between indigenous people, as trade was of high importance in New France (Sylvestre, 2019, 2020). With current knowledge of how indigenous people were treated in Canada, the monument provides a reflective moment to consider New France’s initial trading with indigenous people.
 
-*Fort Rouillé monument*
+*Monument du Fort Rouillé*
 ![Fort Rouillé monument](./walkpics/fortr1.jpg)
 
-*Fort Rouillé plaque*
+*Plaque commémorative au Fort Rouillé*
 ![Fort Rouillé plaque](./walkpics/fortr2.jpg)
 
-## Étienne Brulé Park
+## Parc Étienne Brulé
 
 This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
 
-*Park Étienne Brulé overlooking the Humber River*
+*Parc Étienne Brulé sur les bords de la rivière Humber*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
 
 
-## Alliance Française - Toronto Campus
+## Alliance Française Toronto
 
 This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities, with their campus located alongside the Spadina Theatre (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
 
-*Alliance Française Entrance on Spadina Ave*
+*L'entrée de l'Alliance Française sur l'avenue Spadina*
 ![Alliance Française](./walkpics/afto.jpg)
 
-*Alliance Française Spadina Theatre*
+*Le théâtre Spadina de l'Alliance Française*
 ![Alliance Française Spadina Theatre](./walkpics/aftost.jpg)
 
 
@@ -141,12 +141,12 @@ This non-profit organization aims to “embody the current value of humanism, re
 
 The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals.
 
-*Université de l'Ontario français campus entrance*
+*L'entrée principale de l'Université de l'Ontario français*
 ![Université de Ontario français](./walkpics/uof.jpg)
 
 
 
-## Outcomes and Takeaways
+## En sommaire
 
 By reflecting on the three questions, we can assess and understand the purpose of this tour through a diversity and inclusivity lens.
 
@@ -163,9 +163,9 @@ Landmarks and names are an important contributor to the history of French presen
 The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
 
 
-### References
+### Références
 
-All photographs taken by author on Novembre 21 2022
+Les photos ont été prises par l'auteur le 21 novembre 2022
 
 Alliance Française. (n.d.). About us. Alliance Française Toronto. Retrieved November 19, 2022, from https://www.alliance-francaise.ca/en/who/about-us
 
