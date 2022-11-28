@@ -50,28 +50,28 @@ Therefore, three important questions are at hand
           var fortrIcon = L.icon({
               iconUrl: 'icons/fortr_icon.png',
 
-              iconSize:     [38, 95], // size of the icon
+              iconSize:     [30, 90], // size of the icon
               iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
               popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
             });
           var parcebIcon = L.icon({
               iconUrl: 'icons/parceb_icon.png',
 
-              iconSize:     [38, 95], // size of the icon
+              iconSize:     [80, 50], // size of the icon
               iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
               popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
           });
           var afrIcon = L.icon({
               iconUrl: 'icons/afr_icon.png',
 
-              iconSize:     [38, 95], // size of the icon
+              iconSize:     [38, 50], // size of the icon
               iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
               popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
           });
           var uofIcon = L.icon({
               iconUrl: 'icons/uof_icon.png',
 
-              iconSize:     [38, 95], // size of the icon
+              iconSize:     [38, 40], // size of the icon
               iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
               popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
           });
