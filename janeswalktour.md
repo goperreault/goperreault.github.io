@@ -47,7 +47,7 @@ Therefore, three important questions are at hand
 ## Map with Sites
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
-          var fortfIcon = L.icon({
+          var fortrIcon = L.icon({
               iconUrl: 'icons/fortr_icon.png',
 
               iconSize:     [38, 95], // size of the icon
@@ -84,7 +84,7 @@ Therefore, three important questions are at hand
             }).addTo(mapjanewalk)
             L.marker([43.651912, -79.490305],{icon:parcebIcon}).addTo(mapjanewalk)
             .bindPopup('Étienne Brulé Park');
-            L.marker([43.630658, -79.423548],{icon:fortIcon}).addTo(mapjanewalk)
+            L.marker([43.630658, -79.423548],{icon:fortrIcon}).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
             L.marker([43.66877704481316,-79.40501414188695],{icon:afrIcon}).addTo(mapjanewalk)
