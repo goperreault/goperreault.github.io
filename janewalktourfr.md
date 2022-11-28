@@ -46,6 +46,34 @@ C'est ainsi que se posent trois questions pertinantes
 ## Carte avec les lieux significatifs
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
+      var fortfIcon = L.icon({
+          iconUrl: 'icons/fortr_icon.png',
+
+          iconSize:     [38, 95], // size of the icon
+          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+        });
+      var parcebIcon = L.icon({
+          iconUrl: 'icons/parceb_icon.png',
+
+          iconSize:     [38, 95], // size of the icon
+          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+      });
+      var afrIcon = L.icon({
+          iconUrl: 'icons/afr_icon.png',
+
+          iconSize:     [38, 95], // size of the icon
+          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+      });
+      var uofIcon = L.icon({
+          iconUrl: 'icons/uof_icon.png',
+
+          iconSize:     [38, 95], // size of the icon
+          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+      });
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                   attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',

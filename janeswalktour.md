@@ -82,14 +82,14 @@ Therefore, three important questions are at hand
                   id: 'mapbox/streets-v11',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
-            L.marker([43.651912, -79.490305],(icon:parcebIcon)).addTo(mapjanewalk)
+            L.marker([43.651912, -79.490305],{icon:parcebIcon}).addTo(mapjanewalk)
             .bindPopup('Étienne Brulé Park');
-            L.marker([43.630658, -79.423548],(icon:fortIcon)).addTo(mapjanewalk)
+            L.marker([43.630658, -79.423548],{icon:fortIcon}).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
-            L.marker([43.66877704481316,-79.40501414188695],(icon:afrIcon)).addTo(mapjanewalk)
+            L.marker([43.66877704481316,-79.40501414188695],{icon:afrIcon}).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto Campus');
-            L.marker([43.644849, -79.369394],(icon:uofIcon)).addTo(mapjanewalk)
+            L.marker([43.644849, -79.369394],{icon:uofIcon}).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
             function routestyle(feature) {
                 return {
