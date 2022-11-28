@@ -199,6 +199,9 @@ Landmarks and names are an important contributor to the history of French presen
 
 The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
 
+## Special Mention: Centre Francophone du Grand Toronto
+
+The author wishes to include this last site, located at 555 Richmond St W, that offers services for new commers and refugees, which is another important service when it comes to francophones and inclusivity into the city.
 
 ### References
 
