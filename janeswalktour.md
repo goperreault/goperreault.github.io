@@ -118,12 +118,18 @@ Trading post between the French and indigenous people existed along the shores o
 *Fort Rouillé plaque*
 ![Fort Rouillé plaque](./walkpics/fortr2.jpg)
 
+*Fort Rouillé plaque with building details*
+![Fort Rouillé plaque details](./walkpics/fortr3.jpg)
+
 ## Étienne Brulé Park
 
 This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
 
-*Park Étienne Brulé overlooking the Humber River*
+*Étienne Brulé Park overlooking the Humber River*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
+
+*Old Mills bridge over Humber River next to Étienne Brulé Park*
+![Old Mills bridge](./walkpics/parkec2.jpg)
 
 
 ## Alliance Française - Toronto Campus
@@ -143,6 +149,9 @@ The recently opened campus is a key success of the fights to protect francophone
 
 *Université de l'Ontario français campus entrance*
 ![Université de Ontario français](./walkpics/uof.jpg)
+
+*Université de l'Ontario français sign along Lower Jarvis*
+![Université de Ontario français sign](./walkpics/uof2.jpg)
 
 
 
