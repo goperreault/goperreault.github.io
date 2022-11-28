@@ -1,16 +1,16 @@
 ---
-title: Jane's Walk Tour Proposal
+title: Jane's Walk Tour
 layout: layoutTMU
 ---
-# Jane's Walk Tour Proposal
-A project outlining diversity and inclusivity through a Jane's Walk tour proposal. [Learn more about Jane's Walk](https://janeswalk.org/about/)
+# Jane's Walk Tour
+Un project à propos de la diversité et de l'inclusivité à travers un Jane's Walk Tour. [En apprendre d'avantage au sujet de Jane's Walk](https://janeswalk.org/about/)
 
-**Land Acknowledgment**
+**Reconnaissance du territoire**
 
-The author wishes to acknowledge that the present-day City of Toronto is located on the traditional territory of many nations including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples and is now home to many diverse First Nations, Inuit and Métis peoples. The author also acknowledges that the City of Toronto is covered by Treaty 13 signed with the Mississaugas of the Credit, and the Williams Treaties signed with multiple Mississaugas and Chippewa bands (Toronto, 2018).
+L'auteur souhaite reconnaître le territoire sur lequel est l'actuelle ville de Toronto, le territoire ancestral de plusieurs nations autochtones, dont les Mississaugas of the Credit, les  Anishnabeg, les Chippewa, les Haudenosaunee et le peuple Wendat et héberge plusieurs Premières Nations, les Inuits, et les Métis. L'auteur souhaite souligner le traité 13 signé par les Mississaugas of the Credit, et les Williams Treaties avec les Mississaugas et Chippewa (Toronto, 2018).
 
 
-## Background
+## Contexte
 
 It was 4 centuries ago that the French settled in what is now called Ontario (Sylvestre, 2020). Their presence has not always been welcomed, as demonstrated by the fights they had to keep their language and culture. First, the Regulation 17 from 1912 to 1917 prohibited French from being taught in schools. The Montfort event from 1997 to 2002 reflects their resilience, as the fought the closure of a French language hospital in Ontario (Arseneault & Bock, 2004; Sylvestre, 2020). More recently the 2018 protest against the provincial government’s budget cuts which affected francophones, namely by eliminated funding for the francophone university in the Greater Toronto Area (Crawley, 2018; Marquis, 2018). Throughout these battles, the cultural and ethnic makeup of Franco-Ontarians has changed to become more inclusive of other French speaking countries.
 
@@ -44,7 +44,7 @@ Therefore, three important questions are at hand
 ***How does the UOF contribute to building a more inclusive society?***
 
 
-## Map with Stops
+## Carte avec les arrêts
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
@@ -93,11 +93,11 @@ Therefore, three important questions are at hand
             legend.addTo(mapjanewalk);
      </script>
 </div>
-*Interactive Map of Sites with Route*
+*Carte interactive des sites et le trajet*
 
-**Transit Directions**
+**Itinéraire en transport en commun**
 
-The transit walk uses TTC buses and subway. It starts at **Fort Rouillé** (next to Scadding Cabin on CNE grounds).
+Le trajet en transport en commun se sert des autobus et du métro de la CTT. Nous commençons au **Fort Rouillé** (à côté de la Scadding Cabin sur le terrain du CNE).
 1. A short walk to take the 29 Dufferin bus northbound (14470 Saskatchewan Rd at Dufferin St) to Dufferin Station.
 2. Then, a Westbound Line 2 Train to Old Mill Station.
 3. A short walk to **Étienne Brulé Park** (10 Catherine St).
@@ -197,4 +197,4 @@ Université de l’Ontario français. (2022a, September 6). La rentrée 2022 de 
 
 Université de l’Ontario français. (2022b, November 18). A look inside Toronto’s only francophone university. https://www.macleans.ca/longforms/torontos-only-francophone-university-uof/
 
-[En Français](/janeswalktourfr)
+[In English](/janeswalktour)
