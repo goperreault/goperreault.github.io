@@ -34,7 +34,7 @@ En considérant l'inclusivité dans les régions urbaines, nous devons prendre e
 
 En grandissant comme francophone, il est important de souligner la diversité culturelle et ethnique des francophones en Ontario, et surtout à Toronto, ville multiculturelle. C'est ainsi que notre visite guidée nous amènera à quatre lieux significatif pour les francophones à Toronto.
 
-C'est ainsi que se posent trois questions pertinantes
+Trois questions pertinantes au sujet de la visite
 
 ***Le lien entre la Nouvelle-France et les autochtones était-il signe de colonisation ou de commerce entre les deux peuple?***
 
@@ -139,7 +139,7 @@ Le trajet en transport en commun se sert des autobus et du métro de la CTT. Nou
 
 ## Fort Rouillé
 
-Trading post between the French and indigenous people existed along the shores of Lake Ontario, the first in 1720 along the Humber River, the second 1750 at the mouth of the Humber River and finally Fort Rouillé in 1750-51 until its ordered destruction in 1759 (Marsh, 2015b; Sylvestre, 2019). Stone is laid on the former boundaries of the fort, with a plaque indicating its function as a fur trading post. This marks an important relationship between indigenous people, as trade was of high importance in New France (Sylvestre, 2019, 2020). With current knowledge of how indigenous people were treated in Canada, the monument provides a reflective moment to consider New France’s initial trading with indigenous people.
+Poste de traite entre les français et les autochtones au bord du lac Ontario, avec une première bâtisse en 1720 au long de la rivière Humber, une seconde en 1750 à l'embouchure de la rivière Humber, et le troisième, le Fort Rouillé, en 1750-1751, avant d'être brulé en 1759. (Marsh, 2015b; Sylvestre, 2019). De la pierre et du ciment sont placés pour tracé l'emplacement du fort, et une plaque y est installée, indiquant la traite de fourrure. Ceci était important au commerce entre la Nouvelle France et les autochtones.(Sylvestre, 2019, 2020). De nos jours, il est essentiel de reconnaître ce moment historique parmit l'histoire de la colonisation.
 
 *Monument du Fort Rouillé*
 ![Fort Rouillé monument](./walkpics/fortr1.jpg)
@@ -152,7 +152,7 @@ Trading post between the French and indigenous people existed along the shores o
 
 ## Parc Étienne Brûlé
 
-This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
+Ce parc porte le nom de l'exporateur français Étienne Brûlé qui est arrivé en Ontario en 1610. Il a vécu parmit les autochtones, en apprenant leur culture et leur language; moment important entre la relation européenne et amérindienne (Arseneault & Bock, 2004; Marsh, 2015a). C'est Samuel de Champlain qui, lors du combat entre les Iroquois et les Hurons, envoya Brûlé se joindre aux Hurons, descedants vers le sud en utilisant la rivière Humber pour rejoindre le lac Ontario (Marsh, 2015a; Sylvestre, 2019). Quelques rue porte aussi le nom de cet explorateur, dont Brule Crescent, Brule Gardens et Brule Terrace. Le choix qu'a prit la ville en nommant ce parc Étienne Brûlé, est signe de reconnaîssance de la présense des français sur ce territoire autochtone. [Information de la ville de Toronto (en anglais)](https://www.toronto.ca/data/parks/prd/facilities/complex/10/index.html)
 
 *Parc Étienne Brûlé sur les bords de la rivière Humber*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
@@ -163,7 +163,7 @@ This park is named after the French explorer Étienne Brulé who in 1610 arrived
 
 ## Alliance Française Toronto
 
-This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities, with their campus located alongside the Spadina Theatre (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
+Une organisation charitative et à but non lucratif qui cherche à &#171;incarné les valeurs modernes telles que l’humanisme, le respect de la linguistique et de la diversité culturelle&#187; (Alliance Française, n.d.). Il offre à la communauté des services d'apprentissage en français et de culture et promouvoir le bilingualisme. Leur service de langue s'addresse à un public tout aussi jeune qu'adulte, à côté du théâtre Spadina (Alliance Française, n.d.). C'est par la diversité de la langue que le campus maintien un lien entre les habitants de la métropole et la communauté francophone. Ce ne sont pas que des français d'amérique, mais ceux de plusieurs pays francophone qui cherche à s'intégrer à la communauté Torontoise. [Lien vers le site web](https://www.alliance-francaise.ca/fr/)
 
 *L'entrée de l'Alliance Française sur l'avenue Spadina*
 ![Alliance Française](./walkpics/afto.jpg)
@@ -174,7 +174,7 @@ This non-profit organization aims to “embody the current value of humanism, re
 
 ## Université de l'Ontario français
 
-The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals.
+Le campus a récemment ouvert ses portes suite au combat qui a renversé la décision du gouvernment d'y couper les fonds. La loi de 2017 sur l'Université de l'Ontario français déclare que &#171;la langue française a joué en Ontario un rôle historique et honorable. La constitution d’une université au service de la communauté francophone contribuera à promouvoir une culture francophone forte, dynamique et inclusive qui enrichira encore davantage la vie civique en Ontario&#187; (Ontario, 2014), signe de l'importance d'offrir des programmes poste secondaire en français. L'université offre un programme en immigration, diversité et inclusion qui &#171;se penche sur la diversité des peuples et des personnes au sein de la société, la cohabitation des diverses langues et cultures, la population et les migrations, le leadership des personnes et des organisations dans la société&#187; (Université de l’Ontario français, 2022a, 2022b). D'autres programmes offre aussi des services en terme de demande d'emplois bilingue. [Lien vers le site web de l'université](https://uontario.ca/)
 
 *L'entrée principale de l'Université de l'Ontario français*
 ![Université de Ontario français](./walkpics/uof.jpg)
@@ -184,7 +184,12 @@ The recently opened campus is a key success of the fights to protect francophone
 
 ## En sommaire
 
-By reflecting on the three questions, we can assess and understand the purpose of this tour through a diversity and inclusivity lens.
+Revenons à nos trois questions
+***Le lien entre la Nouvelle-France et les autochtones était-il signe de colonisation ou de commerce entre les deux peuple?***
+
+***La population franco-ontarienne fait-elle partie du context historique inclusif de la ville de Toronto?***
+
+***Comment l'UOF cherche-t-elle à promouvoir l'inclusivité dans notre société?***
 
 ***Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?***
 
