@@ -7,7 +7,7 @@ A project outlining diversity and inclusivity through a Jane's Walk tour proposa
 
 **Land Acknowledgment**
 
-The author wishes to acknowledge that the present-day City of Toronto is located on the traditional territory of many nations including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples and is now home to many diverse First Nations, Inuit and Métis peoples. The author also acknowledges that the City of Toronto is covered by Treaty 13 signed with the Mississaugas of the Credit, and the Williams Treaties signed with multiple Mississaugas and Chippewa bands (Toronto, 2018).
+The author wishes to &#34;acknowledge that the present-day City of Toronto is located on the traditional territory of many nations including the Mississaugas of the Credit, the Anishnabeg, the Chippewa, the Haudenosaunee and the Wendat peoples and is now home to many diverse First Nations, Inuit and Métis peoples. The author also acknowledges that the City of Toronto is covered by Treaty 13 signed with the Mississaugas of the Credit, and the Williams Treaties signed with multiple Mississaugas and Chippewa bands&#34; (Toronto, 2018).
 
 
 ## Background
@@ -83,7 +83,7 @@ Therefore, three important questions are at hand
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
             L.marker([43.651912, -79.490305],{icon:parcebIcon}).addTo(mapjanewalk)
-            .bindPopup('Étienne Brulé Park');
+            .bindPopup('Étienne Brûlé Park');
             L.marker([43.630658, -79.423548],{icon:fortrIcon}).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
@@ -130,7 +130,7 @@ Therefore, three important questions are at hand
 The transit walk uses TTC buses and subway. It starts at **Fort Rouillé** (next to Scadding Cabin on CNE grounds).
 1. A short walk to take the 29 Dufferin bus northbound (14470 Saskatchewan Rd at Dufferin St) to Dufferin Station.
 2. Then, a Westbound Line 2 Train to Old Mill Station.
-3. A short walk to **Étienne Brulé Park** (10 Catherine St).
+3. A short walk to **Étienne Brûlé Park** (10 Catherine St).
 4. A walk back to Old Mill Station to take an Eastbound Line 2 Train to Spadina Station.
 5. A short walk along Spadina Avenue to **Alliance Française Toronto Campus** (24 Spadina Rd).
 6. Walk back to Spadina, to take a Southbound Line 1 Train to Union Station.
@@ -152,20 +152,20 @@ Trading post between the French and indigenous people existed along the shores o
 *Fort Rouillé plaque with building details*
 ![Fort Rouillé plaque details](./walkpics/fortr3.jpg)
 
-## Étienne Brulé Park
+## Étienne Brûlé Park
 
-This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
+This park is named after the French explorer Étienne Brûlé who in 1610 arrived in what is now called Ontario. Brûlé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brûlé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brûlé was possibly one of the first to see these lands occupied by indigenous people.[City of Toronto Parks Information](https://www.toronto.ca/data/parks/prd/facilities/complex/10/index.html)
 
-*Étienne Brulé Park overlooking the Humber River*
+*Étienne Brûlé Park overlooking the Humber River*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
 
-*Old Mill bridge over Humber River next to Étienne Brulé Park*
+*Old Mill bridge over Humber River next to Étienne Brûlé Park*
 ![Old Mill bridge](./walkpics/parkec2.jpg)
 
 
 ## Alliance Française - Toronto Campus
 
-This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities, with their campus located alongside the Spadina Theatre (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries.
+This non-profit organization aims to “embody the current value of humanism, respect for linguistics, and cultural diversity” (Alliance Française, n.d.). Their service towards the community includes a French language school offering diverse cultural activities and courses to promote the language and bilingualism. Indeed, they cater to not only school children, but adults with different levels of French language abilities, with their campus located alongside the Spadina Theatre (Alliance Française, n.d.). Their commitment shows how the diversity of learning is important to maintain a strong community within a large metropolis. Franco-Ontarians make up not only decedents of New France, but also people from other French speaking countries. [Visit their website](https://www.alliance-francaise.ca/en/)
 
 *Alliance Française Entrance on Spadina Ave*
 ![Alliance Française](./walkpics/afto.jpg)
@@ -176,7 +176,7 @@ This non-profit organization aims to “embody the current value of humanism, re
 
 ## Université de l'Ontario français
 
-The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals.
+The recently opened campus is a key success of the fights to protect francophone cultural heritage. After the 2018 protest, the government reinstated their commitment to fund the university with the Université de l’Ontario français Act, 2017. As preamble, the Act states that “The French language is an historic and honoured language in Ontario. The establishment of a university with a mission to serve the French-speaking community will help to promote a strong, vibrant, inclusive Francophone culture[…].” (Ontario, 2014), a clear indication of the importance of this community to offer higher education. The university offers a short program on immigration, diversity, and inclusion, “focusing on the diversity of peoples and individuals in society, the cohabitation of diverse languages and cultures, population and migration […] to respond to needs of the labour market” (Université de l’Ontario français, 2022a, 2022b). Other programs aim to respond to the current needs of market seeking bilingual individuals. [University's website (french)](https://uontario.ca/)
 
 *Université de l'Ontario français campus entrance*
 ![Université de Ontario français](./walkpics/uof.jpg)
@@ -192,7 +192,7 @@ By reflecting on the three questions, we can assess and understand the purpose o
 
 ***Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?***
 
-Although Étienne Brulé’s history shows a will to integrate amongst the indigenous people, we cannot overstate his more controversial actions amongst the people, including tales of debauchery (Sylvestre, 2019). The earlier French colonizers also sought to push their religious views onto the indigenous people (Arseneault & Bock, 2004). As such, colonization was in full swing before the arrival of the English.
+Although Étienne Brûlé’s history shows a will to integrate amongst the indigenous people, we cannot overstate his more controversial actions amongst the people, including tales of debauchery (Sylvestre, 2019). The earlier French colonizers also sought to push their religious views onto the indigenous people (Arseneault & Bock, 2004). As such, colonization was in full swing before the arrival of the English.
 
 ***Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?***
 
@@ -204,7 +204,7 @@ The university’s mandate to offer programs in French to the francophone popula
 
 ## Special Mention: Centre Francophone du Grand Toronto
 
-The author wishes to include this last site (located at 555 Richmond St W) that offers services for new commers and refugees, which is important when it comes to francophones and their inclusion into the city.
+The author wishes to include this last site (located at 555 Richmond St W) that offers services for new commers and refugees, which is important when it comes to francophones and their inclusion into the city. [Visit their website (french)](https://www.centrefranco.org/)
 
 ### References
 

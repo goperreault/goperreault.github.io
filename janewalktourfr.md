@@ -7,7 +7,7 @@ Un project à propos de la diversité et de l'inclusivité à travers une visite
 
 **Reconnaissance du territoire**
 
-L'auteur souhaite reconnaître le territoire sur lequel est l'actuelle ville de Toronto, le territoire ancestral de plusieurs nations autochtones, dont les Mississaugas of the Credit, les  Anishnabeg, les Chippewa, les Haudenosaunee et le peuple Wendat et héberge plusieurs Premières Nations, les Inuits, et les Métis. L'auteur souhaite souligner le traité 13 signé par les Mississaugas of the Credit, et les Williams Treaties avec les Mississaugas et Chippewa (Toronto, 2018).
+L'auteur souhaite &#171;reconnaître le territoire sur lequel est l'actuelle ville de Toronto, le territoire ancestral de plusieurs nations autochtones, dont les Mississaugas of the Credit, les  Anishnabeg, les Chippewa, les Haudenosaunee et le peuple Wendat et héberge plusieurs Premières Nations, les Inuits, et les Métis. L'auteur souhaite souligner le traité 13 signé par les Mississaugas of the Credit, et les Williams Treaties avec les Mississaugas et Chippewa&#187; (Toronto, 2018).
 
 
 ## Contexte
@@ -82,7 +82,7 @@ C'est ainsi que se posent trois questions pertinantes
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
             L.marker([43.651912, -79.490305],{icon:parcebIcon}).addTo(mapjanewalk)
-            .bindPopup('Parc Étienne Brulé');
+            .bindPopup('Parc Étienne Brûlé');
             L.marker([43.630658, -79.423548],{icon:fortrIcon}).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
@@ -129,7 +129,7 @@ C'est ainsi que se posent trois questions pertinantes
 Le trajet en transport en commun se sert des autobus et du métro de la CTT. Nous commençons au **Fort Rouillé** (à côté de la Scadding Cabin sur le terrain du CNE).
 1. Du fort, nous marchons à l'arrêt d'autobus pour prendre le 29 Dufferin en direction nord (14470 Saskatchewan Rd at Dufferin St) vers la Station Dufferin.
 2. Ensuite, nous prenons la Ligne 2 du métro en direction ouest vers la station Old Mill.
-3. Nous marchons au **Parc Étienne Brulé** (10 Catherine St).
+3. Nous marchons au **Parc Étienne Brûlé** (10 Catherine St).
 4. Nous marchons vers la station Old Mill, où nous prenons la ligne 2 du métro en direction est vers la station Spadina.
 5. Nous marchons au campus de **l'Alliance Française Toronto** (24 Spadina Rd).
 6. Nous marchons vers la station Spadina où nous prenons la ligne 1 du métro en direction sud vers la station Union.
@@ -150,14 +150,14 @@ Trading post between the French and indigenous people existed along the shores o
 *Plaque avec détails du Fort Rouillé*
 ![Fort Rouillé plaque details](./walkpics/fortr3.jpg)
 
-## Parc Étienne Brulé
+## Parc Étienne Brûlé
 
 This park is named after the French explorer Étienne Brulé who in 1610 arrived in what is now called Ontario. Brulé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brulé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brulé was possibly one of the first to see these lands occupied by indigenous people.
 
-*Parc Étienne Brulé sur les bords de la rivière Humber*
+*Parc Étienne Brûlé sur les bords de la rivière Humber*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
 
-*Pont Old Mill traversant la rivière Humber au bord du parc Étienne Brulé*
+*Pont Old Mill traversant la rivière Humber au bord du parc Étienne Brûlé*
 ![Old Mill bridge](./walkpics/parkec2.jpg)
 
 
