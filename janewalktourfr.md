@@ -46,33 +46,33 @@ C'est ainsi que se posent trois questions pertinantes
 ## Carte avec les lieux significatifs
 <div id="mapidjanewalk" style="width: 700px; height: 500px">
       <script>
-      var fortfIcon = L.icon({
+      var fortrIcon = L.icon({
           iconUrl: 'icons/fortr_icon.png',
 
-          iconSize:     [38, 95], // size of the icon
-          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          iconSize:     [30, 90], // size of the icon
+          iconAnchor:   [20, 50], // point of the icon which will correspond to marker's location
+          popupAnchor:  [1, -50] // point from which the popup should open relative to the iconAnchor
         });
       var parcebIcon = L.icon({
           iconUrl: 'icons/parceb_icon.png',
 
-          iconSize:     [38, 95], // size of the icon
-          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          iconSize:     [80, 50], // size of the icon
+          iconAnchor:   [40, 20], // point of the icon which will correspond to marker's location
+          popupAnchor:  [1, -10] // point from which the popup should open relative to the iconAnchor
       });
       var afrIcon = L.icon({
           iconUrl: 'icons/afr_icon.png',
 
-          iconSize:     [38, 95], // size of the icon
-          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          iconSize:     [38, 50], // size of the icon
+          iconAnchor:   [20, 20], // point of the icon which will correspond to marker's location
+          popupAnchor:  [1, -10] // point from which the popup should open relative to the iconAnchor
       });
       var uofIcon = L.icon({
           iconUrl: 'icons/uof_icon.png',
 
-          iconSize:     [38, 95], // size of the icon
-          iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-          popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+          iconSize:     [38, 40], // size of the icon
+          iconAnchor:   [30, 20], // point of the icon which will correspond to marker's location
+          popupAnchor:  [1, -10] // point from which the popup should open relative to the iconAnchor
       });
             var mapjanewalk = L.map('mapidjanewalk').setView([43.665233, -79.421693], 12);
             L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -81,15 +81,17 @@ C'est ainsi que se posent trois questions pertinantes
                   id: 'mapbox/streets-v11',
                   accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
             }).addTo(mapjanewalk)
-            L.marker([43.651912, -79.490305]).addTo(mapjanewalk)
+            L.marker([43.651912, -79.490305],{icon:parcebIcon}).addTo(mapjanewalk)
             .bindPopup('Parc Étienne Brulé');
-            L.marker([43.630658, -79.423548]).addTo(mapjanewalk)
+            L.marker([43.630658, -79.423548],{icon:fortrIcon}).addTo(mapjanewalk)
             .bindPopup('Fort Rouillé')
             .openPopup();
-            L.marker([43.66877704481316,-79.40501414188695]).addTo(mapjanewalk)
+            L.marker([43.66877704481316,-79.40501414188695],{icon:afrIcon}).addTo(mapjanewalk)
             .bindPopup('Alliance Française Toronto');
-            L.marker([43.644849, -79.369394]).addTo(mapjanewalk)
+            L.marker([43.644849, -79.369394],{icon:uofIcon}).addTo(mapjanewalk)
             .bindPopup('Université de l&#8217;Ontario français');
+            L.marker([43.64662,-79.40244]).addTo(mapjanewalk)
+            .bindPopup('Centre Francophone du Grand Toronto');
             function routestyle(feature) {
                 return {
                   fillColor: "#194a8d",
@@ -196,6 +198,9 @@ Landmarks and names are an important contributor to the history of French presen
 
 The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
 
+## Mention Spéciale: Centre Francophone du Grand Toronto
+
+L'auteur souhaite souligner ce lieux (555 rue Richmond Ouest) qui offre des services au nouveaux arrivants et au réfugiés, comme étant important pour les francophones et l'inclusion urbaine.
 
 ### Références
 

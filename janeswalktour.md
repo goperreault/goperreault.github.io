@@ -204,7 +204,7 @@ The university’s mandate to offer programs in French to the francophone popula
 
 ## Special Mention: Centre Francophone du Grand Toronto
 
-The author wishes to include this last site, located at 555 Richmond St W, that offers services for new commers and refugees, which is another important service when it comes to francophones and inclusivity into the city.
+The author wishes to include this last site (located at 555 Richmond St W) that offers services for new commers and refugees, which is important when it comes to francophones and their inclusion into the city.
 
 ### References
 
