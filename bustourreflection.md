@@ -151,7 +151,7 @@ Planners should learn about the history of the site, including why this space wa
 
 ### References
 
-All photographs taken by author on Octobre 28 2022
+All photographs taken by author on Octobre 28, 2022
 
 Government of Canada, S. C. (2022a, February 9). Profile table, Census Profile, 2021 Census of Population—5350510.00 &#91;Census tract&#93;, Ontario. https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/index.cfm?Lang=E
 
