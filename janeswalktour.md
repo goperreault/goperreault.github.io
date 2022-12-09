@@ -208,7 +208,7 @@ The author wishes to include this last site (located at 555 Richmond St W) that 
 
 ### References
 
-All photographs taken by author on Novembre 21 2022
+All photographs taken by author on November 21, 2022
 
 Alliance Française. (n.d.). About us. Alliance Française Toronto. Retrieved November 19, 2022, from https://www.alliance-francaise.ca/en/who/about-us
 
