@@ -185,6 +185,7 @@ Le campus a récemment ouvert ses portes suite au combat qui a renversé la déc
 ## En sommaire
 
 Revenons à nos trois questions
+
 ***Le lien entre la Nouvelle-France et les autochtones était-il signe de colonisation ou de commerce entre les deux peuple?***
 
 ***La population franco-ontarienne fait-elle partie du context historique inclusif de la ville de Toronto?***
