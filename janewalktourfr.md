@@ -134,7 +134,7 @@ Le trajet en transport en commun se sert des autobus et du métro de la CTT. Nou
 5. Nous marchons au campus de **l'Alliance Française Toronto** (24 Spadina Rd).
 6. Nous marchons vers la station Spadina où nous prenons la ligne 1 du métro en direction sud vers la station Union.
 7. En sortant de la Gare Union, nous marchons vers la rue Bay pour prendre l'autobus 19 en direction sud (246 Bay St at Front St) vers la rue Lower Jarvis (15320 Queens Quay at Lower Jarvis St).
-8. Nous marchons vers le campus de **l'Université de l’Ontario français** (9 Lower Jarvis St).
+8. Nous marchons au campus de **l'Université de l’Ontario français** (9 Lower Jarvis St).
 
 
 ## Fort Rouillé
