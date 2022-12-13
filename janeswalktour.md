@@ -3,7 +3,8 @@ title: Jane's Walk Tour Proposal
 layout: layoutTMU
 ---
 # Jane's Walk Tour Proposal
-A project outlining diversity and inclusivity through a Jane's Walk tour proposal. [Learn more about Jane's Walk](https://janeswalk.org/about/). This project was inspired by a Doors Open tours provided by [La Société d'Histoire de Toronto](https://sht.ca/).
+A project outlining diversity and inclusivity through a Jane's Walk tour proposal. [Learn more about Jane's Walk](https://janeswalk.org/about/). This project was inspired by a Doors Open tours provided by [La Société d'Histoire de Toronto](https://sht.ca/). 
+
 
 **Land Acknowledgment**
 
@@ -154,7 +155,7 @@ Trading post between the French and indigenous people existed along the shores o
 
 ## Étienne Brûlé Park
 
-This park is named after the French explorer Étienne Brûlé who in 1610 arrived in what is now called Ontario. Brûlé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brûlé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brûlé was possibly one of the first to see these lands occupied by indigenous people.[City of Toronto Parks Information](https://www.toronto.ca/data/parks/prd/facilities/complex/10/index.html)
+This park is named after the French explorer Étienne Brûlé who in 1610 arrived in what is now called Ontario. Brûlé lived amongst the indigenous people, adopting their language and way of life, a key feature of how the relationship between Europeans and indigenous people occurred in New France (Arseneault & Bock, 2004; Marsh, 2015a). In fact, during Samuel de Champlain’s campaign against the Iroquois with the Hurons, Brûlé joined the Hurons making their way south, presumably using the Humber River to reach Lake Ontario (Marsh, 2015a; Sylvestre, 2019). Nearby streets south of Bloor St are also named after him, including Brule Crescent, Brule Gardens and Brule Terrace. The city’s decision to use this name holds a significant contribution to the history of French presence in Ontario, as Brûlé was possibly one of the first to see these lands occupied by indigenous people. [City of Toronto Parks Information](https://www.toronto.ca/data/parks/prd/facilities/complex/10/index.html)
 
 *Étienne Brûlé Park overlooking the Humber River*
 ![Park Étienne Brulé](./walkpics/parkec.jpg)
@@ -240,4 +241,4 @@ Université de l’Ontario français. (2022a, September 6). La rentrée 2022 de 
 
 Université de l’Ontario français. (2022b, November 18). A look inside Toronto’s only francophone university. https://www.macleans.ca/longforms/torontos-only-francophone-university-uof/
 
-[En Français](/janewalktourfr)
+Cette page est aussi disponible [en Français](/janewalktourfr)

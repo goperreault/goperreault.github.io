@@ -8,7 +8,7 @@ A project identifying diversity and inclusivity during a bus tour of the Mississ
 
 **Land Acknowledgment**
 
-The author wishes to acknowledge lands which constitute the present-day City of Mississauga as being part of the Treaty and Traditional Territory of the Mississauga’s of the Credit First Nation, The Haudenosaunee Confederacy the Huron-Wendat and Wyandot Nations (Mississauga, 2021).
+The author wishes to &#34;acknowledge lands which constitute the present-day City of Mississauga as being part of the Treaty and Traditional Territory of the Mississauga’s of the Credit First Nation, The Haudenosaunee Confederacy the Huron-Wendat and Wyandot Nations&#34; (Mississauga, 2021).
 
 
 ## Site Map
