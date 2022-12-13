@@ -32,6 +32,8 @@ D'après des données du recensement canadien datant de 2016, 17% des francophon
 
 En considérant l'inclusivité dans les régions urbaines, nous devons prendre en compte l'histoire, la culture et l'héritage culturel des communautés. Ce sont ces communautés sur lesquels nous nous basons pour rédiger les politiques et sur lesquels nous devons inclure leur savoir faire. Ces communautés doivent faire partie de la composition des régions urbaines, n'étant pas négligées.
 
+
+## Énonciation d'inspiration
 En grandissant comme francophone, il est important de souligner la diversité culturelle et ethnique des francophones en Ontario, et surtout à Toronto, ville multiculturelle. C'est ainsi que notre visite guidée nous amènera à quatre lieux significatif pour les francophones à Toronto.
 
 Trois questions pertinantes au sujet de la visite

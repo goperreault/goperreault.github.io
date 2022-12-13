@@ -34,6 +34,7 @@ According to the data based on the 2016 Canadian census, for the francophones in
 
 When building inclusive cities, we must consider the historical cultural heritage of communities. By listening to these communities, policies can be written in a way that considers the variety of knowledge. The communities must fit into the existing city make up.
 
+## Statement of Inspiration
 Having grown up in the francophone community, it is important to realize the current diversity of francophones in Ontario, and certainly Toronto as a multicultural city. As such, this tour will guide us through important landmarks and institutions that reflect the history of Franco-Ontarians.
 
 Therefore, three important questions are at hand
