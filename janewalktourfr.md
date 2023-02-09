@@ -197,6 +197,8 @@ Les monuments et les noms font parti de l'histoire francophone à Toronto. Leurs
 
 The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
 
+Le mandat de l'université lui permet d'offrir des programmes en français aux francophones, ce qui est grace aux batailles de cette communautée, les francophones font maintenant parti de l'histoire de la ville de Toronto et de la province de l'Ontario. 
+
 ## Mention Spéciale: Centre Francophone du Grand Toronto
 
 L'auteur souhaite souligner ce lieux (555 rue Richmond Ouest) qui offre des services au nouveaux arrivants et au réfugiés, comme étant important pour les francophones et l'inclusion urbaine.
