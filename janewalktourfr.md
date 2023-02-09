@@ -186,19 +186,14 @@ Revenons à nos trois questions
 
 ***Le lien entre la Nouvelle-France et les autochtones était-il signe de colonisation ou de commerce entre les deux peuple?***
 
+Malgré les efforts d'Étienne Brulé de s'intégrer chez les Premières Nations, nous ne pouvons pas négliger ses actions libertines (Sylvestre, 2019). Les colons ont aussi voulu instruire les autochtones avec leurs religions (Arseneault & Bock, 2004). La colonization existaie donc avant l'arrivé des anglais.
+
 ***La population franco-ontarienne fait-elle partie du context historique inclusif de la ville de Toronto?***
+
+Les monuments et les noms font parti de l'histoire francophone à Toronto. Leurs actions et leurs batailles sont reconnus et inclus dans l'histoire de la ville Reine. Les franco-ontariens et les francophones peuvent donc s'instruire à partir de ces marqueurs, ainsi que les institutions et services offerts dans la ville. 
 
 ***Comment l'UOF cherche-t-elle à promouvoir l'inclusivité dans notre société?***
 
-***Were New France’s activities with indigenous people seen as early colonisation or simply as commerce?***
-
-Although Étienne Brulé’s history shows a will to integrate amongst the indigenous people, we cannot overstate his more controversial actions amongst the people, including tales of debauchery (Sylvestre, 2019). The earlier French colonizers also sought to push their religious views onto the indigenous people (Arseneault & Bock, 2004). As such, colonization was in full swing before the arrival of the English.
-
-***Is the Franco-Ontario population properly included as part of a historical context in the City of Toronto?***
-
-Landmarks and names are an important contributor to the history of French presence in the City of Toronto. Their actions and feats are recognized by way of imprints into the city’s cultural heritage. Franco-Ontarians and francophones alike can look back to the earlier settlement that would become the City of Toronto, where current cultural events and activities continue the presence of francophone in the city.
-
-***How does the UOF contribute to building a more inclusive society?***
 
 The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
 
