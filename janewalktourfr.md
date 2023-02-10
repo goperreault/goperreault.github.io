@@ -194,10 +194,7 @@ Les monuments et les noms font parti de l'histoire francophone à Toronto. Leurs
 
 ***Comment l'UOF cherche-t-elle à promouvoir l'inclusivité dans notre société?***
 
-
-The university’s mandate to offer programs in French to the francophone population in the country’s most populous city is a result of years of battles to recognize the present and historical imprints of French in the province and city. From obtaining educational rights to higher levels of education, the community can integrate newcomers amongst the existing population, where francophones in Ontario are not just those descendants of New France. Indeed, immigrants can feel welcomed and attain higher education, while Francophiles can also integrate into the community using programs such as Alliance Française. Together the francophone community of Toronto can evolve past the historical context and utilize services that help build an inclusive society.
-
-Le mandat de l'université lui permet d'offrir des programmes en français aux francophones, ce qui est grace aux batailles de cette communautée, les francophones font maintenant parti de l'histoire de la ville de Toronto et de la province de l'Ontario. 
+Le mandat de l'université lui permet d'offrir des programmes en français aux francophones, ce qui est grace aux batailles de cette communautée, les francophones font maintenant parti de l'histoire de la ville de Toronto et de la province de l'Ontario. En obtenant les droits à l'éducation post-secondaire, la communauté francophone peuvent accueillir des immigrants de plusieurs autres pays francophone et non-francophone, n'étant pas nécéssairement des descendants de la Nouvelle-France. C'est ainsi que les francophones et les francophiles peuvent obtenir une éducation supérieure post-secondaire, ainsi qu'utilisés des services tel que ceux offerts par l'Alliance Française. C'est ensemble que la communauté francophone de Toronto peut évoluée et bâtir une société inclusive.
 
 ## Mention Spéciale: Centre Francophone du Grand Toronto
 
