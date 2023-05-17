@@ -1,5 +1,5 @@
 ---
-title: PL8101 Diversity and Inclusion
+title: Toronto Metropolitan University Course Work
 layout: layoutTMU
 ---
 # PL8101 Diversity and Inclusive Planning
