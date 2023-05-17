@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Welcome!
-Showcasing geography related projects.
+Showcasing geography and school related projects.
 
 ## Trees and pollen allergies in Mississauga
 [View project](./proj_treeallergy.html)
