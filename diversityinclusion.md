@@ -2,7 +2,9 @@
 title: Toronto Metropolitan University Course Work
 layout: layoutTMU
 ---
-# PL8101 Diversity and Inclusive Planning
+# Toronto Metropolitan University Course Work
+
+## PL8101 Diversity and Inclusive Planning
 Projects related to TMU's PL8101 Diversity and Inclusive Planning course
 
 ## Bus Tour Reflection
