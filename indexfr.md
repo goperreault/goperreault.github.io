@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome!
-Showcasing geography and school related projects.
+## Bonjour!
+Cette page liste des projects en géographie et des projets scolaires.
 
 ## Trees and pollen allergies in Mississauga
 [View project](./proj_treeallergy.html)
@@ -20,7 +20,7 @@ Showcasing geography and school related projects.
 ## Toronto Metropolitan University Course Work
 [View page](/diversityinclusion.html)
 
-Cette page est aussi disponible [en Français](/indexfr)
+This page is also available [in English](/index)
 
 
 [//]: # ## About me
