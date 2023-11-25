@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Bonjour!
-Voici une liste de projets scolaires en géographie et en urbanisme. 
+Voici une liste de projets en géographie et en urbanisme. 
 
 ## Trees and pollen allergies in Mississauga
 [View project](./proj_treeallergy.html)
