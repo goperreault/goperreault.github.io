@@ -1,5 +1,5 @@
 ---
-title: Emerald Ash Borer
+title: University of Toronto Course Work - Emerald Ash Borer
 layout: default
 ---
 # Emerald Ash Borer in Mississauga
