@@ -20,8 +20,8 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 ## Other Skills
 * Fluency in French
 
-[//]: # ## Resume
-[//]: # [Full Resume](./Guillaume_Perreault_resume.pdf)
+## Resume
+[Full Resume](./Guillaume_Perreault_resume.pdf)
 
 ## LinkedIn
 [LinkedIn Page](https://www.linkedin.com/in/guillaume-perreault-5b9b352b1/)
