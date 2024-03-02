@@ -3,9 +3,10 @@ title: Grand Paris Express
 layout: default
 ---
 # The Grand Paris Express around Paris, Line 15
-A project that draws Line 15, a subset of the larger Grand Paris Express, around the city of Paris. This larger infrastructure project consist of [four new automated metro lines and the extension of existing metro lines to connect key areas around Paris](https://www.societedugrandparis.fr/info/grand-paris-express-largest-transport-project-europe-1061).
-## Line 15 and existing Métro lines
-The following map shows Line 15 in comparison to the existing Métro lines. It also draws 500 meter buffers around each of the stations, showing the extent of coverage of the metro within a geographically small area. 
+Un project qui sert à démontrer la future Ligne 15 du métro de Paris. Cette ligne fait partie du plus grand projet Grand Paris Express, avec [quatres lignes de métro automatiques autour de la région Parisienne](https://www.societedugrandparis.fr/info/grand-paris-express-largest-transport-project-europe-1061).
+
+## La Ligne 15 et les autres lignes du métro Parisien
+Cette carte démontre l'emplacement de la Ligne 15 avec les autres lignes du métro. Un tampon de 500 mètres est aussi autour des stations. 
 <div id="mapidmetro" style="width: 700px; height: 500px">
       <script>
             var mapmetro = L.map('mapidmetro').setView([48.854908, 2.387671], 11);
@@ -86,17 +87,17 @@ The following map shows Line 15 in comparison to the existing Métro lines. It a
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Existing Métro Lines</span><br>';
+                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Stations Ligne 15</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Tracé Ligne 15</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #3294db"></i><span>Lignes du Métro</span><br>';
                   return div
             }
             legend.addTo(mapmetro);
      </script>
 </div>
 
-## Line 15 and existing RER lines
-The following map shows Line 15 in comparison to the existing RER lines.
+## La Ligne 15 et les lignes du RER
+Cette carte démontre la Ligne 15 ainsi que les lignes du réseau RER de la région Parisienne.
 <div id="mapidrer" style="width: 700px; height: 500px">
       <script>
             var maprer = L.map('mapidrer').setView([48.854908, 2.387671], 11);
@@ -163,17 +164,17 @@ The following map shows Line 15 in comparison to the existing RER lines.
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
-                  div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Existing RER Lines</span><br>';
+                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Stations Lignes 15</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Tracé Ligne 15</span><br>';
+                  div.innerHTML += '<i class="polylinerer" style="background: #4eba77"></i><span>Lignes Réseau RER</span><br>';
                   return div
             }
 
             legend.addTo(maprer);
      </script>
 </div>
-## Line 15 and existing Transilien lines
-The following map shows Line 15 in comparison to the existing Transilien lines, that end at the major railway stations in Paris.
+## La Ligne 15 et les lignes du Transilien
+Cette carte démontre la Ligne 15 ainsi que les lignes du réseau Transilien de la région Parisienne.
 <div id="mapidtransilien" style="width: 700px; height: 500px">
       <script>
             var maptransilien = L.map('mapidtransilien').setView([48.854908, 2.387671], 11);
@@ -240,17 +241,17 @@ The following map shows Line 15 in comparison to the existing Transilien lines, 
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
-                  div.innerHTML += '<i class="polylinerer" style="background: #4b2587"></i><span>Existing Transilien Lines</span><br>';
+                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Stations Ligne 15</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Tracé Ligne 15</span><br>';
+                  div.innerHTML += '<i class="polylinerer" style="background: #4b2587"></i><span>Lignes Réseau Transilien</span><br>';
                   return div
             }
 
             legend.addTo(maptransilien);
      </script>
 </div>
-## Line 15 and defunct circular line, La Petite Ceinture
-The following map shows Line 15 in comparison to La Petite Ceinture, the city of Paris' defunct circular line that operated passenger services until the [1930s](https://www.paris.fr/petiteceinture). The map was made to compare the old circular railway to the future metro. It displays the extent of the urban area around Paris for which La Petite Ceinture would not serve if put back into service today.
+## La Ligne 15 et La Petite Ceinture
+Cette carte démontre la Ligne 15 ainsi que l'ancienne Petite Ceinture. Cette dernière était une ligne ferroviaire des années [1930s](https://www.paris.fr/petiteceinture). 
 <div id="mapidceinture" style="width: 700px; height: 500px">
       <script>
             var mapceinture = L.map('mapidceinture').setView([48.854908, 2.387671], 11);
@@ -324,8 +325,8 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
                   labels.push(categories);
                   div.innerHTML = labels.join('<br>'); */
                   /*div.innerHTML += "<h4>Metro</h4>";*/
-                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Line 15 Stations</span><br>';
-                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Line 15</span><br>';
+                  div.innerHTML += '<i class="circle" style="background: #a90f32"></i><span>Stations Ligne 15</span><br>';
+                  div.innerHTML += '<i class="polyline" style="background: #a90f32"></i><span>Tracé Ligne 15</span><br>';
                   div.innerHTML += '<i class="polyline" style="background: #222323"></i><span>La Petite Ceinture</span><br>';
                   return div
             }

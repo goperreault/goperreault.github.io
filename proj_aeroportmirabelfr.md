@@ -1,13 +1,13 @@
 ---
-title: Mirabel Airport
+title: Aéroport de Mirabel - Couverture
 layout: default
 ---
 
-# Mirabel Airport Land Coverage
-A project that shows the coverage of the Mirabel Airport.
+# Aéroport de Mirabel - Couverture
+Ce projet sert à démontrer la couverture urbaine aux alentours de l'aéroport de Mirabel .
 
-## Land
-Map that shows the required land that was expropriated for the construction of the airport. This map is based on a source found through a TVA news report. The map shows the large extent of the land centered around the Autoroute 15 and Autoroute 50 interchange, a key interchange that never saw its intended traffic use over the years. 
+## Territoire
+Cette carte démontre le territoire requis pour l'expropriation et la construction de l'aéroport. La carte se sert d'un reportage de TVA Nouvelles, démontrant le territoire autour de l'échangeur des autoroutes 15 et 50.
 <div id="mapidmirabel" style="width: 700px; height: 500px">
       <script>
             var mapmirabel = L.map('mapidmirabel').setView([45.657400, -74.075657], 10);
@@ -53,8 +53,8 @@ Map that shows the required land that was expropriated for the construction of t
      </script>
 </div>
 
-## Current Landuse
-Map that shows how the land is used based on 2016 data. According to the [city's website](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), Mirabel is home to 55 020 residents, where a large portion of the land being for agricultural uses. The bright green area clearly shows how much of the land is currently classified as agricultural.
+## Utilisation du territoire
+Cette carte démontre l'usage en 2016 du territoire, se servant de données de la municipalité. Selon [la municipalité](https://ville.mirabel.qc.ca/ville/a-propos-de-mirabel), il y a 55 020 habitant à Mirabel, avec la majorité du terrioire étant agricole (en vert pâle sur la carte).
 <div id="mapidmirabelclass" style="width: 700px; height: 500px">
       <script>
             var mapmirabelclass = L.map('mapidmirabelclass').setView([45.657400, -74.185657], 10);
@@ -247,8 +247,8 @@ Map that shows how the land is used based on 2016 data. According to the [city's
      </script>
 </div>
 
-## Urban vs Non-urban
-Map that shows how the non-urban land use dominates the area. The urban area measures 103,999 square kilometres whereas the non-urban area measures 382,392 square kilometres, making the non-urban cover 78% of the land. As shown in the previous map, agricultural land makes up the non-urban uses. This echoes the thought that most of the expropriated land shown in the first map was not utilized as the aiport did not grow to its intended size.
+## Couverture Urbaine vs Couverture Rurale
+Cette carte démontre la couverture rurale du territoire. Avec un superficie de 382 392 km² vs 103 999 km², le territoire rural domine à 78% la majorité de la municipalité.
 <div id="mapidmirabelurban" style="width: 700px; height: 500px">
       <script>
             var mapmirabelurban = L.map('mapidmirabelurban').setView([45.657400, -74.075657], 10);

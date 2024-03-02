@@ -1,8 +1,8 @@
 ---
-title: University of Toronto Course Work - Emerald Ash Borer
+title: Travaux Pratiques - University of Toronto - L'agrile du frêne à Mississauga
 layout: default
 ---
-# Emerald Ash Borer in Mississauga
+# Travaux Pratiques - University of Toronto - L'agrile du frêne à Mississauga
 During the summer of 2017 I had the opportunity to particpate in a research project that involved the emerald ash borer infestation in Mississauga. The research was possible thanks to Dr. Yuhong He from the Department of Geography at the University of Toronto Mississauga. Data was provided by the City of Mississauga included removed ash trees from 2014 to 2017, remaining ash trees as of 2017 and treated ash trees from 2016 to 2017. The research I performed looked at the removal of ash trees to locate the highest concentration within the city.
 
 ## Removed Tree Density
