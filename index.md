@@ -5,7 +5,7 @@ layout: default
 ## Welcome!
 This website showcases projects in geography, GIS, and urban planning.
 
-## Trees and pollen allergies in Mississauga
+## Tree pollen allergies
 [View project](./proj_treeallergy.html)
 
 ## The Grand Paris Express around Paris, Line 15
@@ -20,8 +20,7 @@ This website showcases projects in geography, GIS, and urban planning.
 ## Toronto Metropolitan University Course Work
 [View page](/diversityinclusion.html)
 
-[//]: # Cette page est aussi disponible [en Français](/indexfr)
-
-
 ## About me
 [View about](./about.html)
+
+Cette page est aussi disponible [en Français](/indexfr)

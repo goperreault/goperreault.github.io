@@ -16,8 +16,6 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 * LeafletJS
 * PostgreSQL/PostGIS
 * Python
-
-## Other Skills
 * Fluency in French
 
 [//]: # ## Resume
