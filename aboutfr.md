@@ -16,7 +16,7 @@ Mon nom est Guillaume Perreault. Je suis diplômé avec un Baccalauréat en Scie
 * LeafletJS
 * PostgreSQL/PostGIS
 * Python
-* Fluency in French
+* Bilingue (français et anglais)
 
 [//]: # ## Resume
 [//]: # [Full Resume](./Guillaume_Perreault_resume.pdf)
