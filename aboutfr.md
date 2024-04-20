@@ -18,9 +18,6 @@ Mon nom est Guillaume Perreault. Je suis diplômé avec un Baccalauréat en Scie
 * Python
 * Bilingue (français et anglais)
 
-[//]: # ## Resume
-[//]: # [Full Resume](./Guillaume_Perreault_resume.pdf)
-
 ## LinkedIn
 [LinkedIn](https://www.linkedin.com/in/guillaume-perreault-5b9b352b1/)
 
