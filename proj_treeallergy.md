@@ -15,7 +15,6 @@ According to the [Aerobiology Research Laboratories](http://www.pollenexperts.ca
 [//]: <> ![Oak trees map](./Oak_trees.jpeg)
 [//]: <> ![Willow trees map](./Willow_trees.jpeg)
 
-
 ## All Trees
 The following map shows all four tree species in Mississauga.
 <div id="mapid" style="width: 700px; height: 600px">
@@ -119,6 +118,11 @@ The following map shows all four tree species in Mississauga.
              legend.addTo(mymap);
      </script>
 </div>
+
+
+Under construction
+{::comment}
+
 
 ## Ash map
 The following map shows all ash tree species that are located within 100 meters of a city park.
@@ -343,8 +347,10 @@ The following map shows all willow tree species that are located within 100 mete
              legend.addTo(mymapwillow);
      </script>
 </div>
-<!--
+
+{:/comment}
+
+{::comment}
 ## Lisgar neighbourhood
 The Lisgar neighbourhood in Mississauga is home to the Lisgar Meadow Brook Trail, a 4.7km trail that starts at Buttonbush Park, follows a creek and ends at Osprey Marsh. By visualizing the location of the trees along the trail, it becomes useful to know which areas of the trail to possibly avoid during the springtime. A parallel route exists using Lisgar Drive and Rosehurst Drive, where the trees were also mapped to compare both the trail and road.
--->
-[//]: <> [Homepage](./index.html)
+{:/comment}
