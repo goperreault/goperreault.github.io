@@ -333,4 +333,4 @@ The following map shows Line 15 in comparison to La Petite Ceinture, the city of
             legend.addTo(mapceinture);
      </script>
 </div>
-[//]: <> [Homepage](./index.html)
+

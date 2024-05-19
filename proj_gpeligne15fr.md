@@ -334,4 +334,4 @@ Cette carte démontre la Ligne 15 ainsi que l'ancienne Petite Ceinture. Cette de
             legend.addTo(mapceinture);
      </script>
 </div>
-[//]: <> [Homepage](./index.html)
+
