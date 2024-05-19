@@ -126,11 +126,9 @@ The following map shows all ash tree species that are located within 100 meters 
 <div id="mapidash" style="width: 700px; height: 600px">
       <script>
             var mymapash = L.map('mapidash').setView([43.599, -79.648], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                  maxZoom: 18,
-                  id: 'mapbox/streets-v11',
-                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                  maxZoom: 18
             }).addTo(mymapash);
             var geojsonMarkerAsh = {
                   radius: 3,
@@ -182,11 +180,9 @@ The following map shows all birch tree species that are located within 100 meter
 <div id="mapidbirch" style="width: 700px; height: 600px">
       <script>
             var mymapbirch = L.map('mapidbirch').setView([43.599, -79.648], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                  maxZoom: 18,
-                  id: 'mapbox/streets-v11',
-                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                  maxZoom: 18
             }).addTo(mymapbirch);
             var geojsonMarkerBirch = {
                   radius: 3,
@@ -238,11 +234,9 @@ The following map shows all oak tree species that are located within 100 meters 
 <div id="mapidoak" style="width: 700px; height: 600px">
       <script>
             var mymapoak = L.map('mapidoak').setView([43.599, -79.648], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                  maxZoom: 18,
-                  id: 'mapbox/streets-v11',
-                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                  maxZoom: 18
             }).addTo(mymapoak);
             var geojsonMarkerOak = {
                   radius: 3,
@@ -294,11 +288,9 @@ The following map shows all willow tree species that are located within 100 mete
 <div id="mapidwillow" style="width: 700px; height: 600px">
       <script>
             var mymapwillow = L.map('mapidwillow').setView([43.599, -79.648], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data <br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                  maxZoom: 18,
-                  id: 'mapbox/streets-v11',
-                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                  maxZoom: 18
             }).addTo(mymapwillow);
             var geojsonMarkerWillow = {
                   radius: 3,
