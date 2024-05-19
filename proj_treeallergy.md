@@ -20,11 +20,9 @@ The following map shows all four tree species in Mississauga.
 <div id="mapid" style="width: 700px; height: 600px">
       <script>
             var mymap = L.map('mapid').setView([43.599, -79.648], 11);
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                  maxZoom: 18,
-                  id: 'mapbox/streets-v11',
-                  accessToken: 'pk.eyJ1IjoiZ3BlcnJlYXVsdDkxIiwiYSI6ImNqdXJqYmxubTBpbDU0M25wdm5hMnk2dGEifQ.xS5T9S5SvQKL8wiChwUErA'
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  attribution: '2023 City Owned Tree Inventory - Mississauga Open Data<br>Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                  maxZoom: 18
             }).addTo(mymap);
             var geojsonMarkerAsh = {
                   radius: 3,
