@@ -18,6 +18,7 @@ My name is Guillaume Perreault. I received a Bachelor of Science from the Univer
 * Python
 * Bilingual (French and English)
 
+
 ## LinkedIn
 [LinkedIn Page](https://www.linkedin.com/in/guillaume-perreault-5b9b352b1/)
 
