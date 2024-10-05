@@ -4,7 +4,7 @@ layout: default
 ---
 
 # À propos de moi
-Mon nom est Guillaume Perreault. Je suis diplômé avec un Baccalauréat en Science de l'Université de Toronto en Geographical Information Systems avec un mineur en géographie et études du français. Je suis aussi diplômé en maîtrise: Master of Planning in Urban Development à la Toronto Metropolitan University.
+Mon nom est Guillaume Perreault. Je suis diplômé avec un Baccalauréat en Science de l'Université de Toronto en Geographical Information Systems avec un mineur en géographie et études du français. Je suis aussi diplômé d'une maîtrise envPlanning in Urban Development de la Toronto Metropolitan University.
 
 
 ## Compétences
